@@ -1,0 +1,897 @@
+Name,University/Organization,Type of Chair,Conference,Year
+Bill Kaiser,University of California Los Angeles,General Chair,IPSN,2004
+Sam Madden,Massachusetts Institute of Technology,Information Proc. Track Co-Chair,IPSN,2004
+Subhash Suri,University of California Santa Barbara,Information Proc. Track Co-Chair,IPSN,2004
+Jie Liu,Microsoft Research,SPOTS Track Co-Chair,IPSN,2004
+Andreas Savvides,Yale,SPOTS Track Co-Chair,IPSN,2004
+Andreas Terzis,Johns Hopkins University,Poster Chair,IPSN,2004
+Ralph Kling,Crossbow,Demonstration Chair,IPSN,2004
+Kamin Whitehouse,University of Virginia,Competition Chair,IPSN,2004
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Finance Chair,IPSN,2004
+Jie Gao,Stony Brook University,Web Chair,IPSN,2004
+Ying Zhang,PARC,Publicity Chair,IPSN,2004
+Chris Gill and Chenyang Lu,Washington University in St. Louis,Local Arrangements,IPSN,2004
+Feng Zhao,Microsoft Research,Steering Committee,IPSN,2004
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Steering Committee,IPSN,2004
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2004
+Leo Guibas,Stanford,Steering Committee,IPSN,2004
+P.R. Kumar,University of Illinois Urbana Champaign,Steering Committee,IPSN,2004
+Sri Kumar,BAE Systems,Steering Committee,IPSN,2004
+Jose Moura,Carnegie Mellon University,Steering Committee,IPSN,2004
+John Stankovic,University of Virginia,Steering Committee,IPSN,2004
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2004
+Gustavo Alonso,ETH Zurich,Technical Program Committee IP Track,IPSN,2004
+Anish Arora,Ohio State,Technical Program Committee IP Track,IPSN,2004
+Richard Baraniuk,Rice University,Technical Program Committee IP Track,IPSN,2004
+Philippe Bonnet,University of Copenhagen,Technical Program Committee IP Track,IPSN,2004
+Andrew Campbell,Columbia University,Technical Program Committee IP Track,IPSN,2004
+Mark Coates,McGill,Technical Program Committee IP Track,IPSN,2004
+David Culler,University of California Berkeley,Technical Program Committee IP Track,IPSN,2004
+Amol Deshpande,Maryland,Technical Program Committee IP Track,IPSN,2004
+Hugh Durrant-Whyte,University of Sydney,Technical Program Committee IP Track,IPSN,2004
+Stefan Funke,Max Planck,Technical Program Committee IP Track,IPSN,2004
+Jie Gao,Stony Brook University,Technical Program Committee IP Track,IPSN,2004
+Michael Gastpar,University of California Berkeley,Technical Program Committee IP Track,IPSN,2004
+Phil Gibbons,Intel,Technical Program Committee IP Track,IPSN,2004
+Uwe Hanebeck,Karlsruhe,Technical Program Committee IP Track,IPSN,2004
+John Heideman,University of Southern California,Technical Program Committee IP Track,IPSN,2004
+Volkan Isler,RPI,Technical Program Committee IP Track,IPSN,2004
+Phil Levis,Stanford,Technical Program Committee IP Track,IPSN,2004
+Sam Madden,Massachusetts Institute of Technology,Technical Program Committee IP Track,IPSN,2004
+Upamanyu Madhow,University of California Santa Barbara,Technical Program Committee IP Track,IPSN,2004
+Thomas Moscibroda,Microsoft Research,Technical Program Committee IP Track,IPSN,2004
+Randy Moses,Ohio State,Technical Program Committee IP Track,IPSN,2004
+Suman Nath,Microsoft Research,Technical Program Committee IP Track,IPSN,2004
+Peng Ning,North Carolina State University,Technical Program Committee IP Track,IPSN,2004
+Radha Poovendran,University of Washington,Technical Program Committee IP Track,IPSN,2004
+Christian Scheideler,Johns Hopkins University,Technical Program Committee IP Track,IPSN,2004
+John Stankovic,University of Virginia,Technical Program Committee IP Track,IPSN,2004
+Subhash Suri,University of California Santa Barbara,Technical Program Committee IP Track,IPSN,2004
+Andreas Terzis,Johns Hopkins University,Technical Program Committee IP Track,IPSN,2004
+Steven Wicker,Cornell,Technical Program Committee IP Track,IPSN,2004
+Peter Widmayer,ETH Zurich,Technical Program Committee IP Track,IPSN,2004
+Andreas Andreou,Johns Hopkins University,SPOTS Track,IPSN,2004
+Gaetano Borriello,University of Washington,SPOTS Track,IPSN,2004
+Peter Corke,CSIRO Australia,SPOTS Track,IPSN,2004
+Adam Dunkels,Swedish Institute of Computer Science,SPOTS Track,IPSN,2004
+Ben Greenstein,Intel,SPOTS Track,IPSN,2004
+Rajesh Gupta,University of California San Diego,SPOTS Track,IPSN,2004
+Jie Liu,Microsoft Research,SPOTS Track,IPSN,2004
+Ralph Kling,Crossbow,SPOTS Track,IPSN,2004
+Koen Langendoen,TU Delft,SPOTS Track,IPSN,2004
+Akos Ledeczi,Vanderbilt University,SPOTS Track,IPSN,2004
+Lama Nachman,Intel,SPOTS Track,IPSN,2004
+Joe Paradiso,Massachusetts Institute of Technology,SPOTS Track,IPSN,2004
+Bodhi Priyantha,Microsoft Research,SPOTS Track,IPSN,2004
+Vijay Raghunathan,Purdue,SPOTS Track,IPSN,2004
+Andreas Savvides,Yale,SPOTS Track,IPSN,2004
+Wayne Wolf,Princeton,SPOTS Track,IPSN,2004
+Kazuo Yano,Hitachi,SPOTS Track,IPSN,2005
+Guoliang Xing,Michigan State University,Organizing Committee General Chair,IPSN,2005
+David Culler,University of California Berkeley,Technical Committee Co-Chair,IPSN,2005
+Suman Nath,Microsoft Research,Technical Committee Co-Chair,IPSN,2005
+Niki Trigoni,University of Oxford,Technical Committee Co-Chair,IPSN,2005
+Lu Su,SUNY Buffalo,Poster Co-Chair,IPSN,2005
+Tian He,University of Minnesota,Poster Co-Chair,IPSN,2005
+Xiaofan,Columbia University,Demo Co-Chair,IPSN,2005
+Thiemo Voigt,"SICS, Sweden",Demo Co-Chair,IPSN,2005
+Dimitrios Lymberopoulos,Microsoft Research,Competition Chair,IPSN,2005
+Xiaofan,Columbia University,IoT Expo Co-Chair,IPSN,2005
+JeongGil Ko,Ajou University,IoT Expo Co-Chair,IPSN,2005
+Thiemo Voigt,"SICS, Sweden",IoT Expo Co-Chair,IPSN,2005
+Yuanqing Zheng,Hong Kong Polytechnic University,Web Chair,IPSN,2005
+Luca Mottola,"Politecnico di Milano, Italy",PhD Forum Co-Chair,IPSN,2005
+Octav Chipara,University of Iowa,PhD Forum Co-Chair,IPSN,2005
+Nirupama Bulusu,Portland State University,Shadow PC Coordination Chair,IPSN,2005
+Utz Roedig,University of Lancaster,Publication Chair,IPSN,2005
+Mário Alves,"Polytechnic Institute of Porto, Portugal",Publicity Co-Chair,IPSN,2005
+Tamer Nadeem,Old Dominion University,Publicity Co-Chair,IPSN,2005
+Yanmin Zhu,Shanghai Jiao Tong University,Publicity Co-Chair,IPSN,2005
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2006
+Alberto Cerpa,University of California Merced,Technical Program Committee,IPSN,2006
+Karthik Dantu,University at Buffalo,Technical Program Committee,IPSN,2006
+Jie Gao,Stony Brook University,Technical Program Committee,IPSN,2006
+Omprakash Gnawali,University of Houston,Technical Program Committee,IPSN,2006
+Magnus Halldorsson,Reykjavik University,Technical Program Committee,IPSN,2006
+Tian He,University of Minnesota,Technical Program Committee,IPSN,2006
+Wei Hong,Nest Labs,Technical Program Committee,IPSN,2006
+Wen Hu,"University of New South Wales, and NICTA",Technical Program Committee,IPSN,2006
+Polly Huang,National Taiwan University,Technical Program Committee,IPSN,2006
+Andreas Krause,ETH Zurich,Technical Program Committee,IPSN,2006
+Bhaskar Krishnamachari,University of Southern California,Technical Program Committee,IPSN,2006
+Koen Langendoen,TU Delft,Technical Program Committee,IPSN,2006
+Phil Levis,Stanford,Technical Program Committee,IPSN,2006
+Jie Liu,Microsoft Research,Technical Program Committee,IPSN,2006
+Dimitrios Lymperopoulos,Microsoft Research,Technical Program Committee,IPSN,2006
+Andrew Markham,University of Oxford,Technical Program Committee,IPSN,2006
+Florian Michahelles,Siemens USA,Technical Program Committee,IPSN,2006
+Luca Mottola,"Politecnico di Milano, Italy and SICS Swedish ICT",Technical Program Committee,IPSN,2006
+Shahriar Nirjon,University of North Carolina at Chapel Hill,Technical Program Committee,IPSN,2006
+Neal Patwari,University of Utah,Technical Program Committee,IPSN,2006
+Vijay Raghunathan,Purdue University,Technical Program Committee,IPSN,2006
+Kay Roemer,Graz University of Technology,Technical Program Committee,IPSN,2006
+Alex Rogers,University of Southampton,Technical Program Committee,IPSN,2006
+Anthony Rowe,Carnegie Mellon University,Technical Program Committee,IPSN,2006
+Junehwa Song,Korea Advanced Institute of Science and Technology,Technical Program Committee,IPSN,2006
+Jack Stankovic,University of Virginia,Technical Program Committee,IPSN,2006
+Roger Wattenhofer,ETH Zurich,Technical Program Committee,IPSN,2006
+Kamin Whitehouse,University of Virginia,Technical Program Committee,IPSN,2006
+Pei Zhang,Carnegie Mellon University,Technical Program Committee,IPSN,2006
+Marco Zuniga,TU Delft,Technical Program Committee,IPSN,2006
+Adam Wolisz,"TU Berlin, Germany",General Chair,IPSN,2006
+Jie Liu,"Microsoft Research, USA",Program Chair,IPSN,2006
+Lin Zhong,Rice University,Program Chair,IPSN,2006
+Vlado Handziski,"TU Berlin, Germany",Demonstration Chair,IPSN,2006
+Roozbeh Jafari,"University of Texas at Dallas, USA",Demonstration Chair,IPSN,2006
+Tommaso Melodia,"SUNY at Buffalo, USA",Poster Chair,IPSN,2006
+Andreas Willig,"University of Canterbury, New Zealand",Poster Chair,IPSN,2006
+Rahul Mangharam,"University of Pennsylvania, USA",Workshop/Tutorial Chair,IPSN,2006
+Silvia Santini,"TU Darmstadt, Germany",Publications Chair,IPSN,2006
+Mohammed Shoaib,"Microsoft Research, USA",Web Chair,IPSN,2006
+Li Cui,"ICT CAS, China",Publicity Chair,IPSN,2006
+Anna Foerster,"SUPSI Lugano, Switzerland",Publicity Chair,IPSN,2006
+Heitor Ramos,"Universidade Federal de Alagoas, Brazil",Publicity Chair,IPSN,2006
+Shaojie Tang,"Temple University, USA",Publicity Chair,IPSN,2006
+Falko Dressler,"University of Innsbruck, Austria",Ph.D. Forum Chair,IPSN,2006
+Feng Zhao (Chair),"Microsoft Research, China",STEERING COMMITTEE,IPSN,2006
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Committee Member,IPSN,2006
+Deborah Estrin,University of California Los Angeles,Committee Member,IPSN,2006
+Leonidas Guibas,Stanford,Committee Member,IPSN,2006
+William Kaiser,University of California Los Angeles,Committee Member,IPSN,2006
+P.R. Kumar,"Texas A&M University, USA",Committee Member,IPSN,2006
+Jose Moura,Carnegie Mellon University,Committee Member,IPSN,2006
+Jack Stankovic,"University of Virginia, USA",Committee Member,IPSN,2006
+Janos Sztipanovits,"Vanderbilt University, USA",Committee Member,IPSN,2006
+Jie Liu,"Microsoft Research, USA",Co-Chair,IPSN,2006
+Lin Zhong,Rice University,Co-Chair,IPSN,2006
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Committee Member,IPSN,2006
+Yuvraj Agarwal,Carnegie Mellon University,Committee Member,IPSN,2006
+Marco Duarte,"UMass-Amherst, USA",Committee Member,IPSN,2006
+Jie Gao,"Stony Brook University, USA",Committee Member,IPSN,2006
+Omprakash Gnawali,"University of Houston, USA",Committee Member,IPSN,2006
+James Gross,"KTH, Sweden",Committee Member,IPSN,2006
+Tian He,"University of Minnesota, USA",Committee Member,IPSN,2006
+Wen Hu,"CSIRO, Australia",Committee Member,IPSN,2006
+Xenofon Koutsoukos,"Vanderbilt University, USA",Committee Member,IPSN,2006
+Bhaskar Krishnamachari,University of Southern California,Committee Member,IPSN,2006
+Antonio Loureiro,"UFMG, Brazil",Committee Member,IPSN,2006
+Luca Mottola,"Swedish Institute of Computer Science, Sweden",Committee Member,IPSN,2006
+Suman Nath,"Microsoft Research, USA",Committee Member,IPSN,2006
+Bodhi Priyantha,"Microsoft Research, USA",Committee Member,IPSN,2006
+Vijay Raghunathan,"Purdue University, USA",Committee Member,IPSN,2006
+Anthony Rowe,Carnegie Mellon University,Committee Member,IPSN,2006
+Ali H. Sayed,University of California Los Angeles,Committee Member,IPSN,2006
+Jacky Shen,"Microsoft Research Asia, China",Committee Member,IPSN,2006
+Junehwa Song,"KAIST, Korea",Committee Member,IPSN,2006
+John Stankovic,"University of Virginia, USA",Committee Member,IPSN,2006
+Niki Trigoni,"Oxford University, UK",Committee Member,IPSN,2006
+Guoliang Xing,"Michigan State University, USA",Committee Member,IPSN,2006
+Pei Zhang,Carnegie Mellon University,Committee Member,IPSN,2006
+Yanyong Zhang,"Rutgers University, USA",Committee Member,IPSN,2006
+Luca Mottola,Politecnico di Milan,General Chair,IPSN,2006
+Jie Gao,Stony Brook University,Technical Committee Co-Chair,IPSN,2007
+Pei Zhang,Carnegie Mellon University,Technical Committee Co-Chair,IPSN,2007
+Marco Zimmerling,TU Dresden,Poster Co-Chair,IPSN,2007
+Juhi Ranjan,"IIID, India",Poster Co-Chair,IPSN,2007
+Kai Li,"CISTER - ISEP/IPP, Portugal",Demo Co-Chair,IPSN,2007
+Olga Saukh,TU Graz / CSH Vienna,Demo Co-Chair,IPSN,2007
+Dimistrios Lymberopoulo,Microsoft,Competition Chair,IPSN,2007
+Naveed Anwar Bhatti,Politecnico di Milano,Web and Social Media Chair,IPSN,2007
+Omprakash Gnawali,University of Houston,PhD Forum Co-Chair,IPSN,2007
+Andrew Markham,University of Oxford,PhD Forum Co-Chair,IPSN,2007
+Yuan He,Tsinghua University,Publicity Co-Chair,IPSN,2007
+Muhammad Hamad Alizai,"LUMS, Pakistan",Publicity Co-Chair,IPSN,2007
+Wen Hu ,UNSW and CSIRO,Technical Program Committee,IPSN,2007
+Gian Pietro Picco ,University of Trento,Technical Program Committee,IPSN,2007
+Tam Vu ,University of Colorado,Technical Program Committee,IPSN,2007
+Rasit Eskicioglu,University of Manitoba,General Chair,IPSN,2007
+Luca Mottola,Politecnico di Milan and RISE SICS,Technical Committee Co-Chair,IPSN,2007
+Bodhi Priyantha,"Microsoft Research, USA",Technical Committee Co-Chair,IPSN,2007
+Ambuj Varshney,Uppsala University,Poster Co-Chair,IPSN,2007
+Nirupama Bulusu,Portland State University,Poster Co-Chair,IPSN,2007
+Muhammad Hamad Alizai,"LUMS, Pakistan",Demo Co-Chair,IPSN,2007
+Amit Levy,Princeton University,Demo Co-Chair,IPSN,2007
+Naveen Anwar Bhatti,RISE SICS,Web and Social Media Chair,IPSN,2007
+Matteo Ceriotti,University of Duisburg-Essen,PhD Forum Co-Chair,IPSN,2007
+Hamed Yousefi,University of Michigan,PhD Forum Co-Chair,IPSN,2007
+Shijia Pan,Carnegie Mellon University,Publicity Co-Chair,IPSN,2007
+Vijay S. Rao,TU Delft,Publicity Co-Chair,IPSN,2007
+Amy Murphy ,Bruno Kessler Foundation,Technical Program Committee,IPSN,2007
+Anthony Rowe ,Carnegie Mellon University,Technical Program Committee,IPSN,2007
+Chenren Xu ,Peking University,Technical Program Committee,IPSN,2007
+Guoliang Xing ,Michigan State University,Technical Program Committee,IPSN,2007
+Hae Young Noh ,Carnegie Mellon University,Technical Program Committee,IPSN,2007
+Hamad Alizai ,LUMS,Technical Program Committee,IPSN,2007
+Jeremy Gummeson ,University of Massachusetts Amherst,Technical Program Committee,IPSN,2007
+Jie Gao ,Stony Brook University,Technical Program Committee,IPSN,2007
+Jie Liu ,Microsoft Research,Technical Program Committee,IPSN,2007
+Koen Langendoen ,TU Delft,Technical Program Committee,IPSN,2007
+Krishna Chintalapudi ,Microsoft,Technical Program Committee,IPSN,2007
+Lothar Thiele ,ETH Zurich,Technical Program Committee,IPSN,2007
+Matteo Cesana ,Politecnico di Milano,Technical Program Committee,IPSN,2007
+Marco Zimmerling ,TU Dresden,Technical Program Committee,IPSN,2007
+Niki Trigoni ,"Oxford University, UK",Technical Program Committee,IPSN,2007
+Neal Patwari ,University of Utah,Technical Program Committee,IPSN,2007
+Olga Saukh ,TU Graz ,Technical Program Committee,IPSN,2007
+Omprakash Gnawali ,University of Houston,Technical Program Committee,IPSN,2007
+Pei Zhang ,Carnegie Mellon University,Technical Program Committee,IPSN,2007
+Rui Tan ,Nanyang Technological University,Technical Program Committee,IPSN,2007
+Sourav Bhattacharya ,Bell Lab,Technical Program Committee,IPSN,2007
+Thiemo Voigt ,RISE SICS,Technical Program Committee,IPSN,2007
+Wen Hu ,UNSW and CSIRO,Technical Program Committee,IPSN,2007
+Yiran Chen ,Duke University,Technical Program Committee,IPSN,2007
+Youngki Lee ,Seoul National University,Technical Program Committee,IPSN,2007
+Yuan He ,Tsinghua University,Technical Program Committee,IPSN,2007
+Yung Hsiang Lu ,Purdue University,Technical Program Committee,IPSN,2007
+Andreas Savvides,Yale University,General Chair,IPSN,2007
+Adam Wolisz,TU Berlin,SPOTS TPC Chair,IPSN,2007
+Vijay Raghunathan,Purdue University,Demos and Poster Chair,IPSN,2007
+Neal Patwari,University of Utah,Publicity Chair,IPSN,2007
+Gang Zhou,College of William & Mary,Web Chair,IPSN,2007
+Brano Kusy,Stanford,Workshop Chair,IPSN,2007
+Dimitrios Lymberopoulos,Microsoft Research,Publications Chair,IPSN,2007
+Feng Zhao,Microsoft Research,Steering Committee,IPSN,2007
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Steering Committee,IPSN,2007
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2007
+Leo Guibas,Stanford,Steering Committee,IPSN,2007
+P.R. Kumar,University of Illinois Urbana Champaign,Steering Committee,IPSN,2007
+Sri Kumar,BAE Systems,Steering Committee,IPSN,2007
+Jose' Moura,Carnegie Mellon University,Steering Committee,IPSN,2007
+John Stankovic,University of Virginia,Steering Committee,IPSN,2007
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2007
+Adam Wolisz,TU Berlin,SPOTS TPC Chair,IPSN,2007
+Anders Ahlen,Uppsala University,IPSN TPC,IPSN,2007
+Anish Arora,Ohio State University,IPSN TPC,IPSN,2007
+Qing Cao,University of Tennessee,IPSN TPC,IPSN,2007
+Deepak Ganesan,University of Massachusetts Amherst,IPSN TPC,IPSN,2007
+Ramesh Govindan,University of Southern California,IPSN TPC,IPSN,2007
+Xenofon Koutsoukos,Vanderbilt University,IPSN TPC,IPSN,2007
+Jie Liu,Microsoft Research,IPSN TPC,IPSN,2007
+Sotiris Nikoletseas,University of Patras and CTI,IPSN TPC,IPSN,2008
+Andreas Terzis,Johns Hopkins University,IPSN TPC,IPSN,2008
+Carlo Fischione,"KTH, Sweden",IPSN TPC,IPSN,2008
+Phil Gibbons,Intel,IPSN TPC,IPSN,2008
+Mikael Johansson,"KTH, Sweden",IPSN TPC,IPSN,2008
+Tian He,University of Minnesota,IPSN TPC,IPSN,2008
+Brad Karp,University College London,IPSN TPC,IPSN,2008
+Bhaskar Krishnamachari,University of Southern California,IPSN TPC,IPSN,2008
+Chenyang Lu,Washington University in St. Louis,IPSN TPC,IPSN,2008
+Miklos Maroti,"University of Szeged, Hungary",IPSN TPC,IPSN,2008
+Luca Mottola,SICS,IPSN TPC,IPSN,2008
+Suman Nath,Microsoft Research,IPSN TPC,IPSN,2008
+Radha Poovendran,University of Washington,IPSN TPC,IPSN,2008
+Utz Roedig,University of Lancaster,IPSN TPC,IPSN,2008
+Kay Romer,ETH Zurich,IPSN TPC,IPSN,2008
+Paolo Santi,"Pisa, Italy",IPSN TPC,IPSN,2008
+Cormac Sreenan,"University College Cork, Ireland",IPSN TPC,IPSN,2008
+John Stankovic,University of Virginia,IPSN TPC,IPSN,2008
+Roger Wattenhofer,ETH Zurich,IPSN TPC,IPSN,2008
+Matt Welsh,Harvard University,IPSN TPC,IPSN,2008
+Jan Beutel,ETH Zurich,SPOTS TPC,IPSN,2008
+Adam Dunkels,Swedish Institute of Computer Science,SPOTS TPC,IPSN,2008
+Prabal Dutta,University of Michigan,SPOTS TPC,IPSN,2008
+Michel Goraczko,Microsoft Research,SPOTS TPC,IPSN,2008
+Ralph Kling,Crossbow,SPOTS TPC,IPSN,2008
+Koen Langendoen,TU Delft,SPOTS TPC,IPSN,2008
+Akos Ledeczi,Vanderbilt University,SPOTS TPC,IPSN,2008
+Pedro Marron,University of Duisburg-Essen and Fraunhofer IAIS,SPOTS TPC,IPSN,2008
+Lama Nachman,Intel Corp,SPOTS TPC,IPSN,2008
+Joe Polastre,"Sentilla, FU Berlin",SPOTS TPC,IPSN,2008
+Jochen,Schiller,SPOTS TPC,IPSN,2008
+Kamin Whitehouse,University of Virginia,SPOTS TPC,IPSN,2008
+Tarek Abdelzaher,University of Illinois Urbana Champaign,General Chair,IPSN,2008
+Leo Guibas,Stanford,Program Chair,IPSN,2008
+Matt Welsh,Harvard,Program Chair,IPSN,2008
+Bill Kaiser,University of California Los Angeles,SPOTS Chair,IPSN,2008
+Ralph Kling,Crossbow,SPOTS Chair,IPSN,2008
+Kamin Whitehouse,University of Virginia,Competition Chair,IPSN,2008
+Phil Levis,Stanford,Demos Chair,IPSN,2008
+John Heidemann,USC/ISI,Finance Chair,IPSN,2008
+Joe Hellerstein,University of California Berkeley,Industry Sponsorship Chair,IPSN,2008
+Seth Teller,Massachusetts Institute of Technology,Local Arrangements Chair,IPSN,2008
+Haiyun Luo,University of Illinois Urbana Champaign,Poster Chair,IPSN,2008
+Bhaskar Krishnamachari,University of Southern California,Publications Chair,IPSN,2008
+Ying Zhang,PARC,Publicity Chair,IPSN,2008
+Jie Liu,MSR,Registration Chair,IPSN,2008
+Chenyang Lu,WUSTL,Web Chair,IPSN,2008
+Feng Zhao,MSR,Steering Committee Chair,IPSN,2008
+John Cozzens,NSF,Steering Committee,IPSN,2008
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2008
+Leo Guibas,Stanford,Steering Committee,IPSN,2008
+P. R. Kumar,University of Illinois Urbana Champaign,Steering Committee,IPSN,2008
+Sri Kumar,DARPA,Steering Committee,IPSN,2008
+Jose' Moura,Carnegie Mellon University,Steering Committee,IPSN,2008
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2008
+Peter Corke,CSIRO,Technical Program Committee,IPSN,2008
+Abbas El Gamal,Stanford,Technical Program Committee,IPSN,2008
+Sandor Fekete,TU Braunschweig,Technical Program Committee,IPSN,2008
+Deepak Ganesan,UMass Amherst,Technical Program Committee,IPSN,2008
+Jie Gao,Stonybrook,Technical Program Committee,IPSN,2008
+Lew Girod,University of California Los Angeles,Technical Program Committee,IPSN,2008
+Carlos Guestrin,Carnegie Mellon University,Technical Program Committee,IPSN,2008
+Uwe Hanebeck,U. Karlsruhe,Technical Program Committee,IPSN,2008
+Thomas C. Henderson,Utah,Technical Program Committee,IPSN,2008
+Jennifer Hou,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2008
+Eddie Kohler,University of California Los Angeles,Technical Program Committee,IPSN,2008
+Bhaskar Krisnamachari,University of Southern California,Technical Program Committee,IPSN,2008
+Koen Langendoen,TU Delft,Technical Program Committee,IPSN,2008
+Phil Levis,Stanford,Technical Program Committee,IPSN,2009
+Qun Li,College of William and Mary,Technical Program Committee,IPSN,2009
+Tom Little,BU,Technical Program Committee,IPSN,2009
+Julia Liu,PARC,Technical Program Committee,IPSN,2009
+Miklos Maroti,University of Szeged,Technical Program Committee,IPSN,2009
+Rich Martin,Rutgers,Technical Program Committee,IPSN,2009
+Suman Nath,Microsoft,Technical Program Committee,IPSN,2009
+Adrian Perrig,Carnegie Mellon University,Technical Program Committee,IPSN,2009
+Kay Roemer,ETH Zurich,Technical Program Committee,IPSN,2009
+Gruia-Catalin Roman,WUSTL,Technical Program Committee,IPSN,2009
+Andreas Savvides,Yale,Technical Program Committee,IPSN,2009
+Gaurav Sukhatme,University of Southern California,Technical Program Committee,IPSN,2009
+Subhash Suri,University of California Santa Barbara,Technical Program Committee,IPSN,2009
+Janos Sztipanovits,Vanderbilt University,Technical Program Committee,IPSN,2009
+Andreas Terzis,Johns Hopkins University,Technical Program Committee,IPSN,2009
+Martin Wainwright,University of California Berkeley,Technical Program Committee,IPSN,2009
+Kamin Whitehouse,University of Virginia,Technical Program Committee,IPSN,2009
+Gaetano Boriello,University of Washington,SPOTS Track,IPSN,2009
+Jeremy Elson,MSR,SPOTS Track,IPSN,2009
+William Hodgkiss,University of California San Diego,SPOTS Track,IPSN,2009
+Hans Gellersen,Lancaster University,SPOTS Track,IPSN,2009
+Rajesh Gupta,University of California San Diego,SPOTS Track,IPSN,2009
+Mark Hansen,University of California Los Angeles,SPOTS Track,IPSN,2009
+Chalermek Intanagonwiwat,Chulalongkorn University,SPOTS Track,IPSN,2009
+Gerald Maguire,KTH Stockholm,SPOTS Track,IPSN,2009
+Lama Nachman,Intel,SPOTS Track,IPSN,2009
+Michael Niedermayer,Fraunhofer IZM,SPOTS Track,IPSN,2009
+Brendan O'Flynn,Tyndall Institute,SPOTS Track,IPSN,2009
+Joseph Paradiso,Massachusetts Institute of Technology,SPOTS Track,IPSN,2009
+Trevor Pering,Intel Research,SPOTS Track,IPSN,2009
+Joe Polastre,Moteiv,SPOTS Track,IPSN,2009
+Vijay Raghunathan,Purdue,SPOTS Track,IPSN,2009
+Jim Reich,PARC,SPOTS Track,IPSN,2009
+Brian Schott,ISI,SPOTS Track,IPSN,2009
+Howard Shrobe,Massachusetts Institute of Technology,SPOTS Track,IPSN,2009
+Eric Yeatman,Imperial College,SPOTS Track,IPSN,2009
+Chris Van Hoof,IMEC,SPOTS Track,IPSN,2009
+Frank Vernon,University of California San Diego,SPOTS Track,IPSN,2009
+Wayne Wolfe,Princeton,SPOTS Track,IPSN,2009
+Adam Wolisz,TU Berlin,SPOTS Track,IPSN,2009
+Kazuo Yano,Hitachi Research,SPOTS Track,IPSN,2009
+Mark Yarvis,Intel,SPOTS Track,IPSN,2009
+Feng Zhao,Microsoft Research,IPSN Steering Committee,IPSN,2009
+John Cozzens,National Science Foundation,IPSN Steering Committee,IPSN,2009
+Deborah Estrin,University of California Los Angeles,IPSN Steering Committee,IPSN,2009
+Leo Guibas,Stanford,IPSN Steering Committee,IPSN,2009
+P. R. Kumar,University of Illinois Urbana Champaign,IPSN Steering Committee,IPSN,2009
+Sri Kumar,DARPA,IPSN Steering Committee,IPSN,2009
+Jose' Moura,Carnegie Mellon University ,IPSN Steering Committee,IPSN,2009
+Janos Sztipanovits,Vanderbilt University ,IPSN Steering Committee,IPSN,2009
+Martin. Vetterli,EPFL,Conference Co-Chair,IPSN,2009
+Kung Yao,University of California Los Angeles,Conference Co-Chair,IPSN,2009
+Rob Nowak,UW-Madison,Technical Program Co-Chair,IPSN,2009
+Mani Srivastava,University of California Los Angeles,Technical Program Co-Chair,IPSN,2009
+Lakshman Krishnamurthy,Intel,Industrial Relations Chair,IPSN,2009
+Jim Reich,PARC,Demos Chair,IPSN,2009
+Bhaskar Krishnamachari,University of Southern California,Poster Session Chair,IPSN,2009
+David Jaquez,University of California Los Angeles,Finance Chair,IPSN,2009
+Bernie Dempsey,University of California Los Angeles,Registration Chair,IPSN,2009
+Bernie Dempsey,University of California Los Angeles,Local Arrangement Chair,IPSN,2009
+Yu Hen Hu,UW-Madison,Publicity Chair,IPSN,2009
+Andreas Savvides,Yale,Publication Chair,IPSN,2009
+Jon Agre,Fujitsu Laboratories of America,,IPSN,2009
+Rajesh Gupta,University of California San Diego,General Chair,IPSN,2009
+Akos Ledeczi,Vanderbilt University,IP Track Co-Chair,IPSN,2009
+Philip Levis,Stanford,IP Track Co-Chair,IPSN,2009
+Peter Corke,CSIRO,SPOTS Track Co-Chair,IPSN,2009
+Koen Langendoen,TU Delft,SPOTS Track Co-Chair,IPSN,2009
+Andreas Terzis,Johns Hopkins University,Posters and Demos,IPSN,2009
+Jan Beutel,ETH Zurich,Posters and Demos,IPSN,2009
+Tian He,University of Minnesota,Tutorials,IPSN,2009
+Kamin Whitehouse,University of Virginia,Competition,IPSN,2009
+Jie Liu,Microsoft Research,Finance,IPSN,2009
+Jie Gao,SUNY Stonybrook,Publications,IPSN,2009
+Wen Hu,CSIRO,Web,IPSN,2009
+Ying Zhang,PARC,Publicity,IPSN,2009
+Andreas Savvides,Yale,Workshop,IPSN,2009
+Hamid Aghajan,Stanford,Local Arrangements,IPSN,2010
+Scott Brandt,University of California Santa Cruz,Local Arrangements,IPSN,2010
+Branislav Kusy,Stanford,Local Arrangements,IPSN,2010
+Feng Zhao,Microsoft Research,Steering Committee,IPSN,2010
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Steering Committee,IPSN,2010
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2010
+Leo Guibas,Stanford,Steering Committee,IPSN,2010
+P.R. Kumar,University of Illinois Urbana Champaign,Steering Committee,IPSN,2010
+Sri Kumar,BAE Systems,Steering Committee,IPSN,2010
+Jose' Moura,Carnegie Mellon University,Steering Committee,IPSN,2010
+John Stankovic,University of Virginia,Steering Committee,IPSN,2010
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2010
+Akos Ledeczi,Vanderbilt University,IP Track Co-Chair,IPSN,2010
+Philip Levis,Stanford,IP Track Co-Chair,IPSN,2010
+Peter Corke,CSIRO,IP Track Co-Chair,IPSN,2010
+Koen Langendoen,TU Delft,IP Track Co-Chair,IPSN,2010
+Branislav Kusy,Stanford,IP Track Co-Chair,IPSN,2010
+Bela Bollobas,University of Memphis,IP Track Co-Chair,IPSN,2010
+Nirupama Bulusu,Portland State University,IP Track Co-Chair,IPSN,2010
+Ugur Cetintemel,Brown University,IP Track Co-Chair,IPSN,2010
+David Culler,University of California Berkeley,IP Track Co-Chair,IPSN,2010
+Deborah Estrin,University of California Los Angeles,IP Track Co-Chair,IPSN,2010
+John Fisher,Massachusetts Institute of Technology,IP Track Co-Chair,IPSN,2010
+Michael Gastpar,University of California Berkeley,IP Track Co-Chair,IPSN,2010
+Reza Ghanadan,BAE Systems,IP Track Co-Chair,IPSN,2010
+Martin Haenggi,University of Notre Dame,IP Track Co-Chair,IPSN,2010
+Tian He,University of Minnesota,IP Track Co-Chair,IPSN,2010
+Wendi Heinzelman,University of Rochester,IP Track Co-Chair,IPSN,2010
+Sanjay Jha,University of New South Wales,IP Track Co-Chair,IPSN,2010
+Akos Ledeczi,Vanderbilt University,IP Track Co-Chair,IPSN,2010
+Alexander Levis,George Mason University,IP Track Co-Chair,IPSN,2010
+Philip Levis,Stanford,IP Track Co-Chair,IPSN,2010
+Mingyan Liu,University of Michigan,IP Track Co-Chair,IPSN,2010
+Thomas Moscibroda,Microsoft Research,IP Track Co-Chair,IPSN,2010
+Jose' M. F. Moura,Carnegie Mellon,IP Track Co-Chair,IPSN,2010
+Suman Nath,Microsoft Research,IP Track Co-Chair,IPSN,2010
+Lionel Ni,HKUST,IP Track Co-Chair,IPSN,2010
+Songhwai Oh,UC Merced,IP Track Co-Chair,IPSN,2010
+Kay Romer,ETH Zurich,IP Track Co-Chair,IPSN,2010
+Dan Rubenstein,Columbia University,IP Track Co-Chair,IPSN,2010
+Anna Scaglione,Cornell University,IP Track Co-Chair,IPSN,2010
+Gyula Simon,University of Pannonia,IP Track Co-Chair,IPSN,2010
+Cormac Sreenan,University College Cork,IP Track Co-Chair,IPSN,2010
+Subhash Suri,University of California Santa Barbara,IP Track Co-Chair,IPSN,2010
+Andreas Terzis,Johns Hopkins University,IP Track Co-Chair,IPSN,2010
+Tim Wark,CSIRO,IP Track Co-Chair,IPSN,2010
+Matt Welsh,Harvard University,IP Track Co-Chair,IPSN,2010
+Andreas Andreou,Johns Hopkins University,IP Track Co-Chair,IPSN,2010
+Jan Beutel,ETH Zurich,IP Track Co-Chair,IPSN,2010
+Rachel Cardell-Oliver,U. Western Australia,IP Track Co-Chair,IPSN,2010
+Peter Corke,CSIRO,IP Track Co-Chair,IPSN,2010
+Stefan Dulman,UTwente,IP Track Co-Chair,IPSN,2010
+Adam Dunkels,Swedish Institute of Computer Science,IP Track Co-Chair,IPSN,2010
+Ben Greenstein,Intel Research,IP Track Co-Chair,IPSN,2010
+Ralph Kling,Crossbow,IP Track Co-Chair,IPSN,2010
+Koen Langendoen,TU Delft,IP Track Co-Chair,IPSN,2010
+Pedro Marron,University of Bonn,IP Track Co-Chair,IPSN,2011
+Joe Polastre,Sentilla,IP Track Co-Chair,IPSN,2011
+Bodhi Priyantha,Microsoft Research,IP Track Co-Chair,IPSN,2011
+Jochen Schiller,Freie Universitaet Berlin,IP Track Co-Chair,IPSN,2011
+Mani Srivastava,University of California Los Angeles,IP Track Co-Chair,IPSN,2011
+Kamin Whitehouse,University of Virginia,IP Track Co-Chair,IPSN,2011
+Feng Zhao,Microsoft Research,IP Track Co-Chair,IPSN,2011
+Feng Zhao,Microsoft Research,IPSN '06 Steering Committee Chair,IPSN,2011
+John Cozzens,National Science Foundation,IPSN '06 Steering Committee,IPSN,2011
+Deborah Estrin,"University of California, Los Angeles",IPSN '06 Steering Committee,IPSN,2011
+Leo Guibas,Stanford,IPSN '06 Steering Committee,IPSN,2011
+P. R. Kumar,University of Illinois Urbana Champaign,IPSN '06 Steering Committee,IPSN,2011
+Sri Kumar,DARPA,IPSN '06 Steering Committee,IPSN,2011
+Jose' Moura,Carnegie Mellon University,IPSN '06 Steering Committee,IPSN,2011
+Janos Sztipanovits,Vanderbilt University,IPSN '06 Steering Committee,IPSN,2011
+John Stankovic,University of Virginia,General Chair,IPSN,2011
+Phillip Gibbons,Intel Research,Program Chair,IPSN,2011
+Stephen Wicker,Cornell University,Program Chair,IPSN,2011
+Joe Paradiso,Massachusetts Institute of Technology,SPOTS Program Chair,IPSN,2011
+Andreas Savvides,Yale University,Demos Chair,IPSN,2011
+Anna Scaglione,Cornell University,Poster Session Chair,IPSN,2011
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Finance Chair,IPSN,2011
+Xenofon Koutsoukos,Vanderbilt University,Local Arrangement Chair,IPSN,2011
+Janos Sztipanovits,Vanderbilt University,Local Arrangement Chair,IPSN,2011
+D. Ganesan,University of Massachusetts,Industrial Relations Chair,IPSN,2011
+Tian He,University of Minnesota,Publicity Chair,IPSN,2011
+R. Han,University of Colorado,Publications Chair,IPSN,2011
+Sang Son,University of Virginia,Registration Chair,IPSN,2011
+Jonathan Agre,Fujitsu Labs of America,IPSN '06 Technical Program Committee,IPSN,2011
+Jie Liu,Microsoft Research,IPSN '06 Technical Program Committee,IPSN,2011
+Anish Arora,Ohio State University,IPSN '06 Technical Program Committee,IPSN,2011
+Chenyang Lu,Washington University in St. Louis,IPSN '06 Technical Program Committee,IPSN,2011
+Richard Baraniuk,Rice University,IPSN '06 Technical Program Committee,IPSN,2011
+Sam Madden,Massachusetts Institute of Technology,IPSN '06 Technical Program Committee,IPSN,2011
+Baltasar Beferull-Lozano,Universidad de Valencia,IPSN '06 Technical Program Committee,IPSN,2011
+Urbashi Mitra,University of Southern California,IPSN '06 Technical Program Committee,IPSN,2011
+Mark Coates,McGill University,IPSN '06 Technical Program Committee,IPSN,2011
+Randy Moses,The Ohio State University,IPSN '06 Technical Program Committee,IPSN,2011
+Amol Deshpande,University of Maryland,IPSN '06 Technical Program Committee,IPSN,2011
+Arye Nehorai,University of Illinois Chicago,IPSN '06 Technical Program Committee,IPSN,2011
+Hugh Durrant-Whyte,University of Sydney,IPSN '06 Technical Program Committee,IPSN,2011
+Robert Nowak,University of Wisconsin Madison,IPSN '06 Technical Program Committee,IPSN,2011
+Deepak Ganesan,University of Massachusett Amherst,IPSN '06 Technical Program Committee,IPSN,2011
+Radha Poovendran,University of Washington,IPSN '06 Technical Program Committee,IPSN,2011
+Michael Gastpar,University of California Berkeley,IPSN '06 Technical Program Committee,IPSN,2011
+Anna Scaglione,Cornell University,IPSN '06 Technical Program Committee,IPSN,2011
+Phillip Gibbons,Intel Research,IPSN '06 Technical Program Committee,IPSN,2011
+Curt Schurgers,University of California San Diego,IPSN '06 Technical Program Committee,IPSN,2011
+Ramesh Govindan,University of Southern California,IPSN '06 Technical Program Committee,IPSN,2011
+Sergio Servetto,Cornell University,IPSN '06 Technical Program Committee,IPSN,2011
+Carlos Guestrin,Carnegie Mellon University,IPSN '06 Technical Program Committee,IPSN,2011
+Mani Srivastava,University of California Los Angeles,IPSN '06 Technical Program Committee,IPSN,2011
+Richard Han,University of Colorado,IPSN '06 Technical Program Committee,IPSN,2011
+Eva Tardos,Cornell University,IPSN '06 Technical Program Committee,IPSN,2011
+Prakash Ishwar,Boston University,IPSN '06 Technical Program Committee,IPSN,2011
+Lang Tong,Cornell Universiity,IPSN '06 Technical Program Committee,IPSN,2011
+Nihar Jindal,University of Minnesota,IPSN '06 Technical Program Committee,IPSN,2011
+Matt Welsh,Harvard,IPSN '06 Technical Program Committee,IPSN,2011
+Brad Karp,University College London,IPSN '06 Technical Program Committee,IPSN,2011
+Stephen Wicker,Cornell University,IPSN '06 Technical Program Committee,IPSN,2012
+Phil Levis,Stanford,IPSN '06 Technical Program Committee,IPSN,2012
+Kung Yao,University of California Los Angeles,IPSN '06 Technical Program Committee,IPSN,2012
+Mingyan Liu,University of Michigan,IPSN '06 Technical Program Committee,IPSN,2012
+Joe Paradiso,Massachusetts Institute of Technology,IPSN '06 Technical Program Committee,IPSN,2012
+Trevor Pering,Intel Research,SPOTS Track Technical Program Committee,IPSN,2012
+William Butera,Intel Research,SPOTS Track Technical Program Committee,IPSN,2012
+Joe Polastre,Moteiv,SPOTS Track Technical Program Committee,IPSN,2012
+Jim Reich,PARC,SPOTS Track Technical Program Committee,IPSN,2012
+Jeremy Elson,Microsoft Research,SPOTS Track Technical Program Committee,IPSN,2012
+Andreas Savvides,Yale University,SPOTS Track Technical Program Committee,IPSN,2012
+Hans Gellersen,"Lancaster University, UK",SPOTS Track Technical Program Committee,IPSN,2012
+Howard Shrobe,Massachusetts Institute of Technology,SPOTS Track Technical Program Committee,IPSN,2012
+Rajesh Gupta,University of California San Diego,SPOTS Track Technical Program Committee,IPSN,2012
+Amit Sinha,Airdefense,SPOTS Track Technical Program Committee,IPSN,2012
+Chalermek Intanagonwiwat,Chulalongkorn U.,SPOTS Track Technical Program Committee,IPSN,2012
+Gaurav Sukhatme,University of Southern California,SPOTS Track Technical Program Committee,IPSN,2012
+William Hodgkiss,University of California San Diego,SPOTS Track Technical Program Committee,IPSN,2012
+Janos Sztipanovits,Vanderbilt University,SPOTS Track Technical Program Committee,IPSN,2012
+Bill Kaiser,University of California Los Angeles,SPOTS Track Technical Program Committee,IPSN,2012
+Kazuo Yano,"Hitachi Research, Tokyo",SPOTS Track Technical Program Committee,IPSN,2012
+Ralph Kling,Intel Research,SPOTS Track Technical Program Committee,IPSN,2012
+Eric Yeatman,"Imperial College, UK",SPOTS Track Technical Program Committee,IPSN,2012
+Gerald Maguire,KTH Stockholm,SPOTS Track Technical Program Committee,IPSN,2012
+Frank Vernon,University of California San Diego,SPOTS Track Technical Program Committee,IPSN,2012
+Friedemann Mattern,ETH Zurich,SPOTS Track Technical Program Committee,IPSN,2012
+Chris Van Hoof,IMEC Belgium,SPOTS Track Technical Program Committee,IPSN,2012
+Michael Niedermayer,Fraunhofer IZM,SPOTS Track Technical Program Committee,IPSN,2012
+Wayne Wolfe,Princeton University,SPOTS Track Technical Program Committee,IPSN,2012
+Brendan O'Flynn,"Tyndall Institute, Ireland",SPOTS Track Technical Program Committee,IPSN,2012
+Tarek Abdelzaher,University of Illinois Urbana Champaign,General Chair,IPSN,2012
+Kay Romer,University of Lubeck,TPC Co-Chair (IP Track),IPSN,2012
+Raj Rajkumar,Carnegie Mellon University,TPC Co-Chair (SPOTS Track),IPSN,2012
+Luca Mottola,Politecnico di Milano and Swedish Institute of Computer Science,Demo Chair,IPSN,2012
+Tian He,University of Minnesota,Poster Chair,IPSN,2012
+Aman Kansal,Microsoft Research,Workshop/Tutorial Chair,IPSN,2012
+Raghu Ganti,IBM Research,Publications Chair,IPSN,2012
+Akos Ledeczi,Vanderbilt University,Finance/Sponsorship Chair,IPSN,2012
+Hengchang Liu,University of Illinois Urbana Champaign,Web Chair,IPSN,2012
+Ying Zhang,Google,Publicity Co-Chair,IPSN,2012
+Li Cui,ICT CAS,Publicity Co-Chair,IPSN,2012
+Martina Maggio,Lund,Publicity Co-Chair,IPSN,2012
+Polly Huang,NTU,PhD Forum Chair,IPSN,2012
+Feng Zhao (Chair),Microsoft Research Asia,Steering Committee,IPSN,2012
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Steering Committee,IPSN,2012
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2012
+Leo Guibas,Stanford,Steering Committee,IPSN,2012
+William Kaiser,University of California Los Angeles,Steering Committee,IPSN,2012
+P.R. Kumar,Texas A&M University,Steering Committee,IPSN,2012
+Jose Moura,Carnegie Mellon University,Steering Committee,IPSN,2012
+Jack Stankovic,University of Virginia,Steering Committee,IPSN,2012
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2012
+Marco Duarte,University of Massachusetts Amherst,IP Track Technical Program Committee,IPSN,2012
+Jakob Eriksson,University of Illinois Chicago,IP Track Technical Program Committee,IPSN,2012
+Jie Gao,Stony Brook University,IP Track Technical Program Committee,IPSN,2013
+Michael Gastpar,EPFL and University of California in Berkeley,IP Track Technical Program Committee,IPSN,2013
+Omprakash Gnawali,University of Houston,IP Track Technical Program Committee,IPSN,2013
+Marco Gruteser,Rutgers University,IP Track Technical Program Committee,IPSN,2013
+Wen Hu,CSIRO,IP Track Technical Program Committee,IPSN,2013
+Polly Huang,National Taiwan University,IP Track Technical Program Committee,IPSN,2013
+Karl Henrik Johansson,KTH,IP Track Technical Program Committee,IPSN,2013
+Vana Kalogeraki,Athens University of Economics and Business,IP Track Technical Program Committee,IPSN,2013
+Andreas Krause,ETH Zurich and Caltech,IP Track Technical Program Committee,IPSN,2013
+Mingyan Liu,University of Michigan,IP Track Technical Program Committee,IPSN,2013
+Chenyang Lu,Washington University in St. Louis,IP Track Technical Program Committee,IPSN,2013
+Thomas Moscibroda,Microsoft Research Asia,IP Track Technical Program Committee,IPSN,2013
+Luca Mottola,Politecnico di Milano and Swedish Institute of Computer Science,IP Track Technical Program Committee,IPSN,2013
+Suman Nath,Microsoft Research,IP Track Technical Program Committee,IPSN,2013
+Neal Patwari,University of Utah,IP Track Technical Program Committee,IPSN,2013
+Jamie Payton,University of North Carolina,IP Track Technical Program Committee,IPSN,2013
+Gian Pietro Picco,University of Trento,IP Track Technical Program Committee,IPSN,2013
+Silvia Santini,TU Darmstadt,IP Track Technical Program Committee,IPSN,2013
+Olga Saukh,ETH Zurich,IP Track Technical Program Committee,IPSN,2013
+Andreas Terzis,Johns Hopkins University,IP Track Technical Program Committee,IPSN,2013
+Andreas Andreou,Johns Hopkins University,SPOTS Track Technical Program Committee,IPSN,2013
+Matteo Ceriotti,RWTH Aachen University,SPOTS Track Technical Program Committee,IPSN,2013
+Prabal Dutta,University of Michigan,SPOTS Track Technical Program Committee,IPSN,2013
+Deepak Ganesan,University of Massachusetts Amherst,SPOTS Track Technical Program Committee,IPSN,2013
+Minyoung Kim,SRI,SPOTS Track Technical Program Committee,IPSN,2013
+Chieh-Jan Mike Liang,Microsoft Research Asia,SPOTS Track Technical Program Committee,IPSN,2013
+Lama Nachman,Intel Corp,SPOTS Track Technical Program Committee,IPSN,2013
+Anthony Rowe,Carnegie Mellon University,SPOTS Track Technical Program Committee,IPSN,2013
+Andreas Savvides,Yale University,SPOTS Track Technical Program Committee,IPSN,2013
+John Stankovic,University of Virginia,SPOTS Track Technical Program Committee,IPSN,2013
+Lothar Thiele,"ETH, Zurich",SPOTS Track Technical Program Committee,IPSN,2013
+Kamin Whitehouse,University of Virginia,SPOTS Track Technical Program Committee,IPSN,2013
+Adam Wolisz,Technical University of Berlin,SPOTS Track Technical Program Committee,IPSN,2013
+Pei Zhang,Carnegie Mellon University,SPOTS Track Technical Program Committee,IPSN,2013
+Marco Zuniga,TU Delft,SPOTS Track Technical Program Committee,IPSN,2013
+Suman Nath,Microsoft Research,Organizing Committee General Chair,IPSN,2013
+Bhaskar Krishnamachari,University of Southern California,TPC Co-Chair (IP track),IPSN,2013
+Anthony Rowe,Carnegie Mellon University,TPC Co-Chair (SPOTS track),IPSN,2013
+Feng Zhao,Microsoft Research Asia,Steering Committee Chair,IPSN,2013
+Jie Gao,Stony Brook University,Poster Chair,IPSN,2013
+Pei Zhang,Carnegie Mellon University,Poster Chair,IPSN,2013
+David Chu,Microsoft Research,Demo Chair,IPSN,2013
+Guoliang Xing,Michigan State University,Demo Chair,IPSN,2013
+Dimitrios Lymberopoulos,Microsoft Research,Competition Chair,IPSN,2013
+Shahriar Nirjon,HP Labs,Web Chair,IPSN,2013
+Omprakash Gnawali,University of Houston,PhD Forum Chair,IPSN,2013
+Omprakash Gnawali,University of Houston,Shadow PC Coordination Chair,IPSN,2013
+Silvia Santini,TU Dresden,Publication Co-Chair,IPSN,2013
+Anwar Hithnawi,ETH Zurich,Publication Co-Chair,IPSN,2013
+Mike Chieh-Jan Liang,Microsoft Research Asia,Publicity Chair,IPSN,2013
+Chiara Petrioli,University of Rome La Sapienza,Publicity Chair,IPSN,2013
+Chenren Xu,Carnegie Mellon University,Publicity Chair,IPSN,2013
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2013
+Yuvraj Agarwal,Carnegie Mellon University,Technical Program Committee,IPSN,2013
+Alberto Cerpa,University of California Merced,Technical Program Committee,IPSN,2013
+Mun Choon Chan,National University of Singapore,Technical Program Committee,IPSN,2013
+Chun Tung Chou,"University of New South Wales, Australia",Technical Program Committee,IPSN,2013
+Mark Coates,McGill University,Technical Program Committee,IPSN,2013
+Kartik Dantu,SUNY Buffalo,Technical Program Committee,IPSN,2013
+Jakob Eriksson,University of Illinois Chicago,Technical Program Committee,IPSN,2014
+Jie Gao,SUNY Stonybrook,Technical Program Committee,IPSN,2014
+Andrea Gasparri,"University of Roma Tre, Italy",Technical Program Committee,IPSN,2014
+Omprakash Gnawali,University of Houston,Technical Program Committee,IPSN,2014
+Magnus Halldorsson,"Reykjavik University, Iceland",Technical Program Committee,IPSN,2014
+Wen Hu,"CSIRO, Australia",Technical Program Committee,IPSN,2014
+Polly Huang,National Taiwan University,Technical Program Committee,IPSN,2014
+Valerie Issarny,"Inria, France",Technical Program Committee,IPSN,2014
+Roozbeh Jafari,University of Texas Dallas,Technical Program Committee,IPSN,2014
+Xianyang Li,Illinois Institute of Technology,Technical Program Committee,IPSN,2014
+Rahul Mangharam,University of Pennsylvania,Technical Program Committee,IPSN,2014
+Urbashi Mitra,University of Southern California,Technical Program Committee,IPSN,2014
+Jorge Ortiz,IBM Research,Technical Program Committee,IPSN,2014
+Neal Patwari,University of Utah,Technical Program Committee,IPSN,2014
+Vijay Raghunathan,Purdue,Technical Program Committee,IPSN,2014
+Kay Romer,ETH Zurich,Technical Program Committee,IPSN,2014
+Jack Stankovic,University of Virginia,Technical Program Committee,IPSN,2014
+Affan Syed,"National University of Computer and Emerging Sciences, Pakistan",Technical Program Committee,IPSN,2014
+Niki Trigoni,Oxford University,Technical Program Committee,IPSN,2014
+Geoffrey Werner-Challen,SUNY Buffalo,Technical Program Committee,IPSN,2014
+Kamin Whitehouse,University of Virginia,Technical Program Committee,IPSN,2014
+Guoliang Xing,Michigan State,Technical Program Committee,IPSN,2014
+Hongwei Zhang,Wayne State University,Technical Program Committee,IPSN,2014
+Marco Zuniga,TU Delft,Technical Program Committee,IPSN,2014
+Pei Zhang,Carnegie Mellon University Silicon Valley,Technical Program Committee,IPSN,2014
+Adwait Dongare,Carnegie Mellon University,Shadow Program Committee,IPSN,2014
+Erin Griffiths,University of Virginia,Shadow Program Committee,IPSN,2014
+Josiah Hester,Clemson University,Shadow Program Committee,IPSN,2014
+Anwar S. H. Hithnawi,ETH Zurich,Shadow Program Committee,IPSN,2014
+Robert LiKamWa,Rice University,Shadow Program Committee,IPSN,2014
+Anh Luong,University of Utah,Shadow Program Committee,IPSN,2014
+Hessam Mohammadmoradi,University of Houston,Shadow Program Committee,IPSN,2014
+Niranjini Rajagopal,Carnegie Mellon University,Shadow Program Committee,IPSN,2014
+Juhi Ranjan,University of Virginia,Shadow Program Committee,IPSN,2014
+Hossein Shafagh,ETH Zurich,Shadow Program Committee,IPSN,2014
+Mahima A. Suresh,Texas A&M University,Shadow Program Committee,IPSN,2014
+Chen Yang,Texas A&M University,Shadow Program Committee,IPSN,2014
+Shengrong Yin,University of Houston,Shadow Program Committee,IPSN,2014
+Pei Zhang,Carnegie Mellon University,Organizing Committee General Chair,IPSN,2014
+Prabal Dutta,University of Michigan & UC Berkeley,Program Committee Co-Chair,IPSN,2014
+Guoliang Xing,Michigan State University,Program Committee Co-Chair,IPSN,2014
+Jie Liu (Chair),Microsoft Research,Steering Committee,IPSN,2014
+David Culler,University of California Berkeley,Steering Committee,IPSN,2014
+Bhaskar Krishnamachari,University of Southern California,Steering Committee,IPSN,2014
+Suman Nath,Microsoft Research,Steering Committee,IPSN,2014
+Anthony Rowe,Carnegie Mellon University,Steering Committee,IPSN,2014
+Niki Trigoni,University of Oxford,Steering Committee,IPSN,2014
+Adam Wolisz,Technische Universität Berlin,Steering Committee,IPSN,2014
+Guoliang Xing,Michigan State University,Steering Committee,IPSN,2014
+Feng Zhao,Haier,Steering Committee,IPSN,2014
+Lin Zhong,Rice University,Steering Committee,IPSN,2015
+Dimitrios Lymberopoulos,Microsoft Research,Competition Chair,IPSN,2015
+Mi Zhang,Michigan State University,Demo Co-chair,IPSN,2015
+Nic Lane,University College London,Demo Co-chair,IPSN,2015
+Hae Young Noh,Carnegie Mellon University,Poster Chair,IPSN,2015
+Lin Zhang,Tsinghua University,PhD Forum Chair,IPSN,2015
+Rasit Eskicioglu,University of Manitoba,Publication Chair,IPSN,2015
+Tam Vu,University of Colorado Denver,Publicity Chair,IPSN,2015
+Adeola Bannis,Carnegie Mellon University,Web Chair,IPSN,2015
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2015
+Yuvraj Agarwal,Carnegie Mellon University,Technical Program Committee,IPSN,2015
+Brad Campbell,University of Michigan/University of Virginia,Technical Program Committee,IPSN,2015
+Alberto Cerpa,University of California Merced,Technical Program Committee,IPSN,2015
+Geoffrey Challen,University at Buffalo,Technical Program Committee,IPSN,2015
+Minghua Chen,Chinese University of Hong Kong,Technical Program Committee,IPSN,2015
+Marco Duarte,University of Massachusetts Amherst,Technical Program Committee,IPSN,2015
+Jie Gao,Stony Brook University,Technical Program Committee,IPSN,2015
+Omprakash Gnawali,University of Houston,Technical Program Committee,IPSN,2015
+Tian He,University of Minnesota,Technical Program Committee,IPSN,2015
+Polly Huang,National Taiwan University,Technical Program Committee,IPSN,2015
+Bhaskar Krishnamachari,University of Southern California,Technical Program Committee,IPSN,2015
+Chieh-Jan Mike Liang,Microsoft Research Asia,Technical Program Committee,IPSN,2015
+Hong Lu,Intel Labs,Technical Program Committee,IPSN,2015
+Dimitrios Lymperopoulous,Microsoft Research,Technical Program Committee,IPSN,2015
+Andrew Markham,University of Oxford,Technical Program Committee,IPSN,2015
+Florian Michahelles,Siemens,Technical Program Committee,IPSN,2015
+Luca Mottola,Politecnico di Milano,Technical Program Committee,IPSN,2015
+Suman Nath,Microsoft Research,Technical Program Committee,IPSN,2015
+Shahriar Nirjon,"University of North Carolina, Chapel Hill",Technical Program Committee,IPSN,2015
+Jorge Ortiz,IBM Research,Technical Program Committee,IPSN,2015
+Neal Patwari,University of Utah,Technical Program Committee,IPSN,2015
+Gian Pietro Picco,University of Trento,Technical Program Committee,IPSN,2015
+Bodhi Priyantha,Microsoft Research,Technical Program Committee,IPSN,2015
+Kay Römer,Graz University of Technology,Technical Program Committee,IPSN,2015
+Junehwa Song,KAIST,Technical Program Committee,IPSN,2015
+Lu Su,University at Buffalo,Technical Program Committee,IPSN,2015
+Rui Tan,Nanyang Technological University,Technical Program Committee,IPSN,2015
+Niki Trigoni,University of Oxford,Technical Program Committee,IPSN,2015
+Tam Vu,University of Colorado Denver,Technical Program Committee,IPSN,2015
+Dong Wang,University of Notre Dame,Technical Program Committee,IPSN,2015
+Kamin Whitehouse,University of Virginia,Technical Program Committee,IPSN,2015
+Wenyao Xu,University at Buffalo,Technical Program Committee,IPSN,2015
+Mi Zhang,Michigan State University,Technical Program Committee,IPSN,2015
+Yanyong Zhang,Rutgers University,Technical Program Committee,IPSN,2015
+Marco Zuniga,TU Delft,Technical Program Committee,IPSN,2015
+Xenofon Koutsoukos,Vanderbilt University,General Chair,IPSN,2015
+Koen Langendoen,TU Delft,TPC Co-chairs (IP Track),IPSN,2015
+Greg Pottie,University of California Los Angeles,TPC Co-chairs (IP Track),IPSN,2015
+Vijay Raghunathan,Purdue University,TPC Co-chair (SPOTS Track),IPSN,2015
+Kamin Whitehouse,University of Virginia,Demos Chair,IPSN,2015
+Yunhao Liu,Hong Kong University of Science and Technology,Poster Chair,IPSN,2015
+Ying Zhang,Palo Alto Research Center,Publicity Chair,IPSN,2015
+Chenyang Lu,Washington University in St. Louis,Workshop Chair,IPSN,2015
+Andreas Terzis,Johns Hopkins University,Publications Chair,IPSN,2015
+Janos Sallai,Vanderbilt University,Web Chair,IPSN,2015
+Koen Langendoen,TU Delft,IP TPC Co-Chair,IPSN,2015
+Greg Pottie,University of California Los Angeles,IP TPC Co-Chair,IPSN,2015
+Anish Arora,The Ohio State University,IP TPC,IPSN,2015
+Nirupama Bulusu,Portland State University,IP TPC,IPSN,2015
+Qing Cao,University of Tennessee,IP TPC,IPSN,2015
+Peter Corke,Queensland University of Technology,IP TPC,IPSN,2015
+Prabal Dutta,University of Michigan,IP TPC,IPSN,2015
+Carlo Fischione,Royal Institute of Technology,IP TPC,IPSN,2016
+John Fisher III,Massachusetts Institute of Technology,IP TPC,IPSN,2016
+Deepak Ganesan,University of Massachusetts Amherst,IP TPC,IPSN,2016
+Mikael Johansson,"KTH, Royal Institute of Technology",IP TPC,IPSN,2016
+Aman Kansal,Microsoft Research,IP TPC,IPSN,2016
+Bhaskar Krishnamachari,University of Southern California,IP TPC,IPSN,2016
+Santosh Kumar,University of Memphis,IP TPC,IPSN,2016
+Jie Liu,Microsoft Research,IP TPC,IPSN,2016
+Miklos Maroti,University of Szeged,IP TPC,IPSN,2016
+Urbashi Mitra,University of Southern California,IP TPC,IPSN,2016
+Luca Mottola,Swedish Institute of Computer Science,IP TPC,IPSN,2016
+Kannan Ramchandran,University of California Berkeley,IP TPC,IPSN,2016
+Fabio Ramos,University of Sydney,IP TPC,IPSN,2016
+Utz Roedig,Lancaster University,IP TPC,IPSN,2016
+Venkatesh Saligrama,Boston University,IP TPC,IPSN,2016
+Paolo Santi,IIT-CNR,IP TPC,IPSN,2016
+Andreas Savvides,Yale University,IP TPC,IPSN,2016
+Thiemo Voigt,Swedish Institute of Computer Science,IP TPC,IPSN,2016
+Venugopal Veeravalli,University of Illinois Urbana Champaign,IP TPC,IPSN,2016
+Roger Wattenhofer,ETH Zurich,IP TPC,IPSN,2016
+Kamin Whitehouse,University of Virginia,IP TPC,IPSN,2016
+Vijay Raghunathan,Purdue University,SPOTS TPC Co-Chair,IPSN,2016
+Jan Beutel,ETH Zurich,SPOTS TPC,IPSN,2016
+Adam Dunkels,Swedish Institute of Computer Science,SPOTS TPC,IPSN,2016
+Dimitrios Lymberopoulos,Microsoft Research,SPOTS TPC,IPSN,2016
+Ralph Kling,Crossbow,SPOTS TPC,IPSN,2016
+Xiaofan Jiang,Microsoft Research Asia,SPOTS TPC,IPSN,2016
+Thomas Schmid,University of Utah,SPOTS TPC,IPSN,2016
+Yuvraj Agarwal,University of California San Diego,SPOTS TPC,IPSN,2016
+Bill Kaiser,University of California Los Angeles,SPOTS TPC,IPSN,2016
+Raj Rajkumar,Carnegie Mellon University,SPOTS TPC,IPSN,2016
+Pai Chou,University of California Irvine,SPOTS TPC,IPSN,2016
+Mani Srivastava,University of California Los Angeles,SPOTS TPC,IPSN,2016
+Feng Zhao,Microsoft Research,STEERING COMMITTEE,IPSN,2016
+Tarek Abdelzaher,University of Illinois Urbana Champaign,STEERING COMMITTEE,IPSN,2016
+Deborah Estrin,University of California Los Angeles,STEERING COMMITTEE,IPSN,2016
+Leo Guibas,Stanford,STEERING COMMITTEE,IPSN,2016
+P.R. Kumar,University of Illinois Urbana Champaign,STEERING COMMITTEE,IPSN,2016
+Sri Kumar,SRI International,STEERING COMMITTEE,IPSN,2016
+José Moura,Carnegie Mellon University,STEERING COMMITTEE,IPSN,2016
+John Stankovic,University of Virginia,STEERING COMMITTEE,IPSN,2016
+Janos Sztipanovits,Vanderbilt University,STEERING COMMITTEE,IPSN,2016
+Feng Zhao,Microsoft Research Asia,General Chair,IPSN,2016
+Andreas Terzis,Johns Hopkins University,TPC Co-Chair (IP Track),IPSN,2016
+Kamin Whitehouse,University of Virginia,TPC Co-Chair (SPOTS Track),IPSN,2016
+Xiaofan Jiang,Microsoft Research Asia,Demo Chair,IPSN,2016
+Pei Zhang,Carnegie Mellon University,Poster Chair,IPSN,2016
+Thiemo Voigt,Swedish Institute of Computer Science,Workshop/Tutorial Chair,IPSN,2016
+Jie Gao,SUNY Stony Brook,Publications Chair,IPSN,2016
+Xenofon Koutsoukos,Vanderbilt University,Finance/Sponsorship Chair,IPSN,2016
+Nic Lane,Microsoft Research Asia,Web Chair,IPSN,2016
+Luca Mottola,Swedish Institute of Computer Science,Publicity Co-Chair,IPSN,2017
+Ying Zhang,Palo Alto Research Center,Publicity Co-Chair,IPSN,2017
+Luca Mottola,Swedish Institute of Computer Science,PhD Forum Co-Chair,IPSN,2017
+Cui Li,"Institute of Computing Technology, Chinese Academy of Sciences",PhD Forum Co-Chair,IPSN,2017
+Feng Zhao ,Microsoft Research Asia,Steering Committee,IPSN,2017
+Tarek Abdelzaher,University of Illinois Urbana Champaign,Steering Committee,IPSN,2017
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2017
+Leo Guibas,Stanford,Steering Committee,IPSN,2017
+P.R. Kumar,Texas A&M University,Steering Committee,IPSN,2017
+Sri Kumar,SRI International,Steering Committee,IPSN,2017
+Jose Moura,Carnegie Mellon University,Steering Committee,IPSN,2017
+Jack Stankovic,University of Virginia,Steering Committee,IPSN,2017
+Janos Sztipanovits,Vanderbilt University,Steering Committee,IPSN,2017
+Tarek Abdelzaher,University of Illinois Urbana Champaign,IP Track Technical Program Committee,IPSN,2017
+Jie Gao,Stony Brook University,IP Track Technical Program Committee,IPSN,2017
+Omprakash Gnawali,University of Houston,IP Track Technical Program Committee,IPSN,2017
+Polly Huang,National Taiwan University,IP Track Technical Program Committee,IPSN,2017
+Karl Henrik Johansson,KTH Royal Institute of Technology,IP Track Technical Program Committee,IPSN,2017
+Andreas Krause,California Institute of Technology / ETH - Zurich,IP Track Technical Program Committee,IPSN,2017
+Koen Langendoen,TU Delft,IP Track Technical Program Committee,IPSN,2017
+Jianzhong Li,Harbin Institute of Technology,IP Track Technical Program Committee,IPSN,2017
+Chieh-Jan Mike Liang,Microsoft Research Asia,IP Track Technical Program Committee,IPSN,2017
+Yunhao Liu,Tsinghua University,IP Track Technical Program Committee,IPSN,2017
+Chenyang Lu,Washington University in St. Louis,IP Track Technical Program Committee,IPSN,2017
+Thomas Moscibroda,Microsoft Research Asia,IP Track Technical Program Committee,IPSN,2017
+Luca Mottola,Swedish Institute of Computer Science,IP Track Technical Program Committee,IPSN,2017
+Gian Pietro Picco,University of Trento,IP Track Technical Program Committee,IPSN,2017
+Utz Roedig,Lancaster University,IP Track Technical Program Committee,IPSN,2017
+Kay Roemer,University of Luebeck,IP Track Technical Program Committee,IPSN,2017
+Antonio Ruzzelli,University College Dublin,IP Track Technical Program Committee,IPSN,2017
+Subhash Suri,University of California - Santa Barbara,IP Track Technical Program Committee,IPSN,2017
+Andreas Terzis,John Hopkins University,IP Track Technical Program Committee,IPSN,2017
+Thiemo Voigt,Swedish Institute of Computer Science,IP Track Technical Program Committee,IPSN,2017
+Tim Wark,Commonwealth Scientific and Industrial Research Organisation,IP Track Technical Program Committee,IPSN,2017
+Adam Dunkels,Swedish Institute of Computer Science,SPOTS Track Technical Program Committee,IPSN,2017
+Xiaofan Jiang,Microsoft Research Asia,SPOTS Track Technical Program Committee,IPSN,2017
+Cui Li,"Institute of Computing Technology, Chinese Academy of Sciences",SPOTS Track Technical Program Committee,IPSN,2017
+Dimitrios Lymberopoulos,Microsoft Research Redmond,SPOTS Track Technical Program Committee,IPSN,2017
+Rahul Mangharam,University of Pennsylvania,SPOTS Track Technical Program Committee,IPSN,2017
+Miklos Maroti,University of Szeged,SPOTS Track Technical Program Committee,IPSN,2017
+Anthony Rowe,Carnegie Mellon University,SPOTS Track Technical Program Committee,IPSN,2017
+Andreas Savvides,Yale University,SPOTS Track Technical Program Committee,IPSN,2017
+Thomas Schmid,University of Utah,SPOTS Track Technical Program Committee,IPSN,2017
+Mani Srivastava,University of California Los Angeles,SPOTS Track Technical Program Committee,IPSN,2017
+Kamin Whitehouse,University of Virginia,SPOTS Track Technical Program Committee,IPSN,2017
+Feng Zhao,Microsoft Research ,Steering Committee,IPSN,2017
+John Cozzens,NSF,Steering Committee,IPSN,2017
+Deborah Estrin,University of California Los Angeles,Steering Committee,IPSN,2017
+Leo Guibas,Stanford,Steering Committee,IPSN,2017
+P. R. Kumar,University of Illinois Urbana Champaign,Steering Committee,IPSN,2017
+Sri Kumar,DARPA,Steering Committee,IPSN,2017
+Kannan Ramchandran,University of California Berkeley,Conference Co-chair,IPSN,2017
+Janos Sztipanovits,Vanderbilt University,Conference Co-chair,IPSN,2017
+Jennifer Hou,University of Illinois Urbana Champaign,Technical Program Co-chair,IPSN,2017
+Thrasyvoulos Pappas,Northwestern University,Technical Program Co-chair,IPSN,2017
+David Culler,University of California Berkeley,Industrial Relations,IPSN,2017
+Prakash Ishwar,University of California Berkeley,Exhibits/Demos Chair,IPSN,2017
+Xenofon Koutsoukos,Vanderbilt University,Finance Chair,IPSN,2018
+Dana Dee Little,University of California Berkeley,Local Coordinator,IPSN,2018
+Michael Gastpar,University of California Berkeley,Publicity Chair,IPSN,2018
+Massimo Franceschetti,University of California Berkeley,Poster Session Chair,IPSN,2018
+Jonathan Sprinkle,University of California Berkeley,Publications Chair,IPSN,2018
+John Apostolopoulos,HP Labs,Technical Program Committee,IPSN,2018
+B.R. Badrinath,Rutgers University,Technical Program Committee,IPSN,2018
+Victor Bahl,Microsoft Research,Technical Program Committee,IPSN,2018
+Randall Berry,Northwestern University,Technical Program Committee,IPSN,2018
+Marco Caccamo,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2018
+Chee-Yee Chong,Booz Allen Hamilton,Technical Program Committee,IPSN,2018
+Alok Choudhary,Northwestern University,Technical Program Committee,IPSN,2018
+Massimo Franceschetti,University of California Berkeley,Technical Program Committee,IPSN,2018
+Michael Gastpar,University of California Berkeley,Technical Program Committee,IPSN,2018
+Hamid Gharavi,NIST,Technical Program Committee,IPSN,2018
+Rajesh Gupta,University of California San Diego,Technical Program Committee,IPSN,2018
+Rick Han,University of Colorado,Technical Program Committee,IPSN,2019
+Zygmunt Haas,Cornell University,Technical Program Committee,IPSN,2019
+Babak Hassibi,Caltech,Technical Program Committee,IPSN,2019
+Alfred Hero,University of Michigan Ann Arbor,Technical Program Committee,IPSN,2019
+Yuhen Hu,University of Wisconsin Madison,Technical Program Committee,IPSN,2019
+Prakash Ishwar,University of California Berkeley,Technical Program Committee,IPSN,2019
+Aggelos Katsaggelos,Northwestern University,Technical Program Committee,IPSN,2019
+Hermann Kopetz,"Vienna Univ. of Technology, Austria",Technical Program Committee,IPSN,2019
+Xenofon Koutsoukos,Vanderbilt University,Technical Program Committee,IPSN,2019
+Bhaskar Krishnamachari,University of Southern California,Technical Program Committee,IPSN,2019
+Akos Ledeczi,Vanderbilt University,Technical Program Committee,IPSN,2019
+Jie Liu,Palo Alto Research Center,Technical Program Committee,IPSN,2019
+Juan Liu,Palo Alto Research Center,Technical Program Committee,IPSN,2019
+Mingyan Liu,University of Michigan Ann Arbor,Technical Program Committee,IPSN,2019
+Zhen Liu,IBM,Technical Program Committee,IPSN,2019
+Songwu Lu,University of California Los Angeles,Technical Program Committee,IPSN,2019
+Teresa Lunt,PaloAlto Research Center,Technical Program Committee,IPSN,2019
+Urbashi Mitra,University of Southern California,Technical Program Committee,IPSN,2019
+Nader Moayeri,NIST,Technical Program Committee,IPSN,2019
+Arye Nehorai,University of Illinois Chicago,Technical Program Committee,IPSN,2019
+David Neuhoff,University of Michigan Ann Arbor,Technical Program Committee,IPSN,2019
+Rob Nowak,Rice University,Technical Program Committee,IPSN,2019
+Adrian Perrig,Carnegie Mellon University,Technical Program Committee,IPSN,2019
+Sandeep Pradhan,University of Michigan Ann Arbor,Technical Program Committee,IPSN,2019
+Jim Reich,Palo Alto Research Center,Technical Program Committee,IPSN,2019
+Akbar Sayeed,University of Wisconsin Madison,Technical Program Committee,IPSN,2019
+Sergio Servetto,Cornell University,Technical Program Committee,IPSN,2019
+Lui Sha,University of Illinois Urbana Champaign,Technical Program Committee,IPSN,2019
+Gary Shaw,MIT Lincoln Lab,Technical Program Committee,IPSN,2019
+Jonathan Sprinkle,University of California Berkeley,Technical Program Committee,IPSN,2019
+Mani Srivastava,University of California Los Angeles,Technical Program Committee,IPSN,2019
+John Stankovic,University of Virginia,Technical Program Committee,IPSN,2019
+Ivan Stojmenovic,University of Ottawa,Technical Program Committee,IPSN,2019
+Gaurav Sukhatme,University of Southern California,Technical Program Committee,IPSN,2019
+Yu-Chee Tseng,"National Chiao-Tung University, Taiwan",Technical Program Committee,IPSN,2019
+Martin Vetterli,EPFL,Technical Program Committee,IPSN,2019
+Steve Wicker,Cornell University,Technical Program Committee,IPSN,2019
+Adam Wolisz,TU Berlin,Technical Program Committee,IPSN,2019
+Lixia Zhang,University of California Los Angeles,Technical Program Committee,IPSN,2019
