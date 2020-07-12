@@ -27,9 +27,8 @@ app.layout = html.Div([
                             value='ipsn'
                         ),
                         dcc.Graph(id = 'influential-tpc'),
-    
-                        html.Div(id='dd-output-container'),
-                    
+                        dcc.Graph(id = 'top-authors'),
+             
     
 ])
 
@@ -38,7 +37,9 @@ app.layout = html.Div([
     Output('influential-tpc', 'figure'),
     [Input('conf-selector', 'value')])
 
-
+@app.callback(
+    Output('top-authors', 'figure'),
+    [Input('conf-selector', 'value')])
 
 def update_figure(value):
     file_name = 'top_' + str(value) + '_tpc.csv'
@@ -67,6 +68,7 @@ def update_figure(value):
     
     fig = fig = px.bar(new_df, y = 'University/Organization', x ="No_of_times_as_TPC", hover_data = [], hover_name = 'Name',
                        title = 'Most Influential TPC Members')
+    fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(
     title_font_family="Times New Roman",
     title_font_color="blue",
@@ -75,6 +77,7 @@ def update_figure(value):
     
 
     return fig
+
 
 
 if __name__ == '__main__':
