@@ -1,0 +1,799 @@
+Name,University/Organization,No_of_times_as_TPC
+Arvind Krishnamurthy,University of Washington,6
+Sylvia Ratnasamy,University of California Berkeley,2
+Aditya Akella,University of Wisconsin,5
+Katerina Argyraki,EPFL,7
+Guido Appenzeller,Big Switch Networks,1
+Hitesh Ballani,Microsoft Research,3
+Paul Barford,University of Wisconsin,4
+Matt Caesar,University of Illinois,3
+Augustin Chaintreau,Columbia University,2
+Bruce Davie,VMware,2
+Christophe Diot,Technicolor,2
+Nandita Dukkipati,Google,6
+Rodrigo Fonseca,Brown University,1
+Nate Foster,Cornell University,4
+Ali Ghodsi,University of California Berkeley,1
+Paul Francis,Max Planck Institute,1
+Sharon Goldberg,Boston University,4
+Brighten Godfrey,University of Illinois,2
+Shyam Gollakota,University of Washington,2
+Saikat Guha,Microsoft Research,1
+Krishna Gummadi,Max Planck Institute,1
+Chuanxiong Guo,Microsoft Research,1
+Polly Huang,National Taiwan University,2
+Kyle Jamieson,University College London,6
+Brad Karp,University College London,9
+Ethan Katz-Bassett,University of Southern California,4
+Teemu Koponen,VMware,2
+Harsha Madhyastha,University of California Riverside,1
+Ratul Mahajan,Microsoft Research,9
+Nick McKeown,Stanford,8
+Michael Mitzenmacher,Harvard University,6
+Andrew Moore,University of Cambridge,2
+Robert Morris,Massachusetts Institute of Technology,7
+Jitendra Padhye,Microsoft Research,5
+Vivek Pai,Princeton University,3
+Dina Papagiannaki,Telefonica,1
+Kyoung Soo Park,KAIST,1
+Adrian Perrig,ETH Zurich,2
+Larry Peterson,Princeton University and ON.LAB,1
+Srinivasan Seshan,Carnegie Mellon University,9
+Vyas Sekar,Carnegie Mellon University,5
+Scott Shenker,University of California Berkeley and ICSI,1
+Alex Snoeren,University of California San Diego,6
+Neil Spring,University of Maryland,3
+Kun Tan,Microsoft Research,4
+Renata Teixeira,University Pierre et Marie Curie,1
+Amin Vahdat,Google and University of California San Diego,1
+Walter Willinger,Niksun,2
+John Wrocklawski,ISI,1
+Richard Yang,Yale University,2
+Xiaowei Yang,Duke University,3
+Minlan Yu,University of Southern California,3
+Ellen Zegura,Georgia Tech,4
+Yin Zhang,Austin,1
+Rene Cruz,University of California San Diego,2
+George Varghese,University of California San Diego,4
+Roch Guerin,UniversityPennsylvania,2
+Derek Mc Auley,Marconi Research Center,1
+Joe Touch,USC/ISI,2
+Geoff Voelker,University of California San Diego,3
+Ramesh Govindan,USC/ISI,1
+Dilip Kandlur,IBM T. J.Watson,1
+Chuck Kalmanek,AT&T Research,1
+Christos Papadopoulos,Univeristy of Southern California,1
+Hari Balakrishnan,Massachusetts Institute of Technology,6
+Derek McAuley,Cambridge,1
+Mark Allman,NASA/BBN,1
+Mostafa Ammar,Georgia Institute of Technology,3
+Tom Anderson,University Washington,2
+Mihir Bellare,University of California San Diego,1
+Ramon Caceres,Vindigo,1
+Andrew Campbell,Columbia University,1
+Lyman Chapin,BBN Technologies,1
+Jon Crowcroft,UCL,2
+Christophe Diot,Sprint,2
+Michalis Faloutsos,University of California Riverside,3
+Sally Floyd,ACIRI/ICSI,1
+Ramesh Govindan,ISI/USC,1
+Roch Guerin,University Pennsylvania,2
+Per Gunningberg,Uppsala University,4
+Balachander Krishnamurthy,AT&T,1
+J.Y. Leboudec,EPFL,2
+Ian Leslie,Cambridge University,2
+Bryan Lyles,Sprint,2
+Derek McAuley,Marconi Research Center,1
+Vern Paxson,ACIRI/ICSI,2
+Raju Rajan,AT&T,1
+K.K. Ramakrishnan,TeraOptic Networks,1
+Jennifer Rexford,AT&T,1
+Luigi Rizzo,University Pisa,2
+Jim Roberts,France Telecom,3
+Henning Schulzrine,Columbia University,2
+Jonathan Smith,University Pennsylvania,1
+Joe Touch,ISI/USC,1
+Don Towsley,University Massachusetts,2
+Ellen Zegura,Georgia Institute of Technology,8
+Jun Murai,Keio University,1
+Kenjiro Cho,IIJ,4
+Nina Taft,Intel Research,3
+Anja Feldmann,Deutsche Telekom Labs/TU-Berlin,2
+Paul Francis,Cornell University,1
+Hiroshi Esaki,University of Tokyo,1
+Craig Partridge,BBN Technologies,8
+Jelena Mirkovic,University of Delaware,1
+Ryuji Wakikawa,Keio University,1
+T.S. Eugene Ng,Rice University,2
+Katherine Guo,Bell Labs,1
+Guillaume Urvoy-Keller,Eurecom,1
+Sue Moon,KAIST,4
+Klaus Wehrle,RWTH Aachen,2
+Christophe Diot,Thomson Research,1
+Shigeya Suzuki,USC/ISI,1
+Jaudelice C. de Oliveira,Drexel University,3
+Sharad Agarwal,Microsoft - USA,1
+Aditya Akella,University of Wisconsin Madison,3
+Paul Barford,University of Wisconsin Madison,1
+Samrat Bhattacharjee,University of Maryland,1
+Chen-Nee Chuah,University of California Davis,2
+Patrick Crowley,Washington University in St. Louis,1
+Constantine Dovrolis,Georgia Institute of Technology,2
+Deborah Estrin,University of California Los Angeles,1
+Kevin Fall,Intel Research,1
+Kensuke Fukuda,National Institute of Informatics,1
+Albert Greenberg,Microsoft - USA,1
+Steve Gribble,University of Washington,1
+James Gross,TU Berlin,1
+Krishna Gummadi,Max Plank Institute for Software Systems,1
+John Heidemann,ISI,1
+Jean-Pierre Hubaux,EPFL,1
+Roger Karrer,Deutsche Telekom Laboratories,1
+Dina Katabi,Massachusetts Institute of Technology,10
+Dmitri Krioukov,CAIDA,1
+T.V. Lakshman,Bell Labs,1
+Legout,Arnaud,1
+Phil Levis,Stanford,2
+Steven Low,California Institute of Technology,3
+John C.S. Lui,Chinese University of Hong Kong,2
+Bruce Maggs,Carnegie Mellon University/Akamai Technologies,1
+David Maltz,Microsoft - USA,1
+Laurent Mathy,Lancaster University,6
+Pietro Michiardi,Eurecom,1
+Muthukrishnan Muthu,Google,1
+Venkat Padmanabhan,Microsoft - USA,1
+Christos Papadopoulos,Colorado State University,2
+Dina Papagiannaki,Intel Research,4
+Adrian Perrig,Carnegie Mellon University,3
+Bhaskar Raman,Indian Institute of Technology in Kanpur India,1
+Jennifer Rexford,Princeton University,3
+Matthew Roughan,University of Adelaide,4
+Stefan Savage,University of California San Diego,6
+Anees Shaikh,IBM TJ Watson Research Center,1
+Renata Teixeira,CNRS,2
+Fumio Teraoka,Keio University,1
+Patrick Thiran,EPFL,4
+Milan Vojnovic,Microsoft - England,1
+Kobus van der Merwe,AT&T,1
+David Wetherall,Intel Research & University of Washington,1
+Joerg Widmer,NTT DoCoMo Euro-Labs,1
+Walter Willinger,AT&T,1
+Qian Zhang,Hong Kong University of Science and Technology,1
+Yin Zhang,University of Texas Austin,6
+Yongguang Zhang,Microsoft Research Asia,1
+Zhi-Li Zhang,University of Minnesota,2
+David Andersen,Carnegie Mellon University,2
+Yan Chen,Northwestern University,1
+Cristian Estan,University of Wisconsin,2
+Nick Feamster,Georgia Institute of Technology,3
+Yih-Chun Hu,University of Illinois Urbana Champaign,1
+Aleksandar Kuzmanovic,Northwestern University,1
+Jinyang Li,New York University,2
+Z. Morley Mao,University of Michigan,5
+Lili Qiu,University of Texas Austin,6
+Sanjay Rao,Purdue University,1
+Sylvia Ratnasamy,Intel Research,3
+Dan Rubenstein,Columbia University,2
+Lakshminarayanan Subramanian,New York University,1
+Helen Wang,Microsoft Research,2
+Brad KarpUniversity College London,UK,1
+Jitendra PadhyeMicrosoft Research,USA,1
+Mohammad AlizadehMassachusetts Institute of Technology and Cisco,USA,1
+Katerina ArgyrakiEPFL,Switzerland,1
+Aruna Balasubramanian,Stony Brook University,1
+Sujata Banerjee,HP Labs,3
+Keren Bergman,Columbia University,1
+John Byers,Boston University,7
+Jeff Chase,Duke University,1
+Mung Chiang,Princeton University,1
+Jon Crowcroft,University of Cambridge,8
+Anja Feldmann,Technische University Berlin,1
+Bryan Ford,Yale University,1
+Lixin Gao,University of Massachusetts Amherst,2
+Srikanth Kandula,Microsoft Research,3
+Sachin Katti,Stanford,5
+John C.S.Lui,Chinese University of Hong Kong,1
+Dave Oran,Cisco,3
+George Papen,University of California San Diego ECE,1
+KyoungSoo Park,KAIST,3
+George Porter,University of California San Diego CSE,1
+Luigi Rizzo,Italy,1
+Ashutosh Sabharwal,Rice University,2
+Stefan Savage,University of California San Diego CSE,1
+Michael Schapira,Hebrew University,1
+Pramod Viswanath,University of Illinois Urbana Champaign,1
+Geoff Voelker,University of California San Diego CSE,1
+Michael Walfish,New York University,1
+Jia Wang,AT&T Research,1
+Philip Watts,University College London,2
+David Wetherall,Google and University of Washington,1
+Keith Winstein,Stanford,6
+Ming Zhang,Microsoft Research,1
+Lin Zhong,Rice University,1
+Roch Guerin,University of Pennsylvania,3
+Ramesh Govindan,University of Southern California,5
+Greg Minshall,Unaffiliated,1
+Joe Touch,USC/Information Sciences Institute,2
+Honghui Lu,University of Pennsylvania,1
+Saswati Sarkar,University of Pennsylvania,1
+Andreas Terzis,Johns Hopkins University,1
+Subhabrata Sen,AT&T Labs-Research,1
+Christos Papadopoulos,University of Southern California,2
+Debanjan Saha,IBM Research,1
+Steven Weber,Drexel University,1
+Dimitrios Stiliadis,Lucent,1
+Steve Bellovin,Columbia University,1
+RobertBraden,USC/ISI,1
+Eddie Kohler,University of California Los Angeles,3
+Kenjiro Cho,Internet Initiative,1
+Balachander Krishnamurthy,AT&T Labs-Research,2
+T.V. Lakshman,Lucent,1
+Bruce Davie,Cisco,2
+Bruce Maggs,Carnegie Mellon University,1
+Richard Draves,Microsoft Research,1
+Jeff Mogul,HP Labs,2
+Anja Feldmann,TU,1
+Peter Honeyman,University of Michigan,1
+Ion Stoica,University of California Berkeley,7
+Larry Huston,Intel Research,1
+Geoffrey M. Voelker,University of California San Diego,2
+Hui Zhang,Carnegie Mellon University,3
+John Wroclawski,Massachusetts Institute of Technology,1
+Sergey Gorinsky,IMDEA,1
+János Tapolcai,BME,1
+Tilman Wolf,University of Massachusetts,1
+Mark Handley,UCL,3
+Xiaoming Fu,GAU,1
+K. K. Ramakrishnan,University of California Riverside,3
+Marco Canini,KAUST,4
+Balázs Sonkoly,BME,1
+Aleksandar Kuzmanovic,Northwestern,1
+Matteo Varvello,AT&T,1
+Suresh Subramaniam,GWU,1
+Szabolcs Malomsoky,Ericsson,1
+Ruslan Smeliansky,MSU and ARCCN,1
+András Császár,Ericsson,1
+Ravi Kokku,IBM,1
+Costin Raiciu,UPB,2
+Marco Chiesa,KTH,1
+Zhi-Li Zhang,UMN,1
+Fernando Kuipers,TU Delft,1
+Gábor Rétvári,BME,1
+Vasileios Giotsas,Lancaster,1
+Zoltán Lázár,Nokia,1
+Levente Csikor,Hungary and Unicamp,1
+István Gódor,Ericsson,1
+Zalán Heszberger,BME,1
+Michael Schapira,HUJI,2
+Stefan Schmid,Univie,1
+Joseph Tardo,tardo,1
+Christina Vlachou,HPE,1
+Antonio Fernandez Anta,IMDEA,1
+Jasleen Kaur,UNC,1
+Ignacio Castro,QMUL,1
+Pin-Han Ho,UWaterloo,1
+Henry Xu,CityU,1
+Bruce Maggs,Duke and Akamai,1
+Justine Sherry,CMU,2
+Steve Uhlig,QMUL,1
+Fadel Adib,Massachusetts Institute of Technology,2
+Aditya Akella,Wisconsin,1
+Mohammad Alizadeh,Massachusetts Institute of Technology,3
+David Andersen,CMU,1
+Hitesh Ballani,Microsoft,2
+Sujata Banerjee,VMware,2
+o Benson,Brown,1
+Olivier Bonaventure,UCL,1
+Martin Casado,A16Z,1
+Ranveer Chandra,Microsoft,1
+Romit Roy Choudhury,University of Illinois Urbana Champaign,1
+Mosharaf Chowdhury,UMich,2
+Nate Foster,Cornell,1
+Deepak Ganesan,University of Massachusetts,1
+Brighten Godfrey,University of Illinois Urbana Champaign,1
+Marco Gruteser,Rutgers,1
+Haitham Hassanieh,University of Illinois Urbana Champaign,2
+Kyle Jamieson,Princeton,1
+Srikanth Kandula,Microsoft,2
+Changhoon Kim,Barefoot,1
+Eddie Kohler,Harvard,1
+Arvind Krishnamurthy,UW,1
+Kate Lin,NCTU,1
+Ratul Mahajan,Intentionet,1
+James Mickens,Harvard,1
+Dina Papagiannaki,Google,2
+Adrian Perrig,ETH,1
+Lili Qiu,UT,1
+Aaron Schulman,UCSD,1
+Srinivasan Seshan,CMU,1
+Ion Stoica,Berkeley,1
+Renata Teixeira,Inria,2
+Amin Vahdat,Google,2
+Laurent Vanbever,ETH,1
+Stefano Vissicchio,UCL,1
+Walter Willinger,NIKSUN,4
+Hongyi Zeng,Facebook,1
+Ming Zhang,Alibaba,2
+Yibo Zhu,Microsoft,1
+Stephen Pink,University of Arizona,1
+Christophe Diot,Sprint ATL,1
+Jim Kurose,University of Massachusetts,3
+Joe Touch,USC/Information Science Institute,1
+Bengt Ahlgren,Swedish Institute of Computer Science,1
+Christian Tschudin,Uppsala University,1
+Christophe Diot,CA,1
+Jim Kurose,MA,1
+Lee Breslau,AT&T,1
+Simon Crosby,University Cambridge,1
+Julio Escobar,Centauri,1
+Deborah Estrin,University of Southern California,1
+Mark Handley,ACIRI/ICSI,1
+Jim Kurose,University Massachusetts,1
+T.V. Laksman,Lucent,1
+Simon Lam,University Texas,1
+Derek McAuley,Microsoft Research,1
+Erich Nahum,IBM,1
+Guru Parulkar,Growth Networks,1
+Radia Perlman,Sun,1
+KK Ramakrishnan,AT&T,1
+Keith Ross,Eurecom,1
+Krishan Sabnani,Lucent,1
+Doug Schmidt,Washington University,1
+Aruna Seneviratne,University New South Wales,1
+Scott Shenker,ACIRI/ICSI,1
+David Wetherall,University Washington,1
+Lixia Zhang,University of California Los Angeles,2
+Peter Steenkiste,Carnegie Mellon University,4
+Matt Mathis,Pittsburgh Supercomputing Center,1
+Vern Paxson,ICIR,2
+Vivian Benton,Pittsburgh Supercomputing Center,1
+Janet Brown,Pittsburgh Supercomputing Center,1
+Karen Sollins,Massachusetts Institute of Technology,1
+Tom Anderson,University of Washington,5
+Hari Balakrishan,Massachusetts Institute of Technology,1
+Steve Bellovin,AT&T Labs - Research,1
+Dave Clark,Massachusetts Institute of Technology,1
+Mark Crovella,Boston University and Network Appliance,1
+Jon Crowcroft,Cambridge University,2
+Peter Druschel,Rice University,1
+Anja Feldmann,University of Saarbruecken,1
+Matt Grossglauser,AT&T Labs - Research,1
+Craig Labovitz,Arbor Networks,2
+Greg Minshall,Redback Networks,1
+Jennifer Rexford,AT&T Labs - Research,1
+Jim Roberts,France Telecomm,1
+Scott Shenker,ICIR,1
+George Varghese,Univerisity of California San Diego,1
+David Wetherall,University of Washington,3
+Pablo Rodriguez,Telefonica Research,4
+Ernst Biersack,Eurecom,1
+Konstantina  Papagiannaki,Intel Labs Pittsburgh,1
+Luigi Rizzo,Università di Pisa,3
+Christophe Diot,Thomson,4
+Dolors Sala,Universitat Pompeu Fabra,1
+Jaudelice de Oliveira,Drexel University,3
+Ant Rowstron,Microsoft Research,1
+Joel Sommers,Colgate University,2
+Nick Feamster,Georgia Tech,2
+Renata Teixeira,CNRS and UPMC,3
+Jordi Domingo,Universitat Politècnica de Catalunya,1
+University of California Irvine,USA,1
+Dejan Kostic,EPFL,1
+Serge Fdida,Lip6,1
+Susanna Avessta,DIMES Association,1
+Javier Aracil,Universidad Autónoma de Madrid,1
+Moritz Steiner,Bell-Labs / Alcatel-Lucent,1
+Suman Banerjee,Madison,1
+Ranjita Bhagwan,Microsoft Research India,1
+Augustin Chaintreau,Thomson,2
+Ranveer Chandra,Microsoft Research,2
+Dah Ming Chiu,Chinese University of Hong Kong,2
+Saumitra Das,Qualcomm Inc.,1
+Anja Feldmann,Deutsche Telekom Laboratories / TU-Berlin,1
+Krishna Gummadi,MPI-SWS,4
+Gianluca Iannaccone,Intel Research Berkeley,1
+Thomas Karagiannis,Microsoft Research,2
+S. Keshav,University of Waterloo,3
+Eddie Kohler,Inc. / UCLA,1
+Dmitri Krioukov,CAIDA/UCSD San Diego,1
+Sam Leffler,Unaffiliated,1
+David Malone,NUI Maynooth,1
+David Maltz,Microsoft Research,1
+Morley Mao,University of Michigan,1
+David Mazieres,Stanford,1
+Marco Mellia,Politecnico di Torino,1
+Refik Molva,EURECOM,1
+Himabindu Pucha,Almaden,2
+Bhaskaran Raman,IIT Bombay,5
+Jen Rexford,Princeton University,1
+Stefan Saroiu,Microsoft Research,2
+Giovanni Stea,University of Pisa,1
+Karthikeyan Sundaresan,NEC Laboratories America,1
+Nina Taft,Intel Research Berkeley,1
+Leandros Tassiulas,University of ssaly,1
+Jon Turner,Washington University,4
+Darryl Veitch,University of Melbourne,1
+Jia Wang,AT&T Labs - Research,1
+Amgad Zeitoun,Inc.,1
+Krishna Gummadi,MPI,1
+Farnam Jahanian,UMich,1
+Ramana Kompella,Purdue,1
+Martin May,Thomson,1
+Rob Sherwood,T-Labs,1
+Venkat Padmanabhan,Microsoft Research,5
+George Varghese,UCSD,1
+Virgilio Almeida,UFMG,1
+Mostafa Ammar,Georgia Tech,1
+Fabián E. Bustamante,Northwestern University,1
+Krishna Chintalapudi,Microsoft Research India,1
+Romit Roy Choudhury,Duke University,1
+Mark Crovella,Boston University,4
+Bruce Davie,Nicira Networks,1
+Jeff Dean,Google,1
+Kevin Fall,Qualcomm,1
+Nick Feamster,University of Maryland,1
+Sergey Gorinsky,Institute IMDEA Networks,1
+Ramana Kompella,Purdue University,1
+Craig Labovitz,Deep Field Networks,1
+T. V. Lakshman,Alcatel-Lucent,1
+Kirill Levchenko,University of California San Diego,1
+Dave Levin,HP Labs,1
+Bruce Maggs,Duke University and Akamai Technologies,1
+Ratul Mahajan,Microsoft Research Redmond,1
+Dave Maltz,Microsoft,1
+University of Michigan,USA,1
+Mike Mitzenmacher,Harvard University,1
+Craig Partridge,Raytheon BBN Technologies,1
+Lili Qiu,UT Austin,2
+K. K. Ramakrishnan,AT&T Labs Research,1
+Ant Rowstron,Microsoft Research Cambridge,1
+Hovav Shacham,University of California San Diego,1
+Emin Gün Sirer,Cornell University,4
+Lakshmi Subramanian,New York University,2
+Renata Teixeira,CNRS and UMPC Sorbonne Universities,1
+Kobus Van der Merwe,AT&T Labs - Research,1
+Haifeng Yu,National University of Singapore,3
+Raj Yavatkar,Intel Corporation,1
+Jennifer Rexford,AT&T Labs -- Research,1
+Joe Touch,University of Southern California,1
+Chris Edmondson-Yurkanan,University of Texas Austin,1
+Christophe Diot,Intel Corporation,1
+Harrick Vin,University of Texas Austin,1
+Prashant Shenoy,University of Massachusetts Amherst,2
+Tilman Wolf,University of Massachusetts Amherst,1
+Allyn Romanow,Cisco Systems,1
+Marcel Waldvogel,IBM Research,1
+Wu-chang Feng,OGI School of Engineering,1
+Bobby Bhattacharjee,University of Maryland,1
+Ken Calvert,University of Kentucky,2
+Constantinos Dovrolis,Georgia  Institute of Technology,1
+Anja Feldmann,Technical University of Munich,1
+Lixin Gao,University of Massachusetts-Amherst,1
+Jorg Leibeherr,University of Virginia,1
+Jay Lepreau,University of Utah,1
+Steve McCanne,Riverbed Technology,1
+Vern Paxson,ICSI Center for Internet Research,1
+Antony Rowstron,Microsoft Corporation,1
+Srini Seshan,Carnegie Mellon University,3
+Alex Snoeren,University of California at San Diego,1
+R. Srikant,University of Illinois Urbana Champaign,1
+Ion Stoica,University of California at Berkeley,1
+Nina Taft,Intel Corporation,1
+Yin Zhang,AT&T Research,1
+Zhi-li Zhang,University of Minnesota,1
+Victor Bahl,Microsoft Research,1
+David Wetherall,Intel / University of Washington,2
+Suman Banerjee,University of Wisconsin at Madison,2
+Kenjiro Cho,IIJ Research Laboratory,2
+Karen R. Sollins,Massachusetts Institute of Technology,1
+C. de Oliveira,Drexel University,1
+Tristan Henderson,University of St Andrews,2
+Dave Andersen,Carnegie Mellon University,1
+Flavio Bonomi,Cisco,1
+Peter Druschel,MPI-SWS,1
+Anja Feldmann,T-Labs,1
+Paul Francis,Cornell,1
+Albert Greenberg,Microsoft Research,1
+John Lockwood,Stanford,1
+Allison Mankin,National Science Foundation,1
+Greg Minshall,University of Washington,1
+Eugene Ng,Rice University,1
+Niels Provos,Google,2
+Sanjoy Rao,Purdue University,1
+Michael Reiter,UNC,1
+Luigi Rizzo,Universita di Pisa,1
+Dawn Song,University of California Berkeley,1
+Klaus Wehrle,Aachen University,1
+Xiaowei Yang,University of California Irvine,1
+Y. Richard Yang,Yale University,1
+Konstantina Papagiannaki,Intel Research,1
+Kevin Almeroth,UC Santa Barbara,1
+Michaelis Faloutsos,University of California Riverside,1
+Christos Gkantsidis,Microsoft Research,1
+Ben Greenstein,Intel Research,1
+David Malone,Hamilton Institute,1
+Pablo Rodriguez,Telefonica,2
+Stefan Saroiu,University of Toronto,1
+Ivan Seskar,WINLAB,1
+Ross Anderson,University of Cambridge,1
+David Clark,Massachusetts Institute of Technology,2
+Christophe Diot,Intel Cambridge Research Lab,1
+David Hutchison,Lancaster University,1
+Sugih Jamin,University of Michigan,1
+Frans Kaashoek,Massachusetts Institute of Technology,1
+Randy Katz,University of California Berkeley,1
+Steven McCanne,NBT Technologies,1
+Greg Minshall,unaffiliated,1
+Balaji Prabhakar,Stanford,2
+Antony Rowstron,Microsoft Research,2
+Joe Sventek,Agilent Technologies,1
+David Tennenhouse,Intel Research,1
+Jon Turner,Washinton University,1
+Ian Wakeman,University of Sussex,1
+Jennifer Yates,AT&T Labs-Research,1
+Hui Zhang,Turin Networks and CMU,1
+Jianping Wu,Tsinghua University,1
+Wendy Hall,University of Southampton,1
+Yong Cui,Tsinghua University,1
+Xiangyang Li,USTC,1
+John Heidemann,USC/ISI,2
+Lixin Gao,University of Massachusetts,2
+Srinivasan Keshav,University of Waterloo,2
+Lixia Zhang,UCLA,1
+Xiaoming Fu,University of Goettingen,1
+Zhili Zhang,University of Minnesota,1
+Gaogang Xie,ICT,1
+Kai Chen,HKUST,2
+Jörg Ott,Technical University of Munich,1
+Mingwei Xu,Tsinghua University,1
+Wei Bai,Microsoft Research,1
+Wenfei Wu,Tsinghua University,1
+Xia Yin,Tsinghua University,1
+Xiaochun Yun,CNCERT,1
+Deke Guo,NUDT,1
+Chenren Xu,Peking University,1
+Ke Xu,Tsinghua University,1
+Xiuzhen Cheng,George Washington University,1
+Paolo Costa,Microsoft Research,1
+Yanyong Zhang,USTC,1
+Lan Wang,University of Memphis,2
+Hongqiang Liu,Alibaba,1
+Hongbin Luo,BUAA,1
+Sheng Zhong,Nanjing University,1
+Yongqiang Xiong,Microsoft Research,1
+Xin Jin,Johns Hopkins University,1
+Huadong Ma,BUPT,1
+Dan Wang,Hong Kong Polytechnic University,1
+Timothy Wood,George Washington University,1
+Junzhou Luo,Southeast University,1
+Kui Ren,Zhejiang University,1
+Kun Tan,Huawei,2
+Jiangchuan Liu,Simon Fraser University,1
+Steve Uhlig,University of London,1
+Omid Abari,Waterloo,1
+Aditya Akella,UWM,1
+Mark Allman,ICSI,1
+Aruna Balasubramanian,Stony Brook,1
+Paul Barford,UWisc,1
+ophilus Benson,Brown University,1
+Nathan Bronson,Facebook,1
+Lars Eggert,NetApp,2
+Kensuke Fukuda,NII,1
+Manya Ghobadi,Massachusetts Institute of Technology,1
+Phillipa Gill,University of Massachusetts Amherst,1
+Dongsu Han,KAIST,1
+Polly Huang,Nanyang Technological University,1
+Te-yuan Huang,Netflix,1
+Kyle Jamieson,Princeton University,1
+Keon Jang,MPI-SWS/Google,1
+Mobin Javed,LUMS,1
+Sanjay Jha,University New South Wales,1
+Junchen Jiang,University Chicago,1
+Ethan Katz-Bassett,Columbia,1
+Ali Khayam,Amazon,1
+Dejan Kostic,KTH Royal Institute of Technology,1
+Nikos Laoutaris,IMDEA Networks Institute,1
+Simon Leinen,SWITCH,1
+Dan Li,Tsinghua,1
+Mike Liang,Microsoft Research,1
+Bruce Maggs,Duke/Akamai,1
+Radhika Mittal,University of Illinois Urbana Champaign/Massachusetts Institute of Technology,1
+Michael Mitzenmacher,Harvard,1
+Srinivas Narayana,Rutgers,1
+Aurojit Panda,New York University,1
+Zafar Ayyub Qazi,LUMS,1
+Reza Rejaie,University Oregon,1
+Philipp Richter,Massachusetts Institute of Technology,1
+Michael Schapira,Hebrew University of Jerusalem,2
+Ricardo Schmidt,University Passo Fundo,1
+Justine Sherry,Carnegie Mellon University,3
+Ankit Singla,ETH Zurich,3
+Anirudh Sivaraman,New York University,1
+Alex C. Snoeren,University of California San Diego,3
+Robert Soulé,Università della Svizzera italiana,1
+Laurent Vanbever,ETH Zurich,2
+Minlan Yu,Harvard,1
+Ben Zhao,University Chicago,1
+Giovanni Stea,Università di Pisa,1
+Gianluca Iannaccone,Intel Research Cambridge,2
+Serge Fdida,University Paris,1
+Marco Conti,IIT-CNR,1
+Chris Edmondson-Yurkannan,University of Texas Austin,1
+Dan Blumenthal,University of California,1
+Flavio Bonomi,Cisco Systems,1
+John Chuang,University of California Berkeley,1
+Bruce Davie,Cisco Systems,1
+Peter Druschel,MPI for Software Systems,1
+Anja Feldmann,Technical University Muenchen,1
+Albert Greenberg,ATT Labs Research,1
+Mark Handley,University College London,3
+Ramesh Johari,Stanford,2
+Jim Kurose,University of Massachusetts Amherst,1
+Arnaud Legout,INRIA,1
+Vishal Misra,Columbia University,3
+Dave Oran,Cisco Systems,1
+Vern Paxson,International Computer Science Institute,1
+Scott Shenker,University of California Berkeley,3
+George Varghese,University of California,1
+Arun Venkataramani,University of Massachusetts Amherst,1
+Paulo Verissimo,University of Lisboa,1
+Walter Willinger,AT&T Labs-Research,1
+Amin Vahdat,UCSD and Google,1
+Suman Banerjee,University of Wisconsin Madison,2
+o Benson,Duke University,2
+Ranjita Bhagwan,Microsoft,1
+Fabián Bustamante,Northwestern University,1
+Nick Feamster,Princeton University,1
+Deepak Ganesan,University of Massachusetts Amherst,1
+Yashar Ganjali,University of Toronto,4
+Phillipa Gill,Stony Broook University,1
+Sergey Gorisnky,IMDEA Networks Institute,1
+Teemu Koponen,VMWare,1
+Swarun Kumar,Carnegie Mellon University,1
+Alex Liu,Michigan State University,1
+Harsha Madhyastha,University of Michigan,1
+Bruce Maggs,Duke University,1
+Ratul Mahajan,Microsoft,1
+Jeff Mogul,Google,1
+Radhika Niranjan Mysore,Google,1
+Venkat Padmanabhan,Microsoft,1
+George Papen,University of California San Diego,2
+Joshua Smith,University of Washington,1
+Pramod Vishwanath,University of Illinois Urbana-Champaign,1
+David Wetherall,Google & University of Washington,1
+Matei Zaharia,Massachusetts Institute of Technology,1
+Ming Zhang,Alibaba Group,2
+Jörg Liebeherr,University of Toronto,1
+Jeffrey Mogul,HP Labs,2
+Martin Karsten,University of Waterloo,1
+Aditya Akella,University of Wisconsin-Madison,1
+Stratis Ioannidis,Technicolor,1
+Nicolas Christin,Carnegie Mellon University,1
+Arun Venkataramani,University of Massachusetts,1
+Giorgio Ventre,University of Napoli,1
+Georgios Smaragdakis,Deutsche Telekom Labs & TU Berlin,1
+Constantinos Dovrolis,Georgia Tech,1
+Will Eatherton,Juniper Networks,1
+Michael Freedman,Princeton University,1
+Matthias Grossglauser,EPFL,1
+John Heidemann,USC/Information Sciences Institute,2
+Sachin KattiStanford,University,1
+Balachander Krishnamurthy,AT&T Labs - Research,1
+Nikolaos Laoutaris,Telefonica Research,2
+David Oran,Cisco,2
+Byrav Ramamurthy,University of Nebraska-Lincoln,1
+Danny Raz,Technion,1
+Scott RixnerRice,University,1
+Timothy Roscoe,ETH Zurich,1
+Mema Roussopoulos,University of Athens,1
+Devavrat Shah,Massachusetts Institute of Technology,1
+Vijay Sivaraman,University of New South Wales,1
+Amin Vahdat,Google / University of California San Diego,1
+Gordon Wilfong,Bell Labs Research,1
+Walter Willinger,AT&T Labs - Research,2
+Alec Wolman,Microsoft Research,1
+Yinglian Xie,Microsoft Research,1
+Yongguang Zhang,Microsoft Research,1
+Heather Zheng,University of California Santa Barbara,1
+Shivkumar Kalyanaraman,IBM Research,1
+K.K. Ramakrishnan,AT&T Labs Research,2
+Rajeev Shorey,NIIT University,1
+Geoffrey M. Voelker,San Diego,1
+Vinay Ribeiro,IIT Delhi,1
+Sudipta Maitra,IBM Daksh,1
+Jim Kurose,Amherst,1
+Ranjita Bhagwan,Microsoft Research,2
+Neil Spring,College Park,1
+Kevin Almeroth,Santa Barbara,1
+Huzur Saran,IIT Delhi,1
+Aaditeshwar Seth,IIT Delhi,1
+Sergey Gorinsky,Madrid Institute for Advanced Studies in Networks (IMDEA Networks),1
+Carla-Fabiana Chiasserini,Politecnico di Torino,1
+Krishna Sivalingam,IIT Madras,1
+Partha Dutta,IBM Research,1
+B.N. Jain,IIT Delhi,1
+Anurag Kumar,Bangalore,1
+K.K. Ramakrishnan,AT&T Labs - Research,1
+Kevin Almeroth,University of California Santa Barbara,1
+Ramon Caceres,AT&T Labs - Research,1
+Reuven Cohen,Technion,1
+Cristian Estan,NetLogic Microsystem,1
+Timothy G. Griffin,University of Cambridge,1
+Chuanxiong Guo,Microsoft Research Asia,1
+Kevin Jeffay,University of North Carolina,1
+Murali Kodialam,Bell Labs,1
+Srikanth Krishnamurthy,University of California Riverside,1
+Joy Kuri,Indian Institute of Science,1
+Cristina Nita-Rotaru,Purdue University,1
+Jitendra Padhye,Microsoft Research Redmond,1
+Ram Ramjee,Microsoft Research,1
+Antony Rowstron,Microsoft Research Cambridge,1
+Aman Shaikh,AT&T Labs - Research,1
+Renata Teixeira,LIP6 / CNRS,1
+Don Towsley,University of Massachusetts Amherst,1
+Amin Vahdat,University of California San Diego,1
+Anwar Walid,Bell Labs,1
+Matt Welsh,Harvard University,1
+Yinglian Xie,Microsoft Research SVC,1
+Miguel Castro,Microsoft Research Cambridge,1
+Paul Congdon,HP Labs,1
+Tadayoshi Kohno,University of Washington,1
+Amy Reibman,AT&T Labs Research,1
+Elizabeth Belding,University of California-Santa Barbara,1
+Sonia Fahmy,Purdue University,1
+Shyamnath Gollakota,University of Washington,1
+Tim Griffin,University of Cambridge,1
+David Levin,University of Maryland,1
+Olaf Maennel,Loughborough University,1
+David Oran,Cisco Systems,1
+Jitu Padhye,Microsoft Research,1
+Vyas Sekar,Stony Brook University,1
+Georgios Smaragdakis,Deutsche Telekom Labs/TU Berlin,1
+Ion Stoica,University of California-Berkely,1
+Nina Taft,Technicolor Palo Alto,1
+Amin Vahdat,Google/University of California San Diego,1
+Walter Willinger,AT&T Labs Research,1
+Peter Reiher,University of California Los Angeles,1
+Bharathan Balaji,University of California Los Angeles,1
+Fahad Dogar,Tufts University,1
+Sergey Gorinsky,IMDEA Networks Institute,1
+Alex Afanasyev,Florida International University,2
+Mayutan Arumaithurai,University of Goettingen,1
+Dan Li,Tsinghua University,1
+Jiasi Chen,University of California Riverside,1
+Hamed Haddadi,Queen Mary University of London,1
+Minlan Yu,Yale University,2
+David Oran,,1
+Bruce Maggs,Duke Univeristy / Akamai Technologies,1
+Radhika Niranjan Mysore,VMware Research,1
+Matthias Wählisch,Freie Universität Berlin,1
+Jeff Burke,University of California Los Angeles,1
+Nicholas Zhang,Huawei,1
+David Meyer,Brocade,1
+Puneet Sharma,Hewlett Packard Labs,1
+Giovanni Pau,Paris,1
+Vahab Pournaghshband,California State University,1
+John W. Byers,Boston University,1
+David Choffnes,Northeastern University,1
+Mosharaf Chowdhury,University of Michigan,1
+Rubén Cuevas,Universidad Carlos III de Madrid,1
+Italo Cunha,UFMG,1
+Xenofontas Dimitropoulos,University of Crete & FORTH,1
+Monia Ghobadi,Microsoft Research,1
+Phillipa Gill,University of Massachusetts - Amherst,1
+Arjun Guha,University of Massachusetts - Amherst,1
+Andreas Haeberlen,University of Pennsylvania,1
+Changhoon Kim,Barefoot Networks,1
+Teemu Koponen,Styra,1
+Nikolaos Laoutaris,Telefonica,1
+Olaf Maennel,Tallinn University of Technology,1
+Venkat Padmanabhan,Microsoft Research India,1
+Barath Raghavan,ICSI,1
+George Varghese,University of California Los Angeles,1
+James Hongyi Zeng,Facebook,1
+David G. Anderson,Carnegie Mellon University,1
+Pat Bosshard,Barefoot Networks,1
+Petr Kuznetsov,Telecom ParisTech,1
+James Larus,EPFL,1
+Raluca Ada Popa,Berkeley,1
+Darryl Veitch,University of Technology Sydney,1
