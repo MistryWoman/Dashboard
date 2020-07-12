@@ -1,0 +1,516 @@
+Name,University/Organization,No_of_times_as_TPC
+Bill Kaiser,University of California Los Angeles,4
+Sam Madden,Massachusetts Institute of Technology,3
+Subhash Suri,University of California Santa Barbara,4
+Jie Liu,Microsoft Research,7
+Andreas Savvides,Yale,5
+Andreas Terzis,Johns Hopkins University,9
+Ralph Kling,Crossbow,6
+Kamin Whitehouse,University of Virginia,14
+Tarek Abdelzaher,University of Illinois Urbana Champaign,16
+Jie Gao,Stony Brook University,8
+Ying Zhang,PARC,3
+Chris Gill and Chenyang Lu,Washington University in St. Louis,1
+Feng Zhao,Microsoft Research,7
+Deborah Estrin,University of California Los Angeles,11
+Leo Guibas,Stanford,11
+P.R. Kumar,University of Illinois Urbana Champaign,4
+Sri Kumar,BAE Systems,3
+Jose Moura,Carnegie Mellon University,4
+John Stankovic,University of Virginia,9
+Janos Sztipanovits,Vanderbilt University,12
+Gustavo Alonso,ETH Zurich,1
+Anish Arora,Ohio State,1
+Richard Baraniuk,Rice University,2
+Philippe Bonnet,University of Copenhagen,1
+Andrew Campbell,Columbia University,1
+Mark Coates,McGill,1
+David Culler,University of California Berkeley,5
+Amol Deshpande,Maryland,1
+Hugh Durrant-Whyte,University of Sydney,2
+Stefan Funke,Max Planck,1
+Michael Gastpar,University of California Berkeley,5
+Phil Gibbons,Intel,2
+Uwe Hanebeck,Karlsruhe,1
+John Heideman,University of Southern California,1
+Volkan Isler,RPI,1
+Phil Levis,Stanford,5
+Upamanyu Madhow,University of California Santa Barbara,1
+Thomas Moscibroda,Microsoft Research,2
+Randy Moses,Ohio State,1
+Suman Nath,Microsoft Research,8
+Peng Ning,North Carolina State University,1
+Radha Poovendran,University of Washington,3
+Christian Scheideler,Johns Hopkins University,1
+Steven Wicker,Cornell,1
+Peter Widmayer,ETH Zurich,1
+Andreas Andreou,Johns Hopkins University,3
+Gaetano Borriello,University of Washington,1
+Peter Corke,CSIRO Australia,1
+Adam Dunkels,Swedish Institute of Computer Science,5
+Ben Greenstein,Intel,1
+Rajesh Gupta,University of California San Diego,5
+Koen Langendoen,TU Delft,10
+Akos Ledeczi,Vanderbilt University,7
+Lama Nachman,Intel,2
+Joe Paradiso,Massachusetts Institute of Technology,3
+Bodhi Priyantha,Microsoft Research,3
+Vijay Raghunathan,Purdue,3
+Wayne Wolf,Princeton,1
+Kazuo Yano,Hitachi,1
+Guoliang Xing,Michigan State University,4
+Niki Trigoni,University of Oxford,3
+Lu Su,SUNY Buffalo,1
+Tian He,University of Minnesota,8
+Xiaofan,Columbia University,2
+Thiemo Voigt,"SICS, Sweden",2
+Dimitrios Lymberopoulos,Microsoft Research,5
+JeongGil Ko,Ajou University,1
+Yuanqing Zheng,Hong Kong Polytechnic University,1
+Luca Mottola,"Politecnico di Milano, Italy",1
+Octav Chipara,University of Iowa,1
+Nirupama Bulusu,Portland State University,4
+Utz Roedig,University of Lancaster,2
+Mário Alves,"Polytechnic Institute of Porto, Portugal",1
+Tamer Nadeem,Old Dominion University,1
+Yanmin Zhu,Shanghai Jiao Tong University,1
+Alberto Cerpa,University of California Merced,3
+Karthik Dantu,University at Buffalo,1
+Omprakash Gnawali,University of Houston,8
+Magnus Halldorsson,Reykjavik University,1
+Wei Hong,Nest Labs,1
+Wen Hu,"University of New South Wales, and NICTA",1
+Polly Huang,National Taiwan University,5
+Andreas Krause,ETH Zurich,1
+Bhaskar Krishnamachari,University of Southern California,10
+Dimitrios Lymperopoulos,Microsoft Research,1
+Andrew Markham,University of Oxford,3
+Florian Michahelles,Siemens USA,1
+Luca Mottola,"Politecnico di Milano, Italy and SICS Swedish ICT",1
+Shahriar Nirjon,University of North Carolina at Chapel Hill,1
+Neal Patwari,University of Utah,5
+Vijay Raghunathan,Purdue University,4
+Kay Roemer,Graz University of Technology,1
+Alex Rogers,University of Southampton,1
+Anthony Rowe,Carnegie Mellon University,6
+Junehwa Song,Korea Advanced Institute of Science and Technology,1
+Jack Stankovic,University of Virginia,4
+Roger Wattenhofer,ETH Zurich,3
+Pei Zhang,Carnegie Mellon University,7
+Marco Zuniga,TU Delft,4
+Adam Wolisz,"TU Berlin, Germany",1
+Jie Liu,"Microsoft Research, USA",2
+Lin Zhong,Rice University,3
+Vlado Handziski,"TU Berlin, Germany",1
+Roozbeh Jafari,"University of Texas at Dallas, USA",1
+Tommaso Melodia,"SUNY at Buffalo, USA",1
+Andreas Willig,"University of Canterbury, New Zealand",1
+Rahul Mangharam,"University of Pennsylvania, USA",1
+Silvia Santini,"TU Darmstadt, Germany",1
+Mohammed Shoaib,"Microsoft Research, USA",1
+Li Cui,"ICT CAS, China",1
+Anna Foerster,"SUPSI Lugano, Switzerland",1
+Heitor Ramos,"Universidade Federal de Alagoas, Brazil",1
+Shaojie Tang,"Temple University, USA",1
+Falko Dressler,"University of Innsbruck, Austria",1
+Feng Zhao (Chair),"Microsoft Research, China",1
+Leonidas Guibas,Stanford,1
+William Kaiser,University of California Los Angeles,2
+P.R. Kumar,"Texas A&M University, USA",1
+Jack Stankovic,"University of Virginia, USA",1
+Janos Sztipanovits,"Vanderbilt University, USA",1
+Yuvraj Agarwal,Carnegie Mellon University,3
+Marco Duarte,"UMass-Amherst, USA",1
+Jie Gao,"Stony Brook University, USA",1
+Omprakash Gnawali,"University of Houston, USA",1
+James Gross,"KTH, Sweden",1
+Tian He,"University of Minnesota, USA",1
+Wen Hu,"CSIRO, Australia",2
+Xenofon Koutsoukos,"Vanderbilt University, USA",1
+Antonio Loureiro,"UFMG, Brazil",1
+Luca Mottola,"Swedish Institute of Computer Science, Sweden",1
+Suman Nath,"Microsoft Research, USA",1
+Bodhi Priyantha,"Microsoft Research, USA",2
+Vijay Raghunathan,"Purdue University, USA",1
+Ali H. Sayed,University of California Los Angeles,1
+Jacky Shen,"Microsoft Research Asia, China",1
+Junehwa Song,"KAIST, Korea",1
+John Stankovic,"University of Virginia, USA",1
+Niki Trigoni,"Oxford University, UK",1
+Guoliang Xing,"Michigan State University, USA",1
+Yanyong Zhang,"Rutgers University, USA",1
+Luca Mottola,Politecnico di Milan,1
+Marco Zimmerling,TU Dresden,1
+Juhi Ranjan,"IIID, India",1
+Kai Li,"CISTER - ISEP/IPP, Portugal",1
+Olga Saukh,TU Graz / CSH Vienna,1
+Dimistrios Lymberopoulo,Microsoft,1
+Naveed Anwar Bhatti,Politecnico di Milano,1
+Yuan He,Tsinghua University,1
+Muhammad Hamad Alizai,"LUMS, Pakistan",2
+Wen Hu ,UNSW and CSIRO,2
+Gian Pietro Picco ,University of Trento,1
+Tam Vu ,University of Colorado,1
+Rasit Eskicioglu,University of Manitoba,2
+Luca Mottola,Politecnico di Milan and RISE SICS,1
+Ambuj Varshney,Uppsala University,1
+Amit Levy,Princeton University,1
+Naveen Anwar Bhatti,RISE SICS,1
+Matteo Ceriotti,University of Duisburg-Essen,1
+Hamed Yousefi,University of Michigan,1
+Shijia Pan,Carnegie Mellon University,1
+Vijay S. Rao,TU Delft,1
+Amy Murphy ,Bruno Kessler Foundation,1
+Anthony Rowe ,Carnegie Mellon University,1
+Chenren Xu ,Peking University,1
+Guoliang Xing ,Michigan State University,1
+Hae Young Noh ,Carnegie Mellon University,1
+Hamad Alizai ,LUMS,1
+Jeremy Gummeson ,University of Massachusetts Amherst,1
+Jie Gao ,Stony Brook University,1
+Jie Liu ,Microsoft Research,1
+Koen Langendoen ,TU Delft,1
+Krishna Chintalapudi ,Microsoft,1
+Lothar Thiele ,ETH Zurich,1
+Matteo Cesana ,Politecnico di Milano,1
+Marco Zimmerling ,TU Dresden,1
+Niki Trigoni ,"Oxford University, UK",1
+Neal Patwari ,University of Utah,1
+Olga Saukh ,TU Graz ,1
+Omprakash Gnawali ,University of Houston,1
+Pei Zhang ,Carnegie Mellon University,1
+Rui Tan ,Nanyang Technological University,1
+Sourav Bhattacharya ,Bell Lab,1
+Thiemo Voigt ,RISE SICS,1
+Yiran Chen ,Duke University,1
+Youngki Lee ,Seoul National University,1
+Yuan He ,Tsinghua University,1
+Yung Hsiang Lu ,Purdue University,1
+Andreas Savvides,Yale University,6
+Adam Wolisz,TU Berlin,4
+Gang Zhou,College of William & Mary,1
+Brano Kusy,Stanford,1
+Jose' Moura,Carnegie Mellon University,4
+Anders Ahlen,Uppsala University,1
+Anish Arora,Ohio State University,2
+Qing Cao,University of Tennessee,2
+Deepak Ganesan,University of Massachusetts Amherst,3
+Ramesh Govindan,University of Southern California,2
+Xenofon Koutsoukos,Vanderbilt University,6
+Sotiris Nikoletseas,University of Patras and CTI,1
+Carlo Fischione,"KTH, Sweden",1
+Mikael Johansson,"KTH, Sweden",1
+Brad Karp,University College London,2
+Chenyang Lu,Washington University in St. Louis,5
+Miklos Maroti,"University of Szeged, Hungary",1
+Luca Mottola,SICS,1
+Kay Romer,ETH Zurich,3
+Paolo Santi,"Pisa, Italy",1
+Cormac Sreenan,"University College Cork, Ireland",1
+Matt Welsh,Harvard University,2
+Jan Beutel,ETH Zurich,4
+Prabal Dutta,University of Michigan,3
+Michel Goraczko,Microsoft Research,1
+Pedro Marron,University of Duisburg-Essen and Fraunhofer IAIS,1
+Lama Nachman,Intel Corp,2
+Joe Polastre,"Sentilla, FU Berlin",1
+Jochen,Schiller,1
+Matt Welsh,Harvard,2
+John Heidemann,USC/ISI,1
+Joe Hellerstein,University of California Berkeley,1
+Seth Teller,Massachusetts Institute of Technology,1
+Haiyun Luo,University of Illinois Urbana Champaign,1
+Jie Liu,MSR,1
+Chenyang Lu,WUSTL,1
+Feng Zhao,MSR,1
+John Cozzens,NSF,2
+P. R. Kumar,University of Illinois Urbana Champaign,4
+Sri Kumar,DARPA,4
+Peter Corke,CSIRO,4
+Abbas El Gamal,Stanford,1
+Sandor Fekete,TU Braunschweig,1
+Deepak Ganesan,UMass Amherst,1
+Jie Gao,Stonybrook,1
+Lew Girod,University of California Los Angeles,1
+Carlos Guestrin,Carnegie Mellon University,2
+Uwe Hanebeck,U. Karlsruhe,1
+Thomas C. Henderson,Utah,1
+Jennifer Hou,University of Illinois Urbana Champaign,2
+Eddie Kohler,University of California Los Angeles,1
+Bhaskar Krisnamachari,University of Southern California,1
+Qun Li,College of William and Mary,1
+Tom Little,BU,1
+Julia Liu,PARC,1
+Miklos Maroti,University of Szeged,3
+Rich Martin,Rutgers,1
+Suman Nath,Microsoft,1
+Adrian Perrig,Carnegie Mellon University,2
+Kay Roemer,ETH Zurich,1
+Gruia-Catalin Roman,WUSTL,1
+Gaurav Sukhatme,University of Southern California,3
+Martin Wainwright,University of California Berkeley,1
+Gaetano Boriello,University of Washington,1
+Jeremy Elson,MSR,1
+William Hodgkiss,University of California San Diego,2
+Hans Gellersen,Lancaster University,1
+Mark Hansen,University of California Los Angeles,1
+Chalermek Intanagonwiwat,Chulalongkorn University,1
+Gerald Maguire,KTH Stockholm,2
+Michael Niedermayer,Fraunhofer IZM,2
+Brendan O'Flynn,Tyndall Institute,1
+Joseph Paradiso,Massachusetts Institute of Technology,1
+Trevor Pering,Intel Research,2
+Joe Polastre,Moteiv,2
+Jim Reich,PARC,3
+Brian Schott,ISI,1
+Howard Shrobe,Massachusetts Institute of Technology,2
+Eric Yeatman,Imperial College,1
+Chris Van Hoof,IMEC,1
+Frank Vernon,University of California San Diego,2
+Wayne Wolfe,Princeton,1
+Kazuo Yano,Hitachi Research,1
+Mark Yarvis,Intel,1
+John Cozzens,National Science Foundation,2
+Jose' Moura,Carnegie Mellon University ,1
+Janos Sztipanovits,Vanderbilt University ,1
+Martin. Vetterli,EPFL,1
+Kung Yao,University of California Los Angeles,2
+Rob Nowak,UW-Madison,1
+Mani Srivastava,University of California Los Angeles,6
+Lakshman Krishnamurthy,Intel,1
+David Jaquez,University of California Los Angeles,1
+Bernie Dempsey,University of California Los Angeles,2
+Yu Hen Hu,UW-Madison,1
+Jon Agre,Fujitsu Laboratories of America,1
+Philip Levis,Stanford,3
+Jie Gao,SUNY Stonybrook,2
+Wen Hu,CSIRO,2
+Hamid Aghajan,Stanford,1
+Scott Brandt,University of California Santa Cruz,1
+Branislav Kusy,Stanford,2
+Bela Bollobas,University of Memphis,1
+Ugur Cetintemel,Brown University,1
+John Fisher,Massachusetts Institute of Technology,1
+Reza Ghanadan,BAE Systems,1
+Martin Haenggi,University of Notre Dame,1
+Wendi Heinzelman,University of Rochester,1
+Sanjay Jha,University of New South Wales,1
+Alexander Levis,George Mason University,1
+Mingyan Liu,University of Michigan,3
+Jose' M. F. Moura,Carnegie Mellon,1
+Lionel Ni,HKUST,1
+Songhwai Oh,UC Merced,1
+Dan Rubenstein,Columbia University,1
+Anna Scaglione,Cornell University,3
+Gyula Simon,University of Pannonia,1
+Cormac Sreenan,University College Cork,1
+Tim Wark,CSIRO,1
+Rachel Cardell-Oliver,U. Western Australia,1
+Stefan Dulman,UTwente,1
+Ben Greenstein,Intel Research,1
+Pedro Marron,University of Bonn,1
+Joe Polastre,Sentilla,1
+Jochen Schiller,Freie Universitaet Berlin,1
+Deborah Estrin,"University of California, Los Angeles",1
+Phillip Gibbons,Intel Research,2
+Stephen Wicker,Cornell University,2
+D. Ganesan,University of Massachusetts,1
+R. Han,University of Colorado,1
+Sang Son,University of Virginia,1
+Jonathan Agre,Fujitsu Labs of America,1
+Baltasar Beferull-Lozano,Universidad de Valencia,1
+Urbashi Mitra,University of Southern California,4
+Mark Coates,McGill University,2
+Randy Moses,The Ohio State University,1
+Amol Deshpande,University of Maryland,1
+Arye Nehorai,University of Illinois Chicago,2
+Robert Nowak,University of Wisconsin Madison,1
+Deepak Ganesan,University of Massachusett Amherst,1
+Curt Schurgers,University of California San Diego,1
+Sergio Servetto,Cornell University,2
+Richard Han,University of Colorado,1
+Eva Tardos,Cornell University,1
+Prakash Ishwar,Boston University,1
+Lang Tong,Cornell Universiity,1
+Nihar Jindal,University of Minnesota,1
+William Butera,Intel Research,1
+Jeremy Elson,Microsoft Research,1
+Hans Gellersen,"Lancaster University, UK",1
+Amit Sinha,Airdefense,1
+Chalermek Intanagonwiwat,Chulalongkorn U.,1
+Kazuo Yano,"Hitachi Research, Tokyo",1
+Ralph Kling,Intel Research,1
+Eric Yeatman,"Imperial College, UK",1
+Friedemann Mattern,ETH Zurich,1
+Chris Van Hoof,IMEC Belgium,1
+Wayne Wolfe,Princeton University,1
+Brendan O'Flynn,"Tyndall Institute, Ireland",1
+Kay Romer,University of Lubeck,1
+Raj Rajkumar,Carnegie Mellon University,2
+Luca Mottola,Politecnico di Milano and Swedish Institute of Computer Science,2
+Aman Kansal,Microsoft Research,2
+Raghu Ganti,IBM Research,1
+Hengchang Liu,University of Illinois Urbana Champaign,1
+Ying Zhang,Google,1
+Li Cui,ICT CAS,1
+Martina Maggio,Lund,1
+Polly Huang,NTU,1
+Feng Zhao (Chair),Microsoft Research Asia,1
+P.R. Kumar,Texas A&M University,2
+Marco Duarte,University of Massachusetts Amherst,2
+Jakob Eriksson,University of Illinois Chicago,2
+Michael Gastpar,EPFL and University of California in Berkeley,1
+Marco Gruteser,Rutgers University,1
+Karl Henrik Johansson,KTH,1
+Vana Kalogeraki,Athens University of Economics and Business,1
+Andreas Krause,ETH Zurich and Caltech,1
+Thomas Moscibroda,Microsoft Research Asia,2
+Jamie Payton,University of North Carolina,1
+Gian Pietro Picco,University of Trento,3
+Silvia Santini,TU Darmstadt,1
+Olga Saukh,ETH Zurich,1
+Matteo Ceriotti,RWTH Aachen University,1
+Minyoung Kim,SRI,1
+Chieh-Jan Mike Liang,Microsoft Research Asia,3
+Lothar Thiele,"ETH, Zurich",1
+Adam Wolisz,Technical University of Berlin,1
+Feng Zhao,Microsoft Research Asia,2
+David Chu,Microsoft Research,1
+Shahriar Nirjon,HP Labs,1
+Silvia Santini,TU Dresden,1
+Anwar Hithnawi,ETH Zurich,1
+Mike Chieh-Jan Liang,Microsoft Research Asia,1
+Chiara Petrioli,University of Rome La Sapienza,1
+Chenren Xu,Carnegie Mellon University,1
+Mun Choon Chan,National University of Singapore,1
+Chun Tung Chou,"University of New South Wales, Australia",1
+Kartik Dantu,SUNY Buffalo,1
+Andrea Gasparri,"University of Roma Tre, Italy",1
+Magnus Halldorsson,"Reykjavik University, Iceland",1
+Valerie Issarny,"Inria, France",1
+Roozbeh Jafari,University of Texas Dallas,1
+Xianyang Li,Illinois Institute of Technology,1
+Rahul Mangharam,University of Pennsylvania,2
+Jorge Ortiz,IBM Research,2
+Affan Syed,"National University of Computer and Emerging Sciences, Pakistan",1
+Niki Trigoni,Oxford University,1
+Geoffrey Werner-Challen,SUNY Buffalo,1
+Guoliang Xing,Michigan State,1
+Hongwei Zhang,Wayne State University,1
+Pei Zhang,Carnegie Mellon University Silicon Valley,1
+Adwait Dongare,Carnegie Mellon University,1
+Erin Griffiths,University of Virginia,1
+Josiah Hester,Clemson University,1
+Anwar S. H. Hithnawi,ETH Zurich,1
+Robert LiKamWa,Rice University,1
+Anh Luong,University of Utah,1
+Hessam Mohammadmoradi,University of Houston,1
+Niranjini Rajagopal,Carnegie Mellon University,1
+Juhi Ranjan,University of Virginia,1
+Hossein Shafagh,ETH Zurich,1
+Mahima A. Suresh,Texas A&M University,1
+Chen Yang,Texas A&M University,1
+Shengrong Yin,University of Houston,1
+Prabal Dutta,University of Michigan & UC Berkeley,1
+Jie Liu (Chair),Microsoft Research,1
+Adam Wolisz,Technische Universität Berlin,1
+Feng Zhao,Haier,1
+Mi Zhang,Michigan State University,2
+Nic Lane,University College London,1
+Hae Young Noh,Carnegie Mellon University,1
+Lin Zhang,Tsinghua University,1
+Tam Vu,University of Colorado Denver,2
+Adeola Bannis,Carnegie Mellon University,1
+Brad Campbell,University of Michigan/University of Virginia,1
+Geoffrey Challen,University at Buffalo,1
+Minghua Chen,Chinese University of Hong Kong,1
+Hong Lu,Intel Labs,1
+Dimitrios Lymperopoulous,Microsoft Research,1
+Florian Michahelles,Siemens,1
+Luca Mottola,Politecnico di Milano,1
+Shahriar Nirjon,"University of North Carolina, Chapel Hill",1
+Kay Römer,Graz University of Technology,1
+Junehwa Song,KAIST,1
+Lu Su,University at Buffalo,1
+Rui Tan,Nanyang Technological University,1
+Dong Wang,University of Notre Dame,1
+Wenyao Xu,University at Buffalo,1
+Yanyong Zhang,Rutgers University,1
+Greg Pottie,University of California Los Angeles,2
+Yunhao Liu,Hong Kong University of Science and Technology,1
+Ying Zhang,Palo Alto Research Center,2
+Janos Sallai,Vanderbilt University,1
+Anish Arora,The Ohio State University,1
+Peter Corke,Queensland University of Technology,1
+Carlo Fischione,Royal Institute of Technology,1
+John Fisher III,Massachusetts Institute of Technology,1
+Mikael Johansson,"KTH, Royal Institute of Technology",1
+Santosh Kumar,University of Memphis,1
+Luca Mottola,Swedish Institute of Computer Science,4
+Kannan Ramchandran,University of California Berkeley,2
+Fabio Ramos,University of Sydney,1
+Utz Roedig,Lancaster University,2
+Venkatesh Saligrama,Boston University,1
+Paolo Santi,IIT-CNR,1
+Thiemo Voigt,Swedish Institute of Computer Science,3
+Venugopal Veeravalli,University of Illinois Urbana Champaign,1
+Xiaofan Jiang,Microsoft Research Asia,3
+Thomas Schmid,University of Utah,2
+Yuvraj Agarwal,University of California San Diego,1
+Pai Chou,University of California Irvine,1
+Sri Kumar,SRI International,2
+José Moura,Carnegie Mellon University,1
+Jie Gao,SUNY Stony Brook,1
+Nic Lane,Microsoft Research Asia,1
+Cui Li,"Institute of Computing Technology, Chinese Academy of Sciences",2
+Feng Zhao ,Microsoft Research Asia,1
+Karl Henrik Johansson,KTH Royal Institute of Technology,1
+Andreas Krause,California Institute of Technology / ETH - Zurich,1
+Jianzhong Li,Harbin Institute of Technology,1
+Yunhao Liu,Tsinghua University,1
+Kay Roemer,University of Luebeck,1
+Antonio Ruzzelli,University College Dublin,1
+Subhash Suri,University of California - Santa Barbara,1
+Andreas Terzis,John Hopkins University,1
+Tim Wark,Commonwealth Scientific and Industrial Research Organisation,1
+Dimitrios Lymberopoulos,Microsoft Research Redmond,1
+Feng Zhao,Microsoft Research ,1
+Thrasyvoulos Pappas,Northwestern University,1
+Prakash Ishwar,University of California Berkeley,2
+Dana Dee Little,University of California Berkeley,1
+Massimo Franceschetti,University of California Berkeley,2
+Jonathan Sprinkle,University of California Berkeley,2
+John Apostolopoulos,HP Labs,1
+B.R. Badrinath,Rutgers University,1
+Victor Bahl,Microsoft Research,1
+Randall Berry,Northwestern University,1
+Marco Caccamo,University of Illinois Urbana Champaign,1
+Chee-Yee Chong,Booz Allen Hamilton,1
+Alok Choudhary,Northwestern University,1
+Hamid Gharavi,NIST,1
+Rick Han,University of Colorado,1
+Zygmunt Haas,Cornell University,1
+Babak Hassibi,Caltech,1
+Alfred Hero,University of Michigan Ann Arbor,1
+Yuhen Hu,University of Wisconsin Madison,1
+Aggelos Katsaggelos,Northwestern University,1
+Hermann Kopetz,"Vienna Univ. of Technology, Austria",1
+Jie Liu,Palo Alto Research Center,1
+Juan Liu,Palo Alto Research Center,1
+Mingyan Liu,University of Michigan Ann Arbor,1
+Zhen Liu,IBM,1
+Songwu Lu,University of California Los Angeles,1
+Teresa Lunt,PaloAlto Research Center,1
+Nader Moayeri,NIST,1
+David Neuhoff,University of Michigan Ann Arbor,1
+Rob Nowak,Rice University,1
+Sandeep Pradhan,University of Michigan Ann Arbor,1
+Jim Reich,Palo Alto Research Center,1
+Akbar Sayeed,University of Wisconsin Madison,1
+Lui Sha,University of Illinois Urbana Champaign,1
+Gary Shaw,MIT Lincoln Lab,1
+Ivan Stojmenovic,University of Ottawa,1
+Yu-Chee Tseng,"National Chiao-Tung University, Taiwan",1
+Martin Vetterli,EPFL,1
+Steve Wicker,Cornell University,1
+Lixia Zhang,University of California Los Angeles,1
