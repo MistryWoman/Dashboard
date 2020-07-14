@@ -75,7 +75,7 @@ def update_figure(value):
     new_df = new_df[:10]
 
     
-    fig = fig = px.bar(new_df, y = 'University/Organization', x ="No_of_times_as_TPC", hover_data = [], hover_name = 'Name',
+    fig = px.bar(new_df, y = 'University/Organization', x ="No_of_times_as_TPC", hover_data = [], hover_name = 'Name',
                        title = 'Most Influential TPC Members')
     fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(

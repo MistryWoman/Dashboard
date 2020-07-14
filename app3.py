@@ -1,6 +1,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.express as px
 import pandas as pd
 import collections
 
@@ -80,7 +81,10 @@ app.layout = html.Div(
         
         
         html.Hr(),
-        html.Div(id='display-selected')
+        dcc.Graph(id='display-selected'),
+        html.Div(id = 'out-of'), 
+        html.Hr()
+
         
     ]
 )
@@ -104,47 +108,72 @@ def update_date_dropdown(year):
 #     [dash.dependencies.Input('opt-dropdown', 'value')])
 
 @app.callback(
-    dash.dependencies.Output('display-selected', 'figure'),
+    [dash.dependencies.Output('display-selected', 'figure'),
+     dash.dependencies.Output('out-of', 'children')],
     [dash.dependencies.Input('opt-dropdown', 'value')])
 
 def set_display_children(selected_value):
-    conf, year = selected_value.split('_')
+    try:
+        conf, year = selected_value.split('_')
+    except:
+        conf, year = 'ipsn', 2000
+        
     tpc_df = pd.read_csv('data/Clean_TPC/' + str(conf) + "_clean.csv")
     df = tpc_df[tpc_df['Year'] == int(year)]
     
     conf_year_dict = collections.Counter(df['University/Organization'])
-    uni_count_df = pd.DataFrame(conf_year_dict.items(), columns=['University/Organization', 'Count'])
-    uni_count_df = uni_count_df.sort_values(by = ['Count'], ascending = False)
-    top_20_percent = len(uni_count_df) * 0.20
+    uni_count_df = pd.DataFrame(conf_year_dict.items(), columns=['University/Organization', 'No_of_members'])
+    uni_count_df = uni_count_df.sort_values(by = ['No_of_members'], ascending = False)
+    top_20_percent = int(len(uni_count_df) * 0.20)
     
     final_df = uni_count_df[:top_20_percent]
     
-    fig = fig = px.bar(final_df, y = 'University/Organization', x ="Count", hover_data = [], hover_name = 'Name',
-                       title = 'Most Influential TPC Members')
+    fig = fig = px.bar(final_df, y = 'University/Organization', x ="No_of_members", hover_data = [], hover_name = 'No_of_members',
+                       title = 'TPC top 20 % of ' + str(len(uni_count_df)) + " different universities/organizations)"  )
     fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(
     title_font_family="Times New Roman",
-    title_font_color="blue",
+    title_font_color="black",
     title_font_size = 40
 )
     
-
-    return len(final_df)
+    top_tpc = final_df['No_of_members'].sum()
+    tot_tpc = uni_count_df['No_of_members'].sum()
+    try:
+        pc = int(top_tpc /tot_tpc * 100)
+        tot_members_a = "Top 20 % represents " + str(pc) + " % of the total TPC strength"
+    except:
+        tot_members_a = ""
     
-#     return 'you have selected {} option'.format(conf)
-
-
-
-# def display_tpc_authors(selected_value):
-#     "Has to return all 6 figures"
+#     tot_members_a = "The TPC comprises of " + str(uni_count_df['No_of_members'].sum()) + " members out of which " + str(final_df['No_of_members'].sum()) + " members belong to the above universities/organizations"
+    
+#     top_20_uni = final_df['Universities/Organizations']
+    return fig, tot_members_a
     
     
-#     return 'you have selected {} option'.format(selected_value)
+# @app.callback(
+#     dash.dependencies.Output('out-of', 'value'),
+#     [dash.dependencies.Input('opt-dropdown', 'value')])
+
+# def display_tot_tpc(selected_value):
+#     try:
+#         conf, year = selected_value.split('_')
+#     except:
+#         conf, year = 'ipsn', 2000
+#     tpc_df = pd.read_csv('data/Clean_TPC/' + str(conf) + "_clean.csv")
+#     df = tpc_df[tpc_df['Year'] == int(year)]
+    
+#     conf_year_dict = collections.Counter(df['University/Organization'])
+#     uni_count_df = pd.DataFrame(conf_year_dict.items(), columns=['University/Organization', 'Count'])
+#     uni_count_df = uni_count_df.sort_values(by = ['Count'], ascending = False)
+    
+    
+#     return 'No of universities or organizations in TPC'.format(len(uni_count_df))
 
 
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug = True)
 
 
