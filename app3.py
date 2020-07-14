@@ -42,7 +42,10 @@ year_dict['mobihoc'] = conf_years('mobihoc', mobihoc_df)
 year_dict['sensys'] = conf_years('sensys', sensys_df)
 
 year_dict['sigcomm'] = conf_years('sigcomm', sigcomm_df)
-################################################################3
+################################################################
+
+
+
 
 
 years = list(year_dict.keys())
@@ -63,7 +66,7 @@ app.layout = html.Div(
         html.Div([
             dcc.Dropdown(
                 id='year-dropdown',
-                options=[{'label':year, 'value':year} for year in years],
+                options=[{'label': year, 'value':year} for year in years],
                 value = list(year_dict.keys())[0]
                 ),
             ],style={'width': '20%', 'display': 'inline-block'}),
@@ -87,7 +90,7 @@ app.layout = html.Div(
     [dash.dependencies.Input('year-dropdown', 'value')]
 )
 def update_date_dropdown(year):
-    return [{'label': i, 'value': i} for i in year_dict[year]]
+    return [{'label': i.split('_')[-1], 'value': i} for i in year_dict[year]]
 
 
 # @app.callback(
@@ -101,11 +104,34 @@ def update_date_dropdown(year):
 #     [dash.dependencies.Input('opt-dropdown', 'value')])
 
 @app.callback(
-    dash.dependencies.Output('display-selected', 'children'),
+    dash.dependencies.Output('display-selected', 'figure'),
     [dash.dependencies.Input('opt-dropdown', 'value')])
 
 def set_display_children(selected_value):
-    return 'you have selected {} option'.format(selected_value)
+    conf, year = selected_value.split('_')
+    tpc_df = pd.read_csv('data/Clean_TPC/' + str(conf) + "_clean.csv")
+    df = tpc_df[tpc_df['Year'] == int(year)]
+    
+    conf_year_dict = collections.Counter(df['University/Organization'])
+    uni_count_df = pd.DataFrame(conf_year_dict.items(), columns=['University/Organization', 'Count'])
+    uni_count_df = uni_count_df.sort_values(by = ['Count'], ascending = False)
+    top_20_percent = len(uni_count_df) * 0.20
+    
+    final_df = uni_count_df[:top_20_percent]
+    
+    fig = fig = px.bar(final_df, y = 'University/Organization', x ="Count", hover_data = [], hover_name = 'Name',
+                       title = 'Most Influential TPC Members')
+    fig.update_yaxes(autorange = 'reversed')
+    fig.update_layout(
+    title_font_family="Times New Roman",
+    title_font_color="blue",
+    title_font_size = 40
+)
+    
+
+    return len(final_df)
+    
+#     return 'you have selected {} option'.format(conf)
 
 
 
