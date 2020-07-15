@@ -21,3 +21,18 @@
     width: 100px;
     color: white;
 }
+
+.banner_2 {
+    height: 200px;
+    margin: 0px -10px 10px;
+    background-color: #fffbbd;
+    border-radius: 2px;
+}
+
+.banner_2 h2{
+    color: black;
+    padding-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
