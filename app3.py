@@ -161,34 +161,45 @@ def set_display_children(selected_value):
     
     
     ## Top 20 Authors
+    top_20_uni = set(uni_count_df['University/Organization'])
     authors_df = pd.read_csv('data/Clean_Authors/' + str(conf) + "_authors.csv")
-    df1 = authors_df[authors_df['Year'] == int(year)]
-    conf_auth = collections.Counter(df1['University/Organization'])
-    uni_auth = pd.DataFrame(conf_auth.items(), columns = ['University/Organization', 'No_of_authors'])
-    uni_auth = uni_auth.sort_values(by = ['No_of_authors'], ascending = False)
-    top_20_auth = int(len(uni_auth) * 0.20)
+    df1 = authors_df[authors_df['Year'] == int(year)]  
+    conf_auth = dict(collections.Counter(df1['University/Organization']))
     
-    top_auth = uni_auth[:top_20_auth]
-    fig_a = px.bar(top_auth, y = 'University/Organization', x = 'No_of_authors', title = 'Top 20% Authors')
-    fig_a.update_yaxes(autorange = 'reversed')
-    fig_a.update_layout(
-    title_font_family = "Times New Roman",
-    title_font_color = "black",
-    title_font_size = 40
+    rank = []
+    no_of_authors = []
+    for key in conf_auth.keys():
+        if key in top_20_uni:
+            rank.append('TPC')
+            no_of_authors.append(conf_auth[key])
+        else:
+            rank.append('Other')
+            no_of_authors.append(conf_auth[key])
+            
+    pie_df = pd.DataFrame(list(zip(rank, no_of_authors)), columns = ['Rank', 'No_of_authors'])
+    pie = px.pie(pie_df, values = 'No_of_authors', names = 'Rank', title = "Rank wise distribution of no of authors published")
+    pie.update_layout(
+        title_font_family = "Times New Roman",
+        title_font_color = "black",
+        title_font_size = 40
     )
+        
     
     
     
     ## last line at the bottom
     top_tpc = final_df['No_of_members'].sum()
     tot_tpc = uni_count_df['No_of_members'].sum()
-    try:
-        pc = int(top_tpc /tot_tpc * 100)
-        tot_members_a = "Top 20 % represents " + str(pc) + " % of the total TPC strength "
-    except:
-        tot_members_a = ""
+#     try:
+#         pc = int(top_tpc /tot_tpc * 100)
+#         tot_members_a = "Top 20 % represents " + str(pc) + " % of the total TPC strength "
+#     except:
+#         tot_members_a = ""
+
+    tot_members_a = list(final_df['University/Organization'])
+
     
-    return fig, fig_a,  tot_members_a
+    return fig, pie,  tot_members_a
     
     
     
