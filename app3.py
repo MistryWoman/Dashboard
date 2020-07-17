@@ -3,6 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
 import collections
 
 # app = dash.Dash()
@@ -70,7 +71,9 @@ app.layout = html.Div(
         html.Hr(),
         
         # Creating the conference and year selection dropdowns
+        
         html.Div([
+        
             dcc.Dropdown(
                 id='year-dropdown',
                 options=[{'label': year, 'value':year} for year in years],
@@ -87,11 +90,8 @@ app.layout = html.Div(
         
         
         html.Hr(),
-#         html.Div([
-#             html.H2('Lets see the distribution of the most influential universities by exploring the members that make up the top 20 % of TPC and authors published in a given year'),
-#              ], className = 'banner_2'),
         
-        
+        ## Adding graphs
         html.Div([
             html.Div([
                 html.H3('col1'),
@@ -101,14 +101,16 @@ app.layout = html.Div(
             html.Div([
                 html.H3('col2'),
                 dcc.Graph(id = 'TOP-20-AUTH')   
-            ], className = 'six columns')
+            ], className = 'three columns'),
+            
+            html.Div([
+                html.H3('col3'),
+                dcc.Graph(id = 'Published-TPC')   
+            ], className = 'three columns')
 
         ], className = 'row'),
            
         
-#         dcc.Graph(id='TOP-20-TPC'),
-#         html.Div(id = 'TOP-20-AUTH'),
-#         dcc.Graph(id = 'TOP-20-AUTH'),
         html.Div(id = 'out-of'), 
         
         html.Hr()
@@ -129,6 +131,7 @@ def update_date_dropdown(year):
 @app.callback(
     [dash.dependencies.Output('TOP-20-TPC', 'figure'),
      dash.dependencies.Output('TOP-20-AUTH', 'figure'),
+     dash.dependencies.Output('Published-TPC', 'figure'),
      dash.dependencies.Output('out-of', 'children')],
     [dash.dependencies.Input('opt-dropdown', 'value')])
 
@@ -170,36 +173,61 @@ def set_display_children(selected_value):
     no_of_authors = []
     for key in conf_auth.keys():
         if key in top_20_uni:
-            rank.append('TPC')
+            rank.append('TPC University')
             no_of_authors.append(conf_auth[key])
         else:
-            rank.append('Other')
+            rank.append('Other University')
             no_of_authors.append(conf_auth[key])
             
     pie_df = pd.DataFrame(list(zip(rank, no_of_authors)), columns = ['Rank', 'No_of_authors'])
-    pie = px.pie(pie_df, values = 'No_of_authors', names = 'Rank', title = "Rank wise distribution of no of authors published")
-    pie.update_layout(
+    tpc_uni_pie = px.pie(pie_df, values = 'No_of_authors', names = 'Rank', title = "Rank wise distribution of no of authors published")
+    tpc_uni_pie.update_layout(
         title_font_family = "Times New Roman",
         title_font_color = "black",
         title_font_size = 40
     )
         
     
+    ## No of publications by TPC members
+    # df is the dataframe containing TPC info for selected year
+    # df1 is the dataframe containing author info for the selected year
+    
+    authors = set(df1['Author_Name'])
+    tpc = set(df['Name'])
+    
+    tpc_auth = authors.intersection(tpc)
+    other_auth = authors - tpc
+    
+    status = ['TPC Member', 'Other']
+    count = [len(tpc_auth), len(other_auth)]
+    
+    tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
+    
+    tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], hole=.3)])
+    
+#     tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Author overlap")
+    tpc_auth_pie.update_layout(
+        title_font_family = "Times New Roman",
+        title_font_color = "black",
+        title_font_size = 40
+    )
+    
+    
     
     
     ## last line at the bottom
     top_tpc = final_df['No_of_members'].sum()
     tot_tpc = uni_count_df['No_of_members'].sum()
-#     try:
-#         pc = int(top_tpc /tot_tpc * 100)
-#         tot_members_a = "Top 20 % represents " + str(pc) + " % of the total TPC strength "
-#     except:
-#         tot_members_a = ""
+    try:
+        pc = int(top_tpc /tot_tpc * 100)
+        tot_members_a = "Top 20 % represents " + str(pc) + " % of the total TPC strength "
+    except:
+        tot_members_a = ""
 
-    tot_members_a = list(final_df['University/Organization'])
+
 
     
-    return fig, pie,  tot_members_a
+    return fig, tpc_uni_pie, tpc_auth_pie , tot_members_a
     
     
     
