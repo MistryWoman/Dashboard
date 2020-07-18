@@ -117,31 +117,37 @@ app.layout = html.Div(
 
         ### Creating slider for no of years given the conference
         
-        html.H3('Lets examine the yearwise distribution'),
-        
-        
+        html.H3('Lets compare TPC Retention amongst the conferences'),
         
         html.Div([
         
-            dcc.Dropdown(
-                id='conf-dropdown-2',
-                options=[{'label': year, 'value':year} for year in years],
-                value = list(year_dict.keys())[0]
-                ),
-            ],style={'width': '20%', 'display': 'inline-block'}),
-        
-        html.Div([
-            dcc.Dropdown(
-                id='uni-auth-selection',
-                options = [{'label' : 'university', 'value' : 'university'},
-                           {'label' : 'tpc member', 'value' : 'tpc'}],
-                value = 'university'
-                               
-               )
-            ],style={'width': '20%', 'display': 'inline-block'}
-        )
-        
+                    html.Div([
 
+                        # create all the radio buttons for conf selection
+                        
+                        dcc.Checklist(
+                            id = 'conf-checklist',
+                            options=[
+                                {'label': 'IPSN', 'value': 'ipsn'},
+                                {'label': 'MobiHoc', 'value': 'mobihoc'},
+                                {'label': 'MobiCom', 'value': 'mobicom'},
+                                {'label' : 'SenSys', 'value' : 'sensys'},
+                                {'label' : 'SigComm', 'value' : 'sigcomm'}
+                            ],value=['ipsn', 'mobihoc'], labelStyle={'display': 'inline-block'}),
+                    ], style={'width': '40%', 'display': 'inline-block'}),
+
+                    html.Div([
+            
+                        dcc.Dropdown(
+                            id='uni-auth-selection',
+                            options = [{'label' : 'university', 'value' : 'university'},
+                                       {'label' : 'tpc member', 'value' : 'tpc'}],
+                            value = 'university'
+                           )
+#                          html.H3('Choose between university and TPC composition')
+                        ],style={'width': '20%', 'display': 'inline-block'}
+                        
+                    )])
         
         
         
@@ -152,6 +158,7 @@ app.layout = html.Div(
     dash.dependencies.Output('year-dropdown', 'options'),
     [dash.dependencies.Input('conf-dropdown', 'value')]
 )
+        
 def update_date_dropdown(year):
     return [{'label': i.split('_')[-1], 'value': i} for i in year_dict[year]]
 
@@ -253,13 +260,18 @@ def set_display_children(selected_value):
     except:
         tot_members_a = ""
 
-
-
     
     return fig, tpc_uni_pie, tpc_auth_pie , tot_members_a
     
     
     
+@app.callback(
+    dash.dependencies.Output('tpc-retention', 'children'),
+    [dash.dependencies.Input('conf-checklist', 'value')])
+
+def tpc_retention(conf_list, uni_auth):
+    "This creates the tpc retention graph for the selected universities"
+    return uni_auth
     
 
 
