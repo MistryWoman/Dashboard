@@ -141,15 +141,16 @@ app.layout = html.Div(
             
                         dcc.Dropdown(
                             id='uni-auth-selection',
-                            options = [{'label' : 'university', 'value' : 'university'},
-                                       {'label' : 'tpc member', 'value' : 'tpc'}],
+                            options = [{'label' : 'University/Organization', 'value' : 'university'},
+                                       {'label' : 'Individual TPC member', 'value' : 'tpc'}],
                             value = 'university'
                            )
 #                          html.H3('Choose between university and TPC composition')
                         ],style={'width': '20%', 'display': 'inline-block'}
                         
                     )]),
-        html.Div(id = 'tpc_retention')
+        
+        dcc.Graph(id = 'tpc_retention')
         
         
         
@@ -268,61 +269,66 @@ def set_display_children(selected_value):
     
     
 @app.callback(
-    dash.dependencies.Output('tpc_retention', 'children'),
+    dash.dependencies.Output('tpc_retention', 'figure'),
     [dash.dependencies.Input('conf-checklist', 'value'),
      dash.dependencies.Input('uni-auth-selection', 'value')])
 
 def tpc_retention(conf_list, uni_auth):
     "This creates the tpc retention graph for the selected universities"
-    conf_tpc_dict = {}
     
-    for conf in conf_list:
-        conf_tpc_dict[conf] = pd.read_csv('data/Clean_TPC/' + str(conf) + "_clean.csv")
+    if uni_auth == 'university':
+        retention_df = pd.read_csv('data/retention_uni.csv')
+        final_df = retention_df.loc[retention_df['Name'].isin(conf_list)]
         
+        groups = final_df.groupby(by = 'Name')
+        data = []
         
-    sorted_dict = {}
-    for key in conf_tpc_dict.keys():
-        # extracting the range of years for the given conference
-        df = conf_tpc_dict[key]
-        sorted_years = list(set(df['Year']))
-        sorted_years.sort()
-        final_dict = {}
+        for group, dataframe in groups:
+                dataframe = dataframe.sort_values(by=['Year'])
+                trace = go.Scatter(x=dataframe.Year.tolist(), 
+                                   y= list(dataframe['Retention(%over2yrs)']),
+#                                    marker=dict(color=colors[len(data)]),
+                                   name=group)
+                data.append(trace)
 
-    
-        for index, year in enumerate(sorted_years):
-            conf_retention_dict = {}
-            if index > 1 and index < len(sorted_years):
-                
-                current_year = int(sorted_years[index])
-                last_year = int(sorted_years[index -1])
-                last_last_year = int(sorted_years[index -2])
-                
-                current_tpc_df = df[df['Year'] == current_year]
-                current_tpc = set(current_tpc_df['Name'])
-                
-                last_year_df = df[df['Year'] == last_year]
-                last_year_tpc = set(last_year_df['Name'])
-                
-                last_last_df = df[df['Year'] == last_last_year]
-                last_last_tpc = set(last_last_df['Name'])
-                
-                past_tpc = set()
-                past_tpc.update(last_year_tpc)
-                past_tpc.update(last_last_tpc)
-                
-                retained_tpc = current_tpc.intersection(past_tpc)
-                retention_percent = len(retained_tpc)/ len(current_tpc) * 100
-                conf_retention_dict[current_year] = retention_percent
-                
-        final_dict[key] = conf_retention_dict
-        
-    
-    
-        
-    
-    
-    return str(conf_retention_dict[2000])
+                layout =  go.Layout(xaxis={'title': 'Year'},
+                                    yaxis={'title': 'Retention Percentage over 2 years'},
+                                    margin={'l': 40, 'b': 40, 't': 50, 'r': 50},
+                                    hovermode='closest')
 
+                figure = go.Figure(data=data, layout=layout)  
+                figure.show()
+
+        
+        
+        
+        
+        
+    if uni_auth == 'tpc':
+        retention_df = pd.read_csv('data/retention_authors.csv')
+        final_df = retention_df.loc[retention_df['Name'].isin(conf_list)]
+        
+        groups = final_df.groupby(by = 'Name')
+        data = []
+        
+        for group, dataframe in groups:
+                dataframe = dataframe.sort_values(by=['Year'])
+                trace = go.Scatter(x=dataframe.Year.tolist(), 
+                                   y= list(dataframe['Retention(%over2yrs)']),
+#                                    marker=dict(color=colors[len(data)]),
+                                   name=group)
+                data.append(trace)
+
+                layout =  go.Layout(xaxis={'title': 'Year'},
+                                    yaxis={'title': 'Retention Percentage over 2 years'},
+                                    margin={'l': 40, 'b': 40, 't': 50, 'r': 50},
+                                    hovermode='closest')
+
+                figure = go.Figure(data=data, layout=layout)  
+                figure.show()
+
+        
+    return figure
 
 
 
