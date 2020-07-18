@@ -75,7 +75,7 @@ app.layout = html.Div(
         html.Div([
         
             dcc.Dropdown(
-                id='year-dropdown',
+                id='conf-dropdown',
                 options=[{'label': year, 'value':year} for year in years],
                 value = list(year_dict.keys())[0]
                 ),
@@ -83,7 +83,7 @@ app.layout = html.Div(
         
         html.Div([
             dcc.Dropdown(
-                id='opt-dropdown',
+                id='year-dropdown',
                 ),
             ],style={'width': '20%', 'display': 'inline-block'}
         ),
@@ -113,15 +113,44 @@ app.layout = html.Div(
         
         html.Div(id = 'out-of'), 
         
-        html.Hr()
+        html.Hr(),
+
+        ### Creating slider for no of years given the conference
+        
+        html.H3('Lets examine the yearwise distribution'),
+        
+        
+        
+        html.Div([
+        
+            dcc.Dropdown(
+                id='conf-dropdown-2',
+                options=[{'label': year, 'value':year} for year in years],
+                value = list(year_dict.keys())[0]
+                ),
+            ],style={'width': '20%', 'display': 'inline-block'}),
+        
+        html.Div([
+            dcc.Dropdown(
+                id='uni-auth-selection',
+                options = [{'label' : 'university', 'value' : 'university'},
+                           {'label' : 'tpc member', 'value' : 'tpc'}],
+                value = 'university'
+                               
+               )
+            ],style={'width': '20%', 'display': 'inline-block'}
+        )
+        
 
         
-    ]
-)
+        
+        
+     #### this is the end of layout
+])
 
 @app.callback(
-    dash.dependencies.Output('opt-dropdown', 'options'),
-    [dash.dependencies.Input('year-dropdown', 'value')]
+    dash.dependencies.Output('year-dropdown', 'options'),
+    [dash.dependencies.Input('conf-dropdown', 'value')]
 )
 def update_date_dropdown(year):
     return [{'label': i.split('_')[-1], 'value': i} for i in year_dict[year]]
@@ -133,7 +162,7 @@ def update_date_dropdown(year):
      dash.dependencies.Output('TOP-20-AUTH', 'figure'),
      dash.dependencies.Output('Published-TPC', 'figure'),
      dash.dependencies.Output('out-of', 'children')],
-    [dash.dependencies.Input('opt-dropdown', 'value')])
+    [dash.dependencies.Input('year-dropdown', 'value')])
 
 def set_display_children(selected_value):
     try:
@@ -203,7 +232,7 @@ def set_display_children(selected_value):
     
     tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
     
-    tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], hole=.3)])
+    tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], hole=.3, title = "TPC Member and author overlap")])
     
 #     tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Author overlap")
     tpc_auth_pie.update_layout(
