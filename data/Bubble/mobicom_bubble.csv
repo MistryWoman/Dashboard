@@ -1,6 +1,6 @@
 University/Organization,No_of_tpc,No_of_authors,No_of_publications
 University of Texas Dallas,11,2,1
-Microsoft Research,67,86,17
+Microsoft Research,80,125,22
 Lancaster University,12,2,1
 Columbia University,20,11,2
 Georgia Institute of Technology,17,27,4
@@ -33,10 +33,8 @@ University of Cambridge,5,18,1
 Pennsylvania State University,14,5,1
 North Carolina State University,2,6,1
 University of Texas Austin,13,47,1
-Microsoft Research India,6,28,1
 Ohio State University,20,42,7
-Microsoft Research Asia,7,11,4
-IBM TJ Watson Research Center,1,1,1
+IBM TJ Watson Research Center,2,7,2
 HP Labs,9,9,1
 Yale University,7,18,5
 University at Buffalo,6,35,2
@@ -46,7 +44,6 @@ University College London,6,14,5
 University of Toronto,8,7,1
 Shanghai Jiao Tong University,4,27,2
 Michigan State University,2,12,8
-IBM T.J. Watson Research Center,1,6,1
 Politecnico di Torino,6,4,2
 Washington State University,2,1,3
 University of Trento,2,1,5
@@ -60,11 +57,9 @@ Northwestern University,1,3,1
 Dartmouth College,9,43,1
 Purdue University,14,24,4
 EPFL,5,11,6
-University of California,1,30,5
 Ajou University,2,3,1
 Portland State University,9,3,1
 Uppsala University,3,8,4
-Intel Research,1,1,3
 RWTH Aachen University,4,4,3
 National Chiao Tung University,4,14,4
 Princeton University,6,8,1
@@ -73,10 +68,8 @@ TU Delft,1,1,6
 IMDEA Networks Institute,2,10,3
 Singapore Management University,6,3,2
 University of Minnesota,2,18,4
-Intel Corporation,1,3,1
 Palo Alto Research Center,1,1,2
 SUNY at Buffalo,2,4,1
-Intel Research Pittsburgh,1,1,1
 University of Colorado Boulder,3,3,2
 University of Oulu,1,5,1
 University of Virginia,1,10,13

@@ -1,8 +1,8 @@
 University/Organization,No_of_tpc,No_of_authors,No_of_publications
 University of California Los Angeles,36,76,22
 Massachusetts Institute of Technology,12,44,17
-University of California Santa Barbara,5,21,8
-Microsoft Research,42,33,17
+University of California Santa Barbara,6,25,9
+Microsoft Research,57,50,22
 Johns Hopkins University,13,7,3
 University of Virginia,30,43,13
 University of Illinois Urbana Champaign,31,51,15
@@ -15,7 +15,7 @@ ETH Zurich,20,62,20
 Rice University,7,25,10
 Columbia University,4,2,2
 University of California Berkeley,21,104,32
-Intel,7,1,1
+Intel Research,14,5,4
 University of Southern California,21,43,14
 North Carolina State University,1,3,1
 University of Washington,5,3,1
@@ -63,7 +63,6 @@ CSIRO,7,20,7
 College of William and Mary,1,4,1
 University of Szeged,3,1,1
 Lancaster University,3,2,1
-Intel Research,7,4,3
 Imperial College,1,1,1
 EPFL,2,16,6
 University of Memphis,2,6,1
@@ -76,7 +75,6 @@ McGill University,2,1,1
 University of Maryland,1,10,3
 University of Wisconsin Madison,3,25,10
 Google,1,1,1
-Microsoft Research Asia,14,15,4
 Texas A&M University,4,3,2
 Rutgers University,3,39,9
 RWTH Aachen University,1,15,3
@@ -94,8 +92,6 @@ SUNY Stony Brook,1,1,1
 KTH Royal Institute of Technology,1,5,2
 Harbin Institute of Technology,1,2,1
 University College Dublin,1,3,1
-University of California - Santa Barbara,1,4,1
-Microsoft Research Redmond,1,2,1
 Northwestern University,4,5,1
 Caltech,1,4,2
 University of Michigan Ann Arbor,4,33,15
