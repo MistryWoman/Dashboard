@@ -150,8 +150,16 @@ app.layout = html.Div(
                         
                     )]),
         
-        dcc.Graph(id = 'tpc_retention')
+        dcc.Graph(id = 'tpc_retention'),
+        html.H2('Bubble chart'),
+        dcc.Dropdown(
+                id='conf-dropdown-bubble',
+                options=[{'label': year, 'value':year} for year in years],
+                value = list(year_dict.keys())[0]
+                ),
         
+        dcc.Graph(id = 'bubble-chart'),
+                
         
         
      #### this is the end of layout
@@ -331,6 +339,44 @@ def tpc_retention(conf_list, uni_auth):
     return figure
 
 
+# @app.callback(
+#     dash.dependencies.Output('bubble-chart', 'figure'),
+#     dash.dependencies.Input('conf-dropdown-bubble', 'value'))
+
+@app.callback(
+    dash.dependencies.Output(component_id='bubble-chart', component_property='figure'),
+    [dash.dependencies.Input(component_id='conf-dropdown-bubble', component_property='value')]
+)
+
+
+# @app.callback(
+#     [dash.dependencies.Output('bubble-chart', 'figure'),
+#     dash.dependencies.Input('conf-dropdown-bubble', 'value')])
+
+
+## Reading the data for bubble plot
+
+# ipsn_bubble = pd.read_csv('data/Bubble/ipsn_bubble.csv')
+# mobicom_bubble = pd.read_csv('data/Bubble/mobicom_bubble.csv')
+# mobihoc_bubble = pd.read_csv('data/Bubble/mobihoc_bubble.csv')
+# sensys_bubble = pd.read_csv('data/Bubble/sensys_bubble.csv')
+# sigcomm_bubble = pd.read_csv('data/Bubble/sigcomm_bubble.csv')
+
+
+
+def create_bubble(selected_conf):
+    "For a selected conference return the bubble plot"
+#     print('selected conf', selected_conf)
+    
+    file_name = str(selected_conf) + "_bubble.csv"
+    df = pd.read_csv('data/Bubble/' + str(file_name))
+    
+    fig = px.scatter(df, x="No_of_tpc", y="No_of_publications",size="No_of_authors",color = 'University/Organization',size_max=60)
+    
+    
+ 
+    return fig
+    
 
 
 if __name__ == '__main__':
