@@ -249,11 +249,22 @@ def set_display_children(selected_value):
     authors = set(df1['Author_Name'])
     tpc = set(df['Name'])
     
-    tpc_auth = authors.intersection(tpc)
-    other_auth = authors - tpc
     
-    status = ['TPC Member', 'Other']
-    count = [len(tpc_auth), len(other_auth)]
+    published_tpc = authors.intersection(tpc)
+    not_published_tpc = len(tpc) - len(published_tpc)
+    
+    status = ['Published TPC', 'Not Published TPC']
+    count = [len(published_tpc), not_published_tpc]
+    
+    
+    
+    
+#     tpc_auth = authors.intersection(tpc)
+    
+#     other_auth = authors - tpc
+    
+#     status = ['TPC Member', 'Other']
+#     count = [len(tpc_auth), len(other_auth)]
     
     tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
     
