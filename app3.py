@@ -1,4 +1,5 @@
 import dash
+import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
@@ -18,6 +19,9 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 # creating the years dictionary for dynamic dropdown
 #############################################################
 ipsn_df = pd.read_csv('data/Clean_Authors/ipsn_authors.csv')
+ipsn_df = ipsn_df.drop(['Keywords'], axis = 1)
+
+ipsn_tpc = pd.read_csv('data/Clean_TPC/ipsn_clean.csv')
 
 mobicom_df = pd.read_csv('data/Clean_Authors/mobicom_authors.csv')
 
@@ -71,7 +75,52 @@ app.layout = html.Div(
             html.Img(src = '../assets/chains.png')
         ], className = 'banner'),
         
+        html.Br(),
+        html.Div([html.Img(src = '../assets/t1.png')], style = {'width' : '100%', 'height' : '100%', 'textAlign' :'center'}, className = 'one-column'),
+        
         html.Hr(),
+        html.Div([
+            html.Blockquote(id = 'as', children = "We scraped websites like ACM Digital Library, IEEE Explore and numerous other public repositories, to collect data for 1000+ Authors and 150+ TPCs over a span of 20 years.")           
+        ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
+        html.Hr(),
+        
+        html.Div([
+             html.Div([
+                        html.P(children = "Information on TPC for each conference"),
+                        dash_table.DataTable(
+                            data=ipsn_tpc[:5].to_dict('records'),
+                            columns=[{'id': c, 'name': c} for c in ipsn_tpc.columns],
+
+                            style_header={'backgroundColor': '#4e5fa3'},
+                            style_cell={
+                                'backgroundColor': '#e2fcc5',
+                                'color': 'black'
+                            },),
+
+                    ], className = 'six-columns'),
+             html.Br(),
+             html.Div([
+                        html.P(children = "Information on Authors published in a given conference"),
+
+                        dash_table.DataTable(
+                            data=ipsn_df[110:116].to_dict('records'),
+                            columns=[{'id': c, 'name': c} for c in ipsn_df.columns],
+
+                            style_header={'backgroundColor': '#4e5fa3'},
+                            style_cell={
+                                'backgroundColor': '#e2fcc5',
+                                'color': 'black'
+                            },),
+
+                    ], className = 'six-columns'),
+            
+        ], ),
+        
+        html.Br(),
+       
+        
+        
+        
         
         # Creating the conference and year selection dropdowns
         
@@ -165,8 +214,7 @@ app.layout = html.Div(
         
         html.Div([
             html.Img(id = 'wordcloud')
-        ])
-                
+        ]),
         
         
      #### this is the end of layout
@@ -213,7 +261,8 @@ def set_display_children(selected_value):
     fig.update_layout(
     title_font_family="Times New Roman",
     title_font_color="black",
-    title_font_size = 40
+    title_font_size = 40,
+    plot_bgcolor = 'white',
     )
     
     
@@ -256,21 +305,11 @@ def set_display_children(selected_value):
     status = ['Published TPC', 'Not Published TPC']
     count = [len(published_tpc), not_published_tpc]
     
-    
-    
-    
-#     tpc_auth = authors.intersection(tpc)
-    
-#     other_auth = authors - tpc
-    
-#     status = ['TPC Member', 'Other']
-#     count = [len(tpc_auth), len(other_auth)]
-    
+        
     tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
     
     tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], hole=.3, title = "TPC Member and author overlap")])
     
-#     tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Author overlap")
     tpc_auth_pie.update_layout(
         title_font_family = "Times New Roman",
         title_font_color = "black",
@@ -313,7 +352,6 @@ def tpc_retention(conf_list, uni_auth):
                 dataframe = dataframe.sort_values(by=['Year'])
                 trace = go.Scatter(x=dataframe.Year.tolist(), 
                                    y= list(dataframe['Retention(%over2yrs)']),
-#                                    marker=dict(color=colors[len(data)]),
                                    name=group)
                 data.append(trace)
 
@@ -322,12 +360,7 @@ def tpc_retention(conf_list, uni_auth):
                                     margin={'l': 40, 'b': 40, 't': 50, 'r': 50},
                                     hovermode='closest')
 
-                figure = go.Figure(data=data, layout=layout)  
-#                 figure.show()
-
-        
-        
-        
+                figure = go.Figure(data=data, layout=layout)         
         
         
     if uni_auth == 'tpc':
@@ -341,7 +374,6 @@ def tpc_retention(conf_list, uni_auth):
                 dataframe = dataframe.sort_values(by=['Year'])
                 trace = go.Scatter(x=dataframe.Year.tolist(), 
                                    y= list(dataframe['Retention(%over2yrs)']),
-#                                    marker=dict(color=colors[len(data)]),
                                    name=group)
                 data.append(trace)
 
@@ -351,7 +383,6 @@ def tpc_retention(conf_list, uni_auth):
                                     hovermode='closest')
 
                 figure = go.Figure(data=data, layout=layout)  
-#                 figure.show()
 
         
     return figure
@@ -368,19 +399,12 @@ def tpc_retention(conf_list, uni_auth):
 def create_bubble(selected_conf):
     "For a selected conference return the bubble plot"
 
-    
     file_name = str(selected_conf) + "_bubble.csv"
     df = pd.read_csv('data/Bubble/' + str(file_name))
-    
     fig = px.scatter(df, x="No_of_tpc", y="No_of_publications",size="No_of_authors",color = 'University/Organization',size_max=60)
-    
     file_name = str(selected_conf) + "_wordcloud.png"
-    src = "assets/" + str(file_name)
-    
+    src = "assets/" + str(file_name)    
     img = Image.open('assets/' + str(file_name))
-    
-    
- 
     return fig, src
     
 
