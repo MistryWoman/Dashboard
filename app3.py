@@ -80,7 +80,7 @@ app.layout = html.Div(
         
         html.Hr(),
         html.Div([
-            html.Blockquote(id = 'as', children = "We scraped websites like ACM Digital Library, IEEE Explore and numerous other public repositories, to collect data for 1000+ Authors and 150+ TPCs over a span of 20 years.")           
+            html.Blockquote(id = 'as', children = "We scraped websites like ACM Digital Library, IEEE Explore and numerous other public repositories, to collect data for 1000+ individual authors and 150+ TPCs over a span of 20 years.")           
         ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
         html.Hr(),
         
@@ -91,7 +91,7 @@ app.layout = html.Div(
                             data=ipsn_tpc[:5].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_tpc.columns],
 
-                            style_header={'backgroundColor': '#4e5fa3'},
+                            style_header={'backgroundColor': '#eef7eb'},
                             style_cell={
                                 'backgroundColor': '#e2fcc5',
                                 'color': 'black'
@@ -106,7 +106,7 @@ app.layout = html.Div(
                             data=ipsn_df[110:116].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_df.columns],
 
-                            style_header={'backgroundColor': '#4e5fa3'},
+                            style_header={'backgroundColor': '#eef7eb'},
                             style_cell={
                                 'backgroundColor': '#e2fcc5',
                                 'color': 'black'
