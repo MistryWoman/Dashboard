@@ -74,6 +74,13 @@ app.layout = html.Div(
             html.H2('CHAINS OF RESEARCH'),
             html.Img(src = '../assets/chains.png')
         ], className = 'banner'),
+        html.Br(),
+        
+        html.Div([
+            html.Img(src = '../assets/bias_quote.png'),
+        ], style = {'textAlign' : 'center'}),
+        html.Br(),
+        html.Br(),
         
         html.Br(),
         html.Div([html.Img(src = '../assets/t1.png')], style = {'width' : '100%', 'height' : '100%', 'textAlign' :'center'}, className = 'one-column'),
@@ -91,9 +98,9 @@ app.layout = html.Div(
                             data=ipsn_tpc[:5].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_tpc.columns],
 
-                            style_header={'backgroundColor': '#eef7eb'},
+                            style_header={'backgroundColor': 'white'},
                             style_cell={
-                                'backgroundColor': '#e2fcc5',
+                                'backgroundColor': '#e4d5eb',
                                 'color': 'black'
                             },),
 
@@ -106,9 +113,9 @@ app.layout = html.Div(
                             data=ipsn_df[110:116].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_df.columns],
 
-                            style_header={'backgroundColor': '#eef7eb'},
+                            style_header={'backgroundColor': 'white'},
                             style_cell={
-                                'backgroundColor': '#e2fcc5',
+                                'backgroundColor': '#e4d5eb',
                                 'color': 'black'
                             },),
 

@@ -1,7 +1,7 @@
 .banner {
     height: 75px;
     margin: 0px -10px 10px;
-    background-color: #4e5fa3;
+    background-color: rgb(38, 43, 61);
     border-radius: 2px;
 }
 
@@ -37,6 +37,10 @@
 }
 
 body{
-    background-color : #afb4c9;
+    background-color : rgb(66, 75, 107);
 }
 
+body {
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(66, 75, 107);
+}
