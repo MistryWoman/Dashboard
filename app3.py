@@ -80,7 +80,8 @@ app.layout = html.Div(
             html.Img(src = '../assets/bias_quote.png'),
         ], style = {'textAlign' : 'center'}),
         html.Br(),
-        html.Br(),
+        
+        html.P('Is there bias in the research community ?', style = {'color' : '#30bf0f', 'fontSize' : 40, 'textAlign' : 'center', 'fontFamily' : "HelveticaNeue", 'fontStyle' : 'italic'}),
         
         html.Br(),
         html.Div([html.Img(src = '../assets/t1.png')], style = {'width' : '100%', 'height' : '100%', 'textAlign' :'center'}, className = 'one-column'),
@@ -89,11 +90,12 @@ app.layout = html.Div(
         html.Div([
             html.Blockquote(id = 'as', children = "We scraped websites like ACM Digital Library, IEEE Explore and numerous other public repositories, to collect data for 1000+ individual authors and 150+ TPCs over a span of 20 years.")           
         ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
+    
         html.Hr(),
         
         html.Div([
              html.Div([
-                        html.P(children = "Information on TPC for each conference"),
+                        html.P(children = "Information on TPC for each conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif'}),
                         dash_table.DataTable(
                             data=ipsn_tpc[:5].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_tpc.columns],
@@ -107,7 +109,7 @@ app.layout = html.Div(
                     ], className = 'six-columns'),
              html.Br(),
              html.Div([
-                        html.P(children = "Information on Authors published in a given conference"),
+                        html.P(children = "Information on Authors published in a given conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif'}),
 
                         dash_table.DataTable(
                             data=ipsn_df[110:116].to_dict('records'),
@@ -126,10 +128,10 @@ app.layout = html.Div(
         html.Br(),
         html.Hr(),
         html.Div([
-            html.Blockquote(id = '2', children = "This tool visualizes the author and TPC composition and affiliations for each year of each conference. Just select a conference and a year from the dropdown to see the stats for that year.")           
+            html.Blockquote(id = '2', children = "Let's investigate the TPC and author demographics for each conference by selecting the year of publication")           
         ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
-        html.Hr(),
-        
+        html.Br(),
+
         
         
         
@@ -152,7 +154,7 @@ app.layout = html.Div(
             ],style={'width': '20%', 'display': 'inline-block'}
         ),
         
-        
+        html.Br(),
         html.Br(),
         
         ## Adding graphs
@@ -280,12 +282,14 @@ def set_display_children(selected_value):
     fig = fig = px.bar(final_df, y = 'University/Organization', x ="No_of_members",
                        title = 'Most Influential TPC organizations')
 #                        title = 'TPC top 20 % of ' + str(len(uni_count_df)) + " different universities/organizations)"  )
+    fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
+                  marker_line_width=1.5, opacity=0.6),
     fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(
-    title_font_family="Times New Roman",
-    title_font_color="black",
+    title_font_family="sans-serif",
+    title_font_color= 'rgb(66, 75, 107)',
     title_font_size = 40,
-    plot_bgcolor = 'white',
+    plot_bgcolor = '#e3e8e8',
     )
     
     
