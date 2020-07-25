@@ -261,11 +261,14 @@ app.layout = html.Div(
         html.P(children = "Bird's Eye View" , style = {'color' : 'white', 'fontSize' : 40, 'textAlign' : 'center'}),
         html.Hr(),
         html.Br(),
-        dcc.Dropdown(
+        html.Div([
+            dcc.Dropdown(
                 id='conf-dropdown-bubble',
                 options=[{'label': year, 'value':year} for year in years],
                 value = list(year_dict.keys())[0]
-                ),
+                )
+        ], style = {'width' : '20%'}),
+        
         html.Br(),
         html.Div([
             html.Blockquote(id = '11', children = "Using the data collected over the past 20 years, we created a bubble chart to represent the key organizations and the no. of authors that have been published over the years. The size of each bubble corresponds to the author base from that organization. It comes with no surprise that the largest bubbles correspond to the universities with higher TPC representation.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
@@ -280,7 +283,7 @@ app.layout = html.Div(
         html.Br(),
         
         html.Div([
-            html.Blockquote(id = '10', children = "The following word cloud indicates the most popular ideas or themes that were relfected in the body of publications made by the conference over a period of the last 20 years.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
+            html.Blockquote(id = '10', children = "The following word cloud indicates the most popular ideas or themes that were reflected in the body of publications made by the conference over a period of the last 20 years.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
             
         ),
         html.Br(),
@@ -290,6 +293,13 @@ app.layout = html.Div(
         html.Div([
             html.Img(id = 'wordcloud')
         ], style = {'textAlign' : 'center'}),
+        
+        html.Hr(),
+        html.Div([
+            html.Blockquote(id = '19', children = "The aim of this investigative tool and the analysis it produces is not to blame TPC members and the universities they are affiliated with. Our only hope is that this tool can initiate a much needed conversation on diversity and representation in the research community.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
+            
+        ),
+        
         
         
      #### this is the end of layout
