@@ -117,7 +117,11 @@ app.layout = html.Div(
         ], ),
         
         html.Br(),
-       
+        html.Hr(),
+        html.Div([
+            html.Blockquote(id = '2', children = "This tool visualizes the author and TPC composition and affiliations for each year of each conference. Just select a conference and a year from the dropdown to see the stats for that year.")           
+        ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
+        html.Hr(),
         
         
         
@@ -142,22 +146,33 @@ app.layout = html.Div(
         ),
         
         
-        html.Hr(),
+        html.Br(),
         
         ## Adding graphs
         html.Div([
             html.Div([
-                html.H3('col1'),
+                html.Div([
+                    html.Blockquote(id = '3', children = "The key to fair representation and diversity is to ensure that the TPC composition is not skewed due to majority of members belonging to the same organization.But here we see that for some conferences there are as many as 6 members from the same university.")           
+                ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
+
+#                 html.H3('Most Influential TPC universities/organizations'),
                 dcc.Graph(id = 'TOP-20-TPC')
             ], className = 'six columns'),
             
             html.Div([
-                html.H3('col2'),
+#                 html.H3('col2'),
+                html.Div([
+                    html.Blockquote(id = '4', children = "This Pie chart shows how many TPC universities make up the authorship for the given year.")           
+                ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
+                
                 dcc.Graph(id = 'TOP-20-AUTH')   
             ], className = 'three columns'),
             
             html.Div([
-                html.H3('col3'),
+#                 html.H3('col3'),
+                html.Div([
+                    html.Blockquote(id = '5', children = "A major indicator of bias is when TPC members feature as authors in the same year.")           
+                ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
                 dcc.Graph(id = 'Published-TPC')   
             ], className = 'three columns')
 
@@ -256,7 +271,8 @@ def set_display_children(selected_value):
     final_df = uni_count_df[:top_20_percent]
     
     fig = fig = px.bar(final_df, y = 'University/Organization', x ="No_of_members",
-                       title = 'TPC top 20 % of ' + str(len(uni_count_df)) + " different universities/organizations)"  )
+                       title = 'Most Influential TPC organizations')
+#                        title = 'TPC top 20 % of ' + str(len(uni_count_df)) + " different universities/organizations)"  )
     fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(
     title_font_family="Times New Roman",
@@ -308,7 +324,9 @@ def set_display_children(selected_value):
         
     tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
     
-    tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], hole=.3, title = "TPC Member and author overlap")])
+    tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Member and author overlap")
+    
+#     tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], title = "TPC Member and author overlap")])
     
     tpc_auth_pie.update_layout(
         title_font_family = "Times New Roman",
