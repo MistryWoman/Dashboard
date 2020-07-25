@@ -161,7 +161,7 @@ app.layout = html.Div(
         html.Div([
             html.Div([
                 html.Div([
-                    html.Blockquote(id = '3', children = "The key to fair representation and diversity is to ensure that the TPC composition is not skewed due to majority of members belonging to the same organization.But here we see that for some conferences there are as many as 6 members from the same university.")           
+                    html.Blockquote(id = '3', children = "The key to fair representation and diversity is to ensure that the TPC composition is not skewed due to majority of members belonging to the same organization. \n But here we see that for some conferences there are as many as 6 members from the same university.")           
                 ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
 
 #                 html.H3('Most Influential TPC universities/organizations'),
@@ -170,8 +170,9 @@ app.layout = html.Div(
             
             html.Div([
 #                 html.H3('col2'),
+                html.Br(),
                 html.Div([
-                    html.Blockquote(id = '4', children = "This Pie chart shows how many TPC universities make up the authorship for the given year.")           
+                    html.Blockquote(id = '4', children = "This Pie chart shows how many TPC universities make up the authorship for the given year.      ")           
                 ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
                 
                 dcc.Graph(id = 'TOP-20-AUTH')   
@@ -179,6 +180,7 @@ app.layout = html.Div(
             
             html.Div([
 #                 html.H3('col3'),
+                html.Br(),
                 html.Div([
                     html.Blockquote(id = '5', children = "A major indicator of bias is when TPC members feature as authors in the same year.")           
                 ], style = {'color' : '#ddf0d3', 'fontSize' : 20, 'fontStyle' : 'bold'}),
@@ -187,6 +189,11 @@ app.layout = html.Div(
 
         ], className = 'row'),
            
+        html.Br(), 
+        html.P('P.S : To view the count of TPC members/authors hover over the graphs', style = {'color' : '#03fcfc', 'fontSize' : 15}),
+        html.Br(),
+#         html.Blockquote(id = '5', children = "Using the above charts we can see that authors from TPC backed universities end up making a significant portion of the authorship. In some cases (sensys, 2003-5), the TPC universities make up 40% of the authorship indicating traces of bias", style = {'color' : 'white', 'textAlign' : 'center', 'fontSize' : 40}),
+#         html.P('Using the above charts we can see that authors from TPC backed universities end up making a significant portion of the authorship. In some cases (sensys, 2003-5), the TPC universities make up 40% of the authorship indicating traces of bias', style = {'color' : 'white', 'fontSIze' : 20}),
         
         html.Div(id = 'out-of'), 
         
@@ -210,7 +217,7 @@ app.layout = html.Div(
                                 {'label': 'MobiCom', 'value': 'mobicom'},
                                 {'label' : 'SenSys', 'value' : 'sensys'},
                                 {'label' : 'SigComm', 'value' : 'sigcomm'}
-                            ],value=['ipsn', 'mobihoc'], labelStyle={'display': 'inline-block'}),
+                            ],value=['ipsn', 'mobihoc'], labelStyle={'display': 'inline-block', 'color' : 'white'}),
                     ], style={'width': '40%', 'display': 'inline-block'}),
 
                     html.Div([
@@ -284,6 +291,7 @@ def set_display_children(selected_value):
 #                        title = 'TPC top 20 % of ' + str(len(uni_count_df)) + " different universities/organizations)"  )
     fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
                   marker_line_width=1.5, opacity=0.6),
+    
     fig.update_yaxes(autorange = 'reversed')
     fig.update_layout(
     title_font_family="sans-serif",
@@ -309,12 +317,21 @@ def set_display_children(selected_value):
             rank.append('Other University')
             no_of_authors.append(conf_auth[key])
             
+    night_colors = ['rgb(56, 75, 126)', 'rgb(158,202,225)']
+            
     pie_df = pd.DataFrame(list(zip(rank, no_of_authors)), columns = ['Rank', 'No_of_authors'])
-    tpc_uni_pie = px.pie(pie_df, values = 'No_of_authors', names = 'Rank', title = "Rank wise distribution of no of authors published")
+    tpc_uni_pie = px.pie(pie_df, values = 'No_of_authors', names = 'Rank', title = "University/Organization composition of author base.", color_discrete_sequence=px.colors.qualitative.Prism, opacity = 0.6)
+    
+#     tpc_uni_pie.update_traces(line=dict(color='#000000', width=2))
+    
+    
     tpc_uni_pie.update_layout(
-        title_font_family = "Times New Roman",
-        title_font_color = "black",
-        title_font_size = 40
+        title_font_family = "sans-serif",
+        title_font_color = 'rgb(66, 75, 107)',
+        title_font_size = 14,
+        plot_bgcolor = '#e3e8e8',
+        
+        
     )
         
     
@@ -335,14 +352,14 @@ def set_display_children(selected_value):
         
     tpc_overlap = pd.DataFrame(list(zip(status, count)), columns = ['status', 'count'])
     
-    tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Member and author overlap")
+    tpc_auth_pie = px.pie(tpc_overlap, values = 'count', names = 'status', title = "TPC Member and Author overlap", color_discrete_sequence=px.colors.qualitative.Prism, opacity = 0.6)
     
 #     tpc_auth_pie = go.Figure(data=[go.Pie(labels = tpc_overlap['status'], values = tpc_overlap['count'], title = "TPC Member and author overlap")])
     
     tpc_auth_pie.update_layout(
-        title_font_family = "Times New Roman",
-        title_font_color = "black",
-        title_font_size = 40
+        title_font_family = "sans-serif",
+        title_font_color = "rgb(66, 75, 107)",
+        title_font_size = 20
     )
     
     
