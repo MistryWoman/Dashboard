@@ -87,15 +87,19 @@ app.layout = html.Div(
         html.Div([html.Img(src = '../assets/t1.png')], style = {'width' : '100%', 'height' : '100%', 'textAlign' :'center'}, className = 'one-column'),
         
         html.Hr(),
+        html.P(children = 'Data Introduction', style = {'color' : 'white', 'fontSize' : 40, 'textAlign' : 'center'}),
+        
+        html.Hr(),
         html.Div([
             html.Blockquote(id = 'as', children = "We scraped websites like ACM Digital Library, IEEE Explore and numerous other public repositories, to collect data for 1000+ individual authors and 150+ TPCs over a span of 20 years.")           
         ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
+        
+        html.Br(),
     
-        html.Hr(),
         
         html.Div([
              html.Div([
-                        html.P(children = "Information on TPC for each conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif'}),
+                        html.P(children = "Information on TPC for each conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif', 'textAlign' : 'center'}),
                         dash_table.DataTable(
                             data=ipsn_tpc[:5].to_dict('records'),
                             columns=[{'id': c, 'name': c} for c in ipsn_tpc.columns],
@@ -109,7 +113,7 @@ app.layout = html.Div(
                     ], className = 'six-columns'),
              html.Br(),
              html.Div([
-                        html.P(children = "Information on Authors published in a given conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif'}),
+                        html.P(children = "Information on Authors published in a given conference", style = {'color' : 'white', 'fontSize' : 20, 'fontFamily' : 'sans-serif', 'textAlign' : 'center'}),
 
                         dash_table.DataTable(
                             data=ipsn_df[110:116].to_dict('records'),
@@ -127,6 +131,9 @@ app.layout = html.Div(
         
         html.Br(),
         html.Hr(),
+        html.P(children = 'Year Wise Analysis of TPC', style = {'color' : 'white', 'fontSize' : 40, 'textAlign' : 'center'}),
+        html.Hr(),
+    
         html.Div([
             html.Blockquote(id = '2', children = "Let's investigate the TPC and author demographics for each conference by selecting the year of publication")           
         ], style = {'color' : '#ffffff', 'fontSize' : 30, 'fontStyle' : 'italic'}),
@@ -192,16 +199,26 @@ app.layout = html.Div(
         html.Br(), 
         html.P('P.S : To view the count of TPC members/authors hover over the graphs', style = {'color' : '#03fcfc', 'fontSize' : 15}),
         html.Br(),
-#         html.Blockquote(id = '5', children = "Using the above charts we can see that authors from TPC backed universities end up making a significant portion of the authorship. In some cases (sensys, 2003-5), the TPC universities make up 40% of the authorship indicating traces of bias", style = {'color' : 'white', 'textAlign' : 'center', 'fontSize' : 40}),
+        html.Div([
+            html.Blockquote(id = '6', children = "Using the above charts we can see that authors from TPC backed universities end up making a significant portion of the authorship. In some cases (sensys, 2003-5), the TPC universities make up 40% of the authorship indicating traces of bias")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}),
+#         
 #         html.P('Using the above charts we can see that authors from TPC backed universities end up making a significant portion of the authorship. In some cases (sensys, 2003-5), the TPC universities make up 40% of the authorship indicating traces of bias', style = {'color' : 'white', 'fontSIze' : 20}),
         
         html.Div(id = 'out-of'), 
-        
         html.Hr(),
+        html.P(id = '34', children = 'TPC Retention', style = {'color' : 'white', 'fontSize' : 40, 'textAlign' : 'center'}),
+        html.Hr(),
+        html.Br(),
 
         ### Creating slider for no of years given the conference
         
-        html.H3('Lets compare TPC Retention amongst the conferences'),
+        html.Div([
+            html.Blockquote(id = '7', children = 'From the above analysis we can see that TPC composition plays a big role in reducing selection bias. We propose a metric called "TPC Retention" , to highlight the fact that most TPCs continue with the same people year after year. This restricts the possibility of having wider representation and confines the TPC privileges to a fixed set of universities/organizations/researchers. ')], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}),
+        
+        html.Br(),
+        
+        
+        html.H3('Lets compare TPC Retention amongst the conferences', style = {'color' : 'white'}),
         
         html.Div([
         
@@ -234,18 +251,45 @@ app.layout = html.Div(
                     )]),
         
         dcc.Graph(id = 'tpc_retention'),
-        html.H2('Bubble chart'),
+        html.Br(),
+        html.Div([
+            html.Blockquote(id = '8', children = "It's quite alarming to see that TPC retention based on university composition has been on a slow rise and in recent years the average tpc retention % is 60%. This phenomenon is exaggerated when analysing tpc retention based on individual tpc member, the high percentages indicate that the exact same people have been continuing on as members year after year.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
+            
+        ),
+        html.Br(),
+        html.Hr(),
+        html.P(children = "Bird's Eye View" , style = {'color' : 'white', 'fontSize' : 40, 'textAlign' : 'center'}),
+        html.Hr(),
+        html.Br(),
         dcc.Dropdown(
                 id='conf-dropdown-bubble',
                 options=[{'label': year, 'value':year} for year in years],
                 value = list(year_dict.keys())[0]
                 ),
+        html.Br(),
+        html.Div([
+            html.Blockquote(id = '11', children = "Using the data collected over the past 20 years, we created a bubble chart to represent the key organizations and the no. of authors that have been published over the years. The size of each bubble corresponds to the author base from that organization. It comes with no surprise that the largest bubbles correspond to the universities with higher TPC representation.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
+            
+        ),
         
+        html.Br(),
         dcc.Graph(id = 'bubble-chart'),
+        html.Br(),
+        html.P(children = 'P.S : For the purposes of the above chart, we have considered the presence of the same author/TPC in more than one year as two separate counts', style = {'color' : 'white'}),
+        
+        html.Br(),
+        
+        html.Div([
+            html.Blockquote(id = '10', children = "The following word cloud indicates the most popular ideas or themes that were relfected in the body of publications made by the conference over a period of the last 20 years.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
+            
+        ),
+        html.Br(),
+        
+    
         
         html.Div([
             html.Img(id = 'wordcloud')
-        ]),
+        ], style = {'textAlign' : 'center'}),
         
         
      #### this is the end of layout
