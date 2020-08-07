@@ -214,6 +214,9 @@ app.layout = html.Div(
         
         html.Div([
             html.Blockquote(id = '7', children = 'From the above analysis we can see that TPC composition plays a big role in reducing selection bias. We propose a metric called "TPC Retention" , to highlight the fact that most TPCs continue with the same people year after year. This restricts the possibility of having wider representation and confines the TPC privileges to a fixed set of universities/organizations/researchers. ')], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}),
+        html.Div([
+            html.Img(src = '../assets/formula.jpg'),
+        ], style = {'textAlign' : 'center'}),
         
         html.Br(),
         
@@ -241,7 +244,7 @@ app.layout = html.Div(
             
                         dcc.Dropdown(
                             id='uni-auth-selection',
-                            options = [{'label' : 'University/Organization', 'value' : 'university'},
+                            options = [{'label' : 'Affiliation', 'value' : 'university'},
                                        {'label' : 'Individual TPC member', 'value' : 'tpc'}],
                             value = 'university'
                            )
@@ -299,10 +302,14 @@ app.layout = html.Div(
             html.Blockquote(id = '19', children = "The aim of this investigative tool and the analysis it produces is not to blame TPC members and the universities they are affiliated with. Our only hope is that this tool can initiate a much needed conversation on diversity and representation in the research community.")], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'sans-serif'}
             
         ),
+        html.Br(),
         
+        html.Div([
+            dcc.Markdown('''We'd love to share the methodology, techniques and tools used to create chains of research. You can view our code implementation on
+            [github](https://github.com/MistryWoman/Dashboard)''')], style = {'color' : 'white', 'fontSize' : 30 , 'fontFamily' : 'open sans'}
+            
+        ),
         
-        
-     #### this is the end of layout
 ])
 
 @app.callback(
