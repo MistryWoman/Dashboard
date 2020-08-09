@@ -10,7 +10,4 @@ dash-renderer==0.13.0
 dash-table-experiments==0.6.0
 plotly==3.0.2
 dash-table
-plotly.express
-plotly.graph-objects
-plotly.io
 collections
