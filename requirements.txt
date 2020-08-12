@@ -17,7 +17,6 @@ dash-core-components==1.10.2
 dash-html-components==1.0.3
 dash-renderer==1.6.0
 dash-table==4.9.0
-duplicity==0.7.17
 entrypoints==0.3
 enum34==1.1.10
 fasteners==0.12.0
